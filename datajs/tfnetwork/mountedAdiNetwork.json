@@ -1,0 +1,1118 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "AHR",
+      "symbolSize": 15,
+      "x": -240.9967455468075,
+      "y": -110.20206731781067,
+      "value": 10.998709064994364,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "1",
+      "name": "IL6",
+      "symbolSize": 10,
+      "x": 72.18073386087646,
+      "y": 57.13148882834477,
+      "value": "3569",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "2",
+      "name": "ATF2",
+      "symbolSize": 15,
+      "x": 91.56786449191577,
+      "y": -117.68202331803423,
+      "value": 30.70512068379567,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "3",
+      "name": "TNF",
+      "symbolSize": 10,
+      "x": 4.388928924333456,
+      "y": 22.22588030715532,
+      "value": "7124",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "4",
+      "name": "ATF4",
+      "symbolSize": 15,
+      "x": -215.46260104084902,
+      "y": -59.200874907095255,
+      "value": 36.98014588300943,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "5",
+      "name": "SIRT1",
+      "symbolSize": 19.12381,
+      "x": 40.266635750738395,
+      "y": 6.5667092887153515,
+      "value": 20.398617357772224,
+      "category": 0,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "6",
+      "name": "BRCA1",
+      "symbolSize": 15,
+      "x": -185.78585745905616,
+      "y": 29.97329966561955,
+      "value": 20.93699317784271,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "7",
+      "name": "CIITA",
+      "symbolSize": 15,
+      "x": 121.13198173208815,
+      "y": -64.41052343427688,
+      "value": 32.337030315853966,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "8",
+      "name": "CLOCK",
+      "symbolSize": 15,
+      "x": -10.809564052401072,
+      "y": -94.71508594542067,
+      "value": 10.621393407696898,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "9",
+      "name": "NAMPT",
+      "symbolSize": 10,
+      "x": 12.401493209664338,
+      "y": 63.24447071098315,
+      "value": "10135",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "10",
+      "name": "CREB1",
+      "symbolSize": 15,
+      "x": 135.63503503405673,
+      "y": 80.22045155128188,
+      "value": 18.27106774270051,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "11",
+      "name": "HMOX1",
+      "symbolSize": 10,
+      "x": 2.716112241308286,
+      "y": 46.558501293297866,
+      "value": "3162",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "12",
+      "name": "IL10",
+      "symbolSize": 10,
+      "x": 47.68853593200887,
+      "y": 7.513634995215721,
+      "value": "3586",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "13",
+      "name": "DDIT3",
+      "symbolSize": 15,
+      "x": -110.88580073297172,
+      "y": 148.99323313570892,
+      "value": 17.997137820024847,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "14",
+      "name": "EGR1",
+      "symbolSize": 15,
+      "x": -45.792527268129334,
+      "y": -61.36254683325683,
+      "value": 29.31868794504952,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "15",
+      "name": "EP300",
+      "symbolSize": 15,
+      "x": 38.45491073977803,
+      "y": 15.027027776827822,
+      "value": 34.232609944222716,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "16",
+      "name": "VCAM1",
+      "symbolSize": 10,
+      "x": 61.69716353277637,
+      "y": 22.73487289236425,
+      "value": "7412",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "17",
+      "name": "VEGFA",
+      "symbolSize": 10,
+      "x": 23.59950418924098,
+      "y": 82.15673125094249,
+      "value": "7422",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "18",
+      "name": "FOXL2",
+      "symbolSize": 15,
+      "x": -41.12244604612471,
+      "y": -84.95760951152931,
+      "value": 10.92101416083736,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "19",
+      "name": "FOXO3",
+      "symbolSize": 15,
+      "x": -160.9616580409873,
+      "y": 31.633539707182535,
+      "value": 26.890543143099663,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "20",
+      "name": "GTF2I",
+      "symbolSize": 15,
+      "x": -12.01209570513862,
+      "y": -147.17424722255168,
+      "value": 33.490298461079874,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "21",
+      "name": "HDAC11",
+      "symbolSize": 15,
+      "x": -116.90439447954193,
+      "y": 33.31155268118545,
+      "value": 37.7230306583795,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "22",
+      "name": "HDAC4",
+      "symbolSize": 15,
+      "x": -62.71456869213321,
+      "y": 204.19069285886292,
+      "value": 30.310173400957854,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "23",
+      "name": "HES1",
+      "symbolSize": 15,
+      "x": 222.33931442108155,
+      "y": 148.0136269951019,
+      "value": 22.448015140635924,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "24",
+      "name": "PTGDS",
+      "symbolSize": 10,
+      "x": 38.534869034822606,
+      "y": 79.95533461713788,
+      "value": "5730",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "25",
+      "name": "HIC1",
+      "symbolSize": 15,
+      "x": -46.005133069563556,
+      "y": -209.27187174565242,
+      "value": 18.276400184722434,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "26",
+      "name": "HMGB2",
+      "symbolSize": 15,
+      "x": -190.67786351199723,
+      "y": -206.2215622087037,
+      "value": 16.606864412335895,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "27",
+      "name": "JUN",
+      "symbolSize": 15,
+      "x": 39.62842986305935,
+      "y": -197.16944006537219,
+      "value": 22.772392831717767,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "28",
+      "name": "LRRFIP1",
+      "symbolSize": 15,
+      "x": 199.38275634595612,
+      "y": 22.362888233756678,
+      "value": 12.67134600801695,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "29",
+      "name": "NFIL3",
+      "symbolSize": 15,
+      "x": -240.07930777168306,
+      "y": -221.0375598989882,
+      "value": 17.92195898038908,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "30",
+      "name": "IL1B",
+      "symbolSize": 10,
+      "x": 31.964496957392548,
+      "y": 16.173739692102348,
+      "value": "3553",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "31",
+      "name": "NFKB1",
+      "symbolSize": 15,
+      "x": -116.94244008967169,
+      "y": 234.04943592728387,
+      "value": 16.37704678286154,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "32",
+      "name": "CCL2",
+      "symbolSize": 10,
+      "x": 86.5633656153218,
+      "y": 17.617055546289016,
+      "value": "6347",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "33",
+      "name": "CRP",
+      "symbolSize": 10,
+      "x": 44.07257359138509,
+      "y": 37.81676189582693,
+      "value": "1401",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "34",
+      "name": "CXCL1",
+      "symbolSize": 10,
+      "x": 31.653664160989614,
+      "y": 42.06217270104718,
+      "value": "2919",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "35",
+      "name": "IL18",
+      "symbolSize": 10,
+      "x": 23.917995970360494,
+      "y": 46.264868546508495,
+      "value": "3606",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "36",
+      "name": "LCN2",
+      "symbolSize": 10,
+      "x": 27.189478888806725,
+      "y": 75.5268726968021,
+      "value": "3934",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "37",
+      "name": "TIMP1",
+      "symbolSize": 10,
+      "x": 27.117253000167572,
+      "y": 72.58784220584789,
+      "value": "7076",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "38",
+      "name": "NR4A1",
+      "symbolSize": 15,
+      "x": 28.362692082869103,
+      "y": -193.62340839506598,
+      "value": 22.035869205231418,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "39",
+      "name": "PPARA",
+      "symbolSize": 15,
+      "x": 128.75328853480704,
+      "y": 15.658091603851233,
+      "value": 22.589259629721507,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "40",
+      "name": "ANGPTL4",
+      "symbolSize": 10,
+      "x": 38.175866540445966,
+      "y": 15.403276886461732,
+      "value": "51129",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "41",
+      "name": "PPARG",
+      "symbolSize": 15,
+      "x": 204.26254411884423,
+      "y": 154.1499140309782,
+      "value": 17.56317997749818,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "42",
+      "name": "ADIPOQ",
+      "symbolSize": 10,
+      "x": 47.650746309628495,
+      "y": 78.53383295829305,
+      "value": "9370",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "43",
+      "name": "FABP4",
+      "symbolSize": 10,
+      "x": 50.350202550640944,
+      "y": 86.33062548265548,
+      "value": "2167",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "44",
+      "name": "RETN",
+      "symbolSize": 10,
+      "x": 58.56127695068679,
+      "y": 33.283977723665366,
+      "value": "56729",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "45",
+      "name": "SLC2A4",
+      "symbolSize": 10,
+      "x": 23.39304422094107,
+      "y": 29.866392208962644,
+      "value": "6517",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "46",
+      "name": "RELA",
+      "symbolSize": 15,
+      "x": -187.80647668843497,
+      "y": -127.15338001999577,
+      "value": 19.235723391051337,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "47",
+      "name": "CFH",
+      "symbolSize": 10,
+      "x": 56.23938977157937,
+      "y": 39.155206092227765,
+      "value": "3075",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "48",
+      "name": "SP1",
+      "symbolSize": 15,
+      "x": -242.7530381962273,
+      "y": -195.15953155522237,
+      "value": 18.771579267490083,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "49",
+      "name": "TFAP2B",
+      "symbolSize": 15,
+      "x": 156.43271963390526,
+      "y": -62.708033908352434,
+      "value": 32.045477321951566,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "50",
+      "name": "CRYAB",
+      "symbolSize": 10,
+      "x": 11.390968248725926,
+      "y": 13.6995901196412,
+      "value": "1410",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "51",
+      "name": "USF1",
+      "symbolSize": 15,
+      "x": 179.9091003959071,
+      "y": -119.37197243324994,
+      "value": 14.718823601316354,
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1",
+      "info": "Source: AHR, Target: IL6, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "info": "Source: ATF2, Target: TNF, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "info": "Source: ATF4, Target: SIRT1, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "info": "Source: ATF4, Target: SIRT1, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "6",
+      "target": "5",
+      "info": "Source: BRCA1, Target: SIRT1, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "7",
+      "target": "5",
+      "info": "Source: CIITA, Target: SIRT1, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "8",
+      "target": "9",
+      "info": "Source: CLOCK, Target: NAMPT, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "10",
+      "target": "11",
+      "info": "Source: CREB1, Target: HMOX1, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "10",
+      "target": "12",
+      "info": "Source: CREB1, Target: IL10, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "10",
+      "target": "1",
+      "info": "Source: CREB1, Target: IL6, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "13",
+      "target": "5",
+      "info": "Source: DDIT3, Target: SIRT1, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "14",
+      "target": "3",
+      "info": "Source: EGR1, Target: TNF, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "15",
+      "target": "16",
+      "info": "Source: EP300, Target: VCAM1, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "15",
+      "target": "17",
+      "info": "Source: EP300, Target: VEGFA, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "18",
+      "target": "5",
+      "info": "Source: FOXL2, Target: SIRT1, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "19",
+      "target": "5",
+      "info": "Source: FOXO3, Target: SIRT1, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "20",
+      "target": "5",
+      "info": "Source: GTF2I, Target: SIRT1, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "21",
+      "target": "3",
+      "info": "Source: HDAC11, Target: TNF, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "22",
+      "target": "12",
+      "info": "Source: HDAC4, Target: IL10, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "22",
+      "target": "16",
+      "info": "Source: HDAC4, Target: VCAM1, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "22",
+      "target": "17",
+      "info": "Source: HDAC4, Target: VEGFA, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "23",
+      "target": "24",
+      "info": "Source: HES1, Target: PTGDS, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "25",
+      "target": "5",
+      "info": "Source: HIC1, Target: SIRT1, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "26",
+      "target": "3",
+      "info": "Source: HMGB2, Target: TNF, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "27",
+      "target": "3",
+      "info": "Source: JUN, Target: TNF, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "28",
+      "target": "3",
+      "info": "Source: LRRFIP1, Target: TNF, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "29",
+      "target": "30",
+      "info": "Source: NFIL3, Target: IL1B, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "31",
+      "target": "32",
+      "info": "Source: NFKB1, Target: CCL2, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "33",
+      "info": "Source: NFKB1, Target: CRP, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "34",
+      "info": "Source: NFKB1, Target: CXCL1, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "12",
+      "info": "Source: NFKB1, Target: IL10, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "35",
+      "info": "Source: NFKB1, Target: IL18, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "30",
+      "info": "Source: NFKB1, Target: IL1B, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "1",
+      "info": "Source: NFKB1, Target: IL6, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "1",
+      "info": "Source: NFKB1, Target: IL6, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "31",
+      "target": "36",
+      "info": "Source: NFKB1, Target: LCN2, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "9",
+      "info": "Source: NFKB1, Target: NAMPT, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "24",
+      "info": "Source: NFKB1, Target: PTGDS, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "37",
+      "info": "Source: NFKB1, Target: TIMP1, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "31",
+      "target": "3",
+      "info": "Source: NFKB1, Target: TNF, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "16",
+      "info": "Source: NFKB1, Target: VCAM1, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "17",
+      "info": "Source: NFKB1, Target: VEGFA, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "31",
+      "target": "17",
+      "info": "Source: NFKB1, Target: VEGFA, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "38",
+      "target": "3",
+      "info": "Source: NR4A1, Target: TNF, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "39",
+      "target": "40",
+      "info": "Source: PPARA, Target: ANGPTL4, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "41",
+      "target": "42",
+      "info": "Source: PPARG, Target: ADIPOQ, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "41",
+      "target": "40",
+      "info": "Source: PPARG, Target: ANGPTL4, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "41",
+      "target": "43",
+      "info": "Source: PPARG, Target: FABP4, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "41",
+      "target": "44",
+      "info": "Source: PPARG, Target: RETN, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "41",
+      "target": "45",
+      "info": "Source: PPARG, Target: SLC2A4, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "46",
+      "target": "5",
+      "info": "Source: RELA, Target: SIRT1, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "46",
+      "target": "3",
+      "info": "Source: RELA, Target: TNF, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "47",
+      "info": "Source: SIRT1, Target: CFH, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "48",
+      "target": "3",
+      "info": "Source: SP1, Target: TNF, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "48",
+      "target": "3",
+      "info": "Source: SP1, Target: TNF, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "49",
+      "target": "42",
+      "info": "Source: TFAP2B, Target: ADIPOQ, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    },
+    {
+      "source": "49",
+      "target": "50",
+      "info": "Source: TFAP2B, Target: CRYAB, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "49",
+      "target": "24",
+      "info": "Source: TFAP2B, Target: PTGDS, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "51",
+      "target": "24",
+      "info": "Source: USF1, Target: PTGDS, Function: Activation",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "51",
+      "target": "24",
+      "info": "Source: USF1, Target: PTGDS, Function: Repression",
+      "lineStyle": {
+        "color": "#254791"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "TF"
+    },
+    {
+      "name": "Target gene"
+    }
+  ]
+}

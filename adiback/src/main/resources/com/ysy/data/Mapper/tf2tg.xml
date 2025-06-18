@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ysy.data.dao.TF2TGDao">
+  <!--对应dao层位置修改-->
+
+
+  <resultMap id="tfMap" type="com.ysy.data.entity.TF2TG">
+    <result property="TF" column="TF" jdbcType="VARCHAR"/>
+    <result property="Target_gene" column="Target_gene" jdbcType="VARCHAR"/>
+    <result property="Function" column="Function" jdbcType="VARCHAR"/>
+    <result property="PMID" column="PMID" jdbcType="VARCHAR"/>
+    <result property="TF_Entrez" column="TF_Entrez" jdbcType="VARCHAR"/>
+    <result property="Target_gene_Entrez" column="Target_gene_Entrez" jdbcType="VARCHAR"/>
+
+  </resultMap>
+  <select id="queryalltfgene" resultMap="tfMap">
+    SELECT *
+    FROM allclassifiedData
+  </select>
+
+</mapper>
+

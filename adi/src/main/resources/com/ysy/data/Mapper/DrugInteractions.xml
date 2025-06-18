@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ysy.data.dao.DrugInteractionsDao">
+  <!--对应dao层位置修改-->
+
+
+
+  <resultMap id="DrugInteractionsDrug" type="com.ysy.data.entity.DrugInteractionsDrug">
+    <result property="gene_claim_name" column="gene_claim_name" jdbcType="VARCHAR"/>
+    <result property="gene_concept_id" column="gene_concept_id" jdbcType="VARCHAR"/>
+    <result property="gene_name" column="gene_name" jdbcType="VARCHAR"/>
+    <result property="interaction_source_db_name" column="interaction_source_db_name" jdbcType="VARCHAR"/>
+    <result property="interaction_source_db_version" column="interaction_source_db_version" jdbcType="VARCHAR"/>
+    <result property="interaction_type" column="interaction_type" jdbcType="VARCHAR"/>
+    <result property="interactionScore" column="interaction_score" jdbcType="VARCHAR"/>
+    <result property="drug_claim_name" column="drug_claim_name" jdbcType="VARCHAR"/>
+    <result property="drug_concept_id" column="drug_concept_id" jdbcType="VARCHAR"/>
+    <result property="drug_name" column="drug_name" jdbcType="VARCHAR"/>
+    <result property="approved" column="approved" jdbcType="VARCHAR"/>
+    <result property="immunotherapy" column="immunotherapy" jdbcType="VARCHAR"/>
+    <result property="anti_neoplastic" column="anti_neoplastic" jdbcType="VARCHAR"/>
+  </resultMap>
+  <select id="QueryDrugInteractionsGene" resultMap="DrugInteractionsDrug" parameterType="String">
+    SELECT *
+    FROM `interactions`
+    WHERE `gene_name` = #{gene}
+  </select>
+
+
+</mapper>
+

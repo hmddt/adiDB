@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ysy.data.dao.ObesityDataSetDao">
+  <!--对应dao层位置修改-->
+
+
+  <resultMap id="odcMap" type="com.ysy.data.entity.ObesityDataset">
+    <result property="GSEid" column="GSEid" jdbcType="VARCHAR"/>
+    <result property="Title" column="Title" jdbcType="VARCHAR"/>
+    <result property="Organism" column="Organism" jdbcType="VARCHAR"/>
+    <result property="Status" column="Status" jdbcType="VARCHAR"/>
+    <result property="Overall_design" column="Overall_design" jdbcType="VARCHAR"/>
+    <result property="obese_group" column="obese_group" jdbcType="VARCHAR"/>
+    <result property="lean_group" column="lean_group" jdbcType="VARCHAR"/>
+
+  </resultMap>
+  <select id="queryallodcdata" resultMap="odcMap">
+    SELECT *
+    FROM Obesity_dataset
+  </select>
+
+</mapper>
+

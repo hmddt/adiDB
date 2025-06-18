@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Obstructive Sleep Apnea-Hypopnea Syndrome",
+    "value": "375"
+  },
+  {
+    "name": "Narcolepsy",
+    "value": "17"
+  },
+  {
+    "name": "Atherosclerosis",
+    "value": "2598"
+  },
+  {
+    "name": "Nonalcoholic Fatty Liver Disease",
+    "value": "1337"
+  },
+  {
+    "name": "Infertility",
+    "value": "508"
+  },
+  {
+    "name": "Polycystic Ovary Syndrome",
+    "value": "759"
+  },
+  {
+    "name": "Hypertension",
+    "value": "3186"
+  },
+  {
+    "name": "Coronary Heart Disease",
+    "value": "1585"
+  },
+  {
+    "name": "Cerebral Hemorrhage",
+    "value": "37"
+  },
+  {
+    "name": "Cholelithiasis",
+    "value": "45"
+  },
+  {
+    "name": "Anaemia",
+    "value": "120"
+  },
+  {
+    "name": "Hypogonadism",
+    "value": "191"
+  },
+  {
+    "name": "Rheumatoid Arthritis",
+    "value": "521"
+  },
+  {
+    "name": "Systemic Lupus Erythematosus",
+    "value": "143"
+  },
+  {
+    "name": "Type 1 Diabetes",
+    "value": "496"
+  },
+  {
+    "name": "Chronic Renal Failure",
+    "value": "464"
+  },
+  {
+    "name": "Hyperuricemia",
+    "value": "52"
+  },
+  {
+    "name": "Gout",
+    "value": "34"
+  },
+  {
+    "name": "Osteoarthritis",
+    "value": "595"
+  },
+  {
+    "name": "Disease of the Liver",
+    "value": "3039"
+  },
+  {
+    "name": "Asthma",
+    "value": "423"
+  },
+  {
+    "name": "Deep Vein Thrombosis",
+    "value": "31"
+  },
+  {
+    "name": "Pancreatitis",
+    "value": "1601"
+  },
+  {
+    "name": "Cerebral Infarction",
+    "value": "65"
+  },
+  {
+    "name": "Heart Failure",
+    "value": "737"
+  },
+  {
+    "name": "Arrhythmias",
+    "value": "164"
+  },
+  {
+    "name": "Pulmonary Embolism",
+    "value": "5"
+  },
+  {
+    "name": "Myocardial Infarction",
+    "value": "512"
+  },
+  {
+    "name": "Angina Pectoris",
+    "value": "90"
+  },
+  {
+    "name": "Diabetes",
+    "value": "14117"
+  },
+  {
+    "name": "Breast Cancer",
+    "value": "1904"
+  },
+  {
+    "name": "Colorectal Cancer",
+    "value": "504"
+  },
+  {
+    "name": "Endometrial Cancer",
+    "value": "196"
+  },
+  {
+    "name": "Liver Cancer",
+    "value": "492"
+  },
+  {
+    "name": "Prostate Cancer",
+    "value": "342"
+  }
+]

@@ -1,0 +1,1492 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "ABCC4",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "1",
+      "name": "FBN1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "2",
+      "name": "ATR",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "3",
+      "name": "NAMPT",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "4",
+      "name": "BCAT2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "5",
+      "name": "FABP4",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "6",
+      "name": "BCL2L2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "7",
+      "name": "BIRC3",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "8",
+      "name": "BIRC5",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "9",
+      "name": "BLM",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "10",
+      "name": "WISP2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "11",
+      "name": "BRCA1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "12",
+      "name": "VEGFA",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "13",
+      "name": "BRCA2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "14",
+      "name": "CARM1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "15",
+      "name": "CCT2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "16",
+      "name": "CD22",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "17",
+      "name": "CDC25A",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "18",
+      "name": "CHD1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "19",
+      "name": "CHEK1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "20",
+      "name": "CLU",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "21",
+      "name": "KRAS",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "22",
+      "name": "CNTFR",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "23",
+      "name": "CREBBP",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "24",
+      "name": "CSNK1G2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "25",
+      "name": "CYP11B2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "26",
+      "name": "CYP4F12",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "27",
+      "name": "DDX10",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "28",
+      "name": "EPHA2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "29",
+      "name": "ERBB2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "30",
+      "name": "GALK1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "31",
+      "name": "HMGCR",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "32",
+      "name": "KCNA3",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "33",
+      "name": "MAP2K7",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "34",
+      "name": "MAP3K5",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "35",
+      "name": "MCL1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "36",
+      "name": "MST1R",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "37",
+      "name": "NDUFA4",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "38",
+      "name": "NTRK1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "39",
+      "name": "OXT",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "40",
+      "name": "PIK3C2B",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "41",
+      "name": "PIK3CG",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "42",
+      "name": "PRKAR1A",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "43",
+      "name": "PTGIR",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "44",
+      "name": "SLC16A5",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "45",
+      "name": "SLC16A8",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "46",
+      "name": "TK1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "47",
+      "name": "XIAP",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "48",
+      "name": "XPO1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "49",
+      "name": "FLI1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "50",
+      "name": "GATA3",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "51",
+      "name": "GDF10",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "52",
+      "name": "GMPS",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "53",
+      "name": "JAK2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "54",
+      "name": "JAK3",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "55",
+      "name": "C1QTNF6",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "56",
+      "name": "KSR1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "57",
+      "name": "LIG1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "58",
+      "name": "MAP2K4",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "59",
+      "name": "MAP3K1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "60",
+      "name": "MAP3K8",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "61",
+      "name": "MCPH1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "62",
+      "name": "MEN1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "63",
+      "name": "MLL5",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "64",
+      "name": "MUS81",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "65",
+      "name": "PTPN1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "66",
+      "name": "PARP1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "67",
+      "name": "PARP2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "68",
+      "name": "PTPRJ",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "69",
+      "name": "RPS6KA2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "70",
+      "name": "TXN",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "71",
+      "name": "NARS2",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "72",
+      "name": "PARP",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "73",
+      "name": "PIK3C3",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "74",
+      "name": "PPARA",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "75",
+      "name": "PTEN",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "76",
+      "name": "BMP7",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "77",
+      "name": "IRS1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "78",
+      "name": "PTTG1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "79",
+      "name": "SAC1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "80",
+      "name": "ORM1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "81",
+      "name": "SIRT1",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "82",
+      "name": "VHL",
+      "symbolSize": 10,
+      "value": "",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1",
+      "info": "Source: ABCC4, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "info": "Source: ATR, Target: NAMPT, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "info": "Source: BCAT2, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "6",
+      "target": "3",
+      "info": "Source: BCL2L2, Target: NAMPT, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "7",
+      "target": "1",
+      "info": "Source: BIRC3, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "8",
+      "target": "5",
+      "info": "Source: BIRC5, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "9",
+      "target": "10",
+      "info": "Source: BLM, Target: WISP2, PMID: 24104479",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "11",
+      "target": "12",
+      "info": "Source: BRCA1, Target: VEGFA, PMID: 28319113",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "13",
+      "target": "1",
+      "info": "Source: BRCA2, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "14",
+      "target": "5",
+      "info": "Source: CARM1, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "15",
+      "target": "1",
+      "info": "Source: CCT2, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "16",
+      "target": "5",
+      "info": "Source: CD22, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "17",
+      "target": "5",
+      "info": "Source: CDC25A, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "18",
+      "target": "5",
+      "info": "Source: CHD1, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "19",
+      "target": "12",
+      "info": "Source: CHEK1, Target: VEGFA, PMID: 28319113",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "20",
+      "target": "21",
+      "info": "Source: CLU, Target: KRAS, PMID: 19490893",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "22",
+      "target": "5",
+      "info": "Source: CNTFR, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "23",
+      "target": "1",
+      "info": "Source: CREBBP, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "24",
+      "target": "5",
+      "info": "Source: CSNK1G2, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "25",
+      "target": "5",
+      "info": "Source: CYP11B2, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "26",
+      "target": "5",
+      "info": "Source: CYP4F12, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "27",
+      "target": "1",
+      "info": "Source: DDX10, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "28",
+      "target": "5",
+      "info": "Source: EPHA2, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "29",
+      "target": "5",
+      "info": "Source: ERBB2, Target: FABP4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "30",
+      "info": "Source: FABP4, Target: GALK1, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "31",
+      "info": "Source: FABP4, Target: HMGCR, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "32",
+      "info": "Source: FABP4, Target: KCNA3, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "33",
+      "info": "Source: FABP4, Target: MAP2K7, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "34",
+      "info": "Source: FABP4, Target: MAP3K5, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "35",
+      "info": "Source: FABP4, Target: MCL1, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "36",
+      "info": "Source: FABP4, Target: MST1R, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "37",
+      "info": "Source: FABP4, Target: NDUFA4, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "38",
+      "info": "Source: FABP4, Target: NTRK1, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "39",
+      "info": "Source: FABP4, Target: OXT, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "40",
+      "info": "Source: FABP4, Target: PIK3C2B, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "41",
+      "info": "Source: FABP4, Target: PIK3CG, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "42",
+      "info": "Source: FABP4, Target: PRKAR1A, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "43",
+      "info": "Source: FABP4, Target: PTGIR, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "44",
+      "info": "Source: FABP4, Target: SLC16A5, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "45",
+      "info": "Source: FABP4, Target: SLC16A8, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "46",
+      "info": "Source: FABP4, Target: TK1, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "47",
+      "info": "Source: FABP4, Target: XIAP, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "5",
+      "target": "48",
+      "info": "Source: FABP4, Target: XPO1, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "49",
+      "target": "1",
+      "info": "Source: FLI1, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "50",
+      "target": "1",
+      "info": "Source: GATA3, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "51",
+      "target": "21",
+      "info": "Source: GDF10, Target: KRAS, PMID: 19490893",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "52",
+      "target": "3",
+      "info": "Source: GMPS, Target: NAMPT, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "53",
+      "target": "1",
+      "info": "Source: JAK2, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "54",
+      "target": "3",
+      "info": "Source: JAK3, Target: NAMPT, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "21",
+      "target": "55",
+      "info": "Source: KRAS, Target: C1QTNF6, PMID: 24104479",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "21",
+      "target": "1",
+      "info": "Source: KRAS, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "56",
+      "target": "3",
+      "info": "Source: KSR1, Target: NAMPT, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "57",
+      "target": "3",
+      "info": "Source: LIG1, Target: NAMPT, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "58",
+      "target": "1",
+      "info": "Source: MAP2K4, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "59",
+      "target": "1",
+      "info": "Source: MAP3K1, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "60",
+      "target": "3",
+      "info": "Source: MAP3K8, Target: NAMPT, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "61",
+      "target": "1",
+      "info": "Source: MCPH1, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "62",
+      "target": "1",
+      "info": "Source: MEN1, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "63",
+      "target": "1",
+      "info": "Source: MLL5, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "64",
+      "target": "65",
+      "info": "Source: MUS81, Target: PTPN1, PMID: 24104479",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "3",
+      "target": "66",
+      "info": "Source: NAMPT, Target: PARP1, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "3",
+      "target": "67",
+      "info": "Source: NAMPT, Target: PARP2, PMID: 24864230",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "3",
+      "target": "67",
+      "info": "Source: NAMPT, Target: PARP2, PMID: 22933245",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "3",
+      "target": "68",
+      "info": "Source: NAMPT, Target: PTPRJ, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "3",
+      "target": "69",
+      "info": "Source: NAMPT, Target: RPS6KA2, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "3",
+      "target": "70",
+      "info": "Source: NAMPT, Target: TXN, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "3",
+      "target": "48",
+      "info": "Source: NAMPT, Target: XPO1, PMID: 28319085",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "71",
+      "target": "1",
+      "info": "Source: NARS2, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "72",
+      "target": "3",
+      "info": "Source: PARP, Target: NAMPT, PMID: 22933245",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "73",
+      "target": "1",
+      "info": "Source: PIK3C3, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "74",
+      "target": "1",
+      "info": "Source: PPARA, Target: FBN1, PMID: 25407795",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "75",
+      "target": "76",
+      "info": "Source: PTEN, Target: BMP7, PMID: 24104479",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "75",
+      "target": "20",
+      "info": "Source: PTEN, Target: CLU, PMID: 24104479",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "75",
+      "target": "77",
+      "info": "Source: PTEN, Target: IRS1, PMID: 24104479",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "75",
+      "target": "10",
+      "info": "Source: PTEN, Target: WISP2, PMID: 24104479",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "65",
+      "target": "21",
+      "info": "Source: PTPN1, Target: KRAS, PMID: 19490893",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "78",
+      "target": "77",
+      "info": "Source: PTTG1, Target: IRS1, PMID: 24104479",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "79",
+      "target": "80",
+      "info": "Source: SAC1, Target: ORM1, PMID: 20182505",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "81",
+      "target": "11",
+      "info": "Source: SIRT1, Target: BRCA1, PMID: 34750509",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "81",
+      "target": "13",
+      "info": "Source: SIRT1, Target: BRCA2, PMID: 34750509",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    },
+    {
+      "source": "12",
+      "target": "82",
+      "info": "Source: VEGFA, Target: VHL, PMID: 28319113",
+      "lineStyle": {
+        "color": "#a60b0b"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "GeneA"
+    },
+    {
+      "name": "GeneB"
+    }
+  ]
+}

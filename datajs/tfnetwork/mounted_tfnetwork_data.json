@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "AHR",
+      "symbolSize": 25,
+      "value": "196.0",
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "1",
+      "name": "IL1B",
+      "symbolSize": 10,
+      "value": "3553.0",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "2",
+      "name": "IL6",
+      "symbolSize": 10,
+      "value": "3569.0",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "3",
+      "name": "ATF2",
+      "symbolSize": 25,
+      "value": "1386.0",
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "4",
+      "name": "TNF",
+      "symbolSize": 10,
+      "value": "7124.0",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "5",
+      "name": "ATF4",
+      "symbolSize": 25,
+      "value": "468.0",
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "6",
+      "name": "SIRT1",
+      "symbolSize": 10,
+      "value": "23411.0",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "7",
+      "name": "... (truncated for brevity) ...",
+      "symbolSize": 25,
+      "value": "nan",
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "8",
+      "name": NaN,
+      "symbolSize": 10,
+      "value": "nan",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    },
+    {
+      "id": "9",
+      "name": "USF1",
+      "symbolSize": 25,
+      "value": "7391.0",
+      "category": 0,
+      "itemStyle": {
+        "color": "#2a5eaa"
+      }
+    },
+    {
+      "id": "10",
+      "name": "PTGDS",
+      "symbolSize": 10,
+      "value": "5730.0",
+      "category": 1,
+      "itemStyle": {
+        "color": "#27ae60"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1",
+      "info": "Source: AHR, Target: IL1B, Function: Unknown",
+      "lineStyle": {
+        "color": "#aaa"
+      }
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "info": "Source: AHR, Target: IL6, Function: Activation",
+      "lineStyle": {
+        "color": "#aaa"
+      }
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "info": "Source: AHR, Target: IL6, Function: Unknown",
+      "lineStyle": {
+        "color": "#aaa"
+      }
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "info": "Source: ATF2, Target: TNF, Function: Activation",
+      "lineStyle": {
+        "color": "#aaa"
+      }
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "info": "Source: ATF4, Target: SIRT1, Function: Activation",
+      "lineStyle": {
+        "color": "#aaa"
+      }
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "info": "Source: ... (truncated for brevity) ..., Target: nan, Function: nan",
+      "lineStyle": {
+        "color": "#aaa"
+      }
+    },
+    {
+      "source": "9",
+      "target": "10",
+      "info": "Source: USF1, Target: PTGDS, Function: Repression",
+      "lineStyle": {
+        "color": "#aaa"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "TF"
+    },
+    {
+      "name": "Target gene"
+    }
+  ]
+}

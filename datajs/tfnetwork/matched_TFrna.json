@@ -1,0 +1,482 @@
+[
+  {
+    "TF": "AHR",
+    "Target_gene": "IL6",
+    "Function": "Activation",
+    "PMID": "20511231",
+    "TF_Entrez": "196",
+    "Target_gene_Entrez": "3569"
+  },
+  {
+    "TF": "ATF2",
+    "Target_gene": "TNF",
+    "Function": "Activation",
+    "PMID": "10688670;10748079;10913190;20068037",
+    "TF_Entrez": "1386",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "ATF4",
+    "Target_gene": "SIRT1",
+    "Function": "Activation",
+    "PMID": "22363646",
+    "TF_Entrez": "468",
+    "Target_gene_Entrez": "23411"
+  },
+  {
+    "TF": "ATF4",
+    "Target_gene": "SIRT1",
+    "Function": "Repression",
+    "PMID": "21801305",
+    "TF_Entrez": "468",
+    "Target_gene_Entrez": "23411"
+  },
+  {
+    "TF": "BRCA1",
+    "Target_gene": "SIRT1",
+    "Function": "Activation",
+    "PMID": "18851829;20160719;21407215;9000507",
+    "TF_Entrez": "672",
+    "Target_gene_Entrez": "23411"
+  },
+  {
+    "TF": "CIITA",
+    "Target_gene": "SIRT1",
+    "Function": "Repression",
+    "PMID": "22064865",
+    "TF_Entrez": "4261",
+    "Target_gene_Entrez": "23411"
+  },
+  {
+    "TF": "CLOCK",
+    "Target_gene": "NAMPT",
+    "Function": "Activation",
+    "PMID": "19299583",
+    "TF_Entrez": "9575",
+    "Target_gene_Entrez": "10135"
+  },
+  {
+    "TF": "CREB1",
+    "Target_gene": "HMOX1",
+    "Function": "Repression",
+    "PMID": "14523007",
+    "TF_Entrez": "1385",
+    "Target_gene_Entrez": "3162"
+  },
+  {
+    "TF": "CREB1",
+    "Target_gene": "IL10",
+    "Function": "Activation",
+    "PMID": "10540320;22140263",
+    "TF_Entrez": "1385",
+    "Target_gene_Entrez": "3586"
+  },
+  {
+    "TF": "CREB1",
+    "Target_gene": "IL6",
+    "Function": "Activation",
+    "PMID": "8725624",
+    "TF_Entrez": "1385",
+    "Target_gene_Entrez": "3569"
+  },
+  {
+    "TF": "DDIT3",
+    "Target_gene": "SIRT1",
+    "Function": "Repression",
+    "PMID": "21801305",
+    "TF_Entrez": "1649",
+    "Target_gene_Entrez": "23411"
+  },
+  {
+    "TF": "EGR1",
+    "Target_gene": "TNF",
+    "Function": "Activation",
+    "PMID": "10913190;14767560",
+    "TF_Entrez": "1958",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "EP300",
+    "Target_gene": "VCAM1",
+    "Function": "Activation",
+    "PMID": "19281832",
+    "TF_Entrez": "2033",
+    "Target_gene_Entrez": "7412"
+  },
+  {
+    "TF": "EP300",
+    "Target_gene": "VEGFA",
+    "Function": "Activation",
+    "PMID": "22789427",
+    "TF_Entrez": "2033",
+    "Target_gene_Entrez": "7422"
+  },
+  {
+    "TF": "FOXL2",
+    "Target_gene": "SIRT1",
+    "Function": "Activation",
+    "PMID": "19010791",
+    "TF_Entrez": "668",
+    "Target_gene_Entrez": "23411"
+  },
+  {
+    "TF": "FOXO3",
+    "Target_gene": "SIRT1",
+    "Function": "Activation",
+    "PMID": "23525956",
+    "TF_Entrez": "2309",
+    "Target_gene_Entrez": "23411"
+  },
+  {
+    "TF": "GTF2I",
+    "Target_gene": "SIRT1",
+    "Function": "Activation",
+    "PMID": "21407215",
+    "TF_Entrez": "2969",
+    "Target_gene_Entrez": "23411"
+  },
+  {
+    "TF": "HDAC11",
+    "Target_gene": "TNF",
+    "Function": "Repression",
+    "PMID": "21239696",
+    "TF_Entrez": "79885",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "HDAC4",
+    "Target_gene": "IL10",
+    "Function": "Repression",
+    "PMID": "17610967",
+    "TF_Entrez": "9759",
+    "Target_gene_Entrez": "3586"
+  },
+  {
+    "TF": "HDAC4",
+    "Target_gene": "VCAM1",
+    "Function": "Activation",
+    "PMID": "19281832",
+    "TF_Entrez": "9759",
+    "Target_gene_Entrez": "7412"
+  },
+  {
+    "TF": "HDAC4",
+    "Target_gene": "VEGFA",
+    "Function": "Repression",
+    "PMID": "19509297",
+    "TF_Entrez": "9759",
+    "Target_gene_Entrez": "7422"
+  },
+  {
+    "TF": "HES1",
+    "Target_gene": "PTGDS",
+    "Function": "Repression",
+    "PMID": "15743775",
+    "TF_Entrez": "3280",
+    "Target_gene_Entrez": "5730"
+  },
+  {
+    "TF": "HIC1",
+    "Target_gene": "SIRT1",
+    "Function": "Repression",
+    "PMID": "19525223;19649206",
+    "TF_Entrez": "3090",
+    "Target_gene_Entrez": "23411"
+  },
+  {
+    "TF": "HMGB2",
+    "Target_gene": "TNF",
+    "Function": "Activation",
+    "PMID": "18218727",
+    "TF_Entrez": "3148",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "JUN",
+    "Target_gene": "TNF",
+    "Function": "Activation",
+    "PMID": "10318823;10688670;10748079;10913190",
+    "TF_Entrez": "3725",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "LRRFIP1",
+    "Target_gene": "TNF",
+    "Function": "Repression",
+    "PMID": "16199883",
+    "TF_Entrez": "9208",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "NFIL3",
+    "Target_gene": "IL1B",
+    "Function": "Repression",
+    "PMID": "8547328",
+    "TF_Entrez": "4783",
+    "Target_gene_Entrez": "3553"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "CCL2",
+    "Function": "Activation",
+    "PMID": "10530453;11512674;12488502;12647268;16206198;16764699;20200316;9388261",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "6347"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "CRP",
+    "Function": "Activation",
+    "PMID": "12667216;17704137",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "1401"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "CXCL1",
+    "Function": "Activation",
+    "PMID": "10530453;15958549",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "2919"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "IL10",
+    "Function": "Activation",
+    "PMID": "19124729",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "3586"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "IL18",
+    "Function": "Activation",
+    "PMID": "15963597;17399992",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "3606"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "IL1B",
+    "Function": "Activation",
+    "PMID": "12686724;14960579;8413223;8679226;9878621",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "3553"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "IL6",
+    "Function": "Activation",
+    "PMID": "10329846;10903137;11327783;11504280;12058956;12887736;14532843;15756023;16984731;17040605;17196927;18057724;18061164;18243142;18942706;18996370;19124729;19164127;20066113;22547075;7876168;8679226;8725624",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "3569"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "IL6",
+    "Function": "Repression",
+    "PMID": "15517885",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "3569"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "LCN2",
+    "Function": "Activation",
+    "PMID": "15536164",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "3934"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "NAMPT",
+    "Function": "Activation",
+    "PMID": "16701870",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "10135"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "PTGDS",
+    "Function": "Activation",
+    "PMID": "19094210",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "5730"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "TIMP1",
+    "Function": "Repression",
+    "PMID": "14600595",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "7076"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "TNF",
+    "Function": "Activation",
+    "PMID": "10079106;10748079;11749970;12058956;12686724;15013838;16707469;16916598;17407192;18057724;20066113;7876168;8219230;8679226",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "VCAM1",
+    "Function": "Activation",
+    "PMID": "10329958;10946302;11359843;16271621;16317091;16385502;19281832;19422386;22708120",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "7412"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "VEGFA",
+    "Function": "Activation",
+    "PMID": "15856023;16684540;17407600;18056465",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "7422"
+  },
+  {
+    "TF": "NFKB1",
+    "Target_gene": "VEGFA",
+    "Function": "Repression",
+    "PMID": "15517885",
+    "TF_Entrez": "4790",
+    "Target_gene_Entrez": "7422"
+  },
+  {
+    "TF": "NR4A1",
+    "Target_gene": "TNF",
+    "Function": "Repression",
+    "PMID": "19213954",
+    "TF_Entrez": "3164",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "PPARA",
+    "Target_gene": "ANGPTL4",
+    "Function": "Activation",
+    "PMID": "12099716;15190076",
+    "TF_Entrez": "5465",
+    "Target_gene_Entrez": "51129"
+  },
+  {
+    "TF": "PPARG",
+    "Target_gene": "ADIPOQ",
+    "Function": "Activation",
+    "PMID": "20484463",
+    "TF_Entrez": "5468",
+    "Target_gene_Entrez": "9370"
+  },
+  {
+    "TF": "PPARG",
+    "Target_gene": "ANGPTL4",
+    "Function": "Activation",
+    "PMID": "15190076",
+    "TF_Entrez": "5468",
+    "Target_gene_Entrez": "51129"
+  },
+  {
+    "TF": "PPARG",
+    "Target_gene": "FABP4",
+    "Function": "Activation",
+    "PMID": "11574398",
+    "TF_Entrez": "5468",
+    "Target_gene_Entrez": "2167"
+  },
+  {
+    "TF": "PPARG",
+    "Target_gene": "RETN",
+    "Function": "Activation",
+    "PMID": "20360975",
+    "TF_Entrez": "5468",
+    "Target_gene_Entrez": "56729"
+  },
+  {
+    "TF": "PPARG",
+    "Target_gene": "SLC2A4",
+    "Function": "Repression",
+    "PMID": "16670091",
+    "TF_Entrez": "5468",
+    "Target_gene_Entrez": "6517"
+  },
+  {
+    "TF": "RELA",
+    "Target_gene": "SIRT1",
+    "Function": "Activation",
+    "PMID": "20617556",
+    "TF_Entrez": "5970",
+    "Target_gene_Entrez": "23411"
+  },
+  {
+    "TF": "RELA",
+    "Target_gene": "TNF",
+    "Function": "Activation",
+    "PMID": "10079106;10748079;11749970;12058956;12686724;15013838;16707469;16916598;17407192;18057724;20066113;7876168;8219230;8679226",
+    "TF_Entrez": "5970",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "SIRT1",
+    "Target_gene": "CFH",
+    "Function": "Repression",
+    "PMID": "17558024",
+    "TF_Entrez": "23411",
+    "Target_gene_Entrez": "3075"
+  },
+  {
+    "TF": "SP1",
+    "Target_gene": "TNF",
+    "Function": "Activation",
+    "PMID": "10688670;10913190",
+    "TF_Entrez": "6667",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "SP1",
+    "Target_gene": "TNF",
+    "Function": "Repression",
+    "PMID": "12759366",
+    "TF_Entrez": "6667",
+    "Target_gene_Entrez": "7124"
+  },
+  {
+    "TF": "TFAP2B",
+    "Target_gene": "ADIPOQ",
+    "Function": "Repression",
+    "PMID": "19325541",
+    "TF_Entrez": "7021",
+    "Target_gene_Entrez": "9370"
+  },
+  {
+    "TF": "TFAP2B",
+    "Target_gene": "CRYAB",
+    "Function": "Activation",
+    "PMID": "21556774",
+    "TF_Entrez": "7021",
+    "Target_gene_Entrez": "1410"
+  },
+  {
+    "TF": "TFAP2B",
+    "Target_gene": "PTGDS",
+    "Function": "Activation",
+    "PMID": "15743775",
+    "TF_Entrez": "7021",
+    "Target_gene_Entrez": "5730"
+  },
+  {
+    "TF": "USF1",
+    "Target_gene": "PTGDS",
+    "Function": "Activation",
+    "PMID": "17574780",
+    "TF_Entrez": "7391",
+    "Target_gene_Entrez": "5730"
+  },
+  {
+    "TF": "USF1",
+    "Target_gene": "PTGDS",
+    "Function": "Repression",
+    "PMID": "18817855",
+    "TF_Entrez": "7391",
+    "Target_gene_Entrez": "5730"
+  }
+]

@@ -1,0 +1,2829 @@
+{
+  "nodes": [
+    {
+      "id": "ADIPOQ",
+      "name": "ADIPOQ",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PLXNB2",
+      "name": "PLXNB2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TRIB3",
+      "name": "TRIB3",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "BRCA1",
+      "name": "BRCA1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TP53",
+      "name": "TP53",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "BMP7",
+      "name": "BMP7",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ZNF106",
+      "name": "ZNF106",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "WDR5",
+      "name": "WDR5",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ABL1",
+      "name": "ABL1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PSMB7",
+      "name": "PSMB7",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RAPGEF1",
+      "name": "RAPGEF1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RAB14",
+      "name": "RAB14",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "INO80",
+      "name": "INO80",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "LEO1",
+      "name": "LEO1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PAK6",
+      "name": "PAK6",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "C20orf27",
+      "name": "C20orf27",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "FETUB",
+      "name": "FETUB",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CAV1",
+      "name": "CAV1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "FAS",
+      "name": "FAS",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MYB",
+      "name": "MYB",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CD44",
+      "name": "CD44",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CCL2",
+      "name": "CCL2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PTEN",
+      "name": "PTEN",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CFH",
+      "name": "CFH",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RUVBL2",
+      "name": "RUVBL2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CILP",
+      "name": "CILP",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "WWP2",
+      "name": "WWP2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CLU",
+      "name": "CLU",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "KRAS",
+      "name": "KRAS",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "DPP4",
+      "name": "DPP4",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TJP2",
+      "name": "TJP2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RAD23B",
+      "name": "RAD23B",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PSMD7",
+      "name": "PSMD7",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TCF3",
+      "name": "TCF3",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "NCBP1",
+      "name": "NCBP1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RAB5C",
+      "name": "RAB5C",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "FGD3",
+      "name": "FGD3",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "DNAJA2",
+      "name": "DNAJA2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "AARS",
+      "name": "AARS",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SGTA",
+      "name": "SGTA",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PIAS4",
+      "name": "PIAS4",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CTSL",
+      "name": "CTSL",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "FZR1",
+      "name": "FZR1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ITGAE",
+      "name": "ITGAE",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "EEF2",
+      "name": "EEF2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "FABP4",
+      "name": "FABP4",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "XPO1",
+      "name": "XPO1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MAP3K5",
+      "name": "MAP3K5",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MCL1",
+      "name": "MCL1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MST1R",
+      "name": "MST1R",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PIK3C2B",
+      "name": "PIK3C2B",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "NTRK1",
+      "name": "NTRK1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "OXT",
+      "name": "OXT",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SLC16A5",
+      "name": "SLC16A5",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "NDUFA4",
+      "name": "NDUFA4",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "XIAP",
+      "name": "XIAP",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MAP2K7",
+      "name": "MAP2K7",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "GALK1",
+      "name": "GALK1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "HMGCR",
+      "name": "HMGCR",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "KCNA3",
+      "name": "KCNA3",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PRKAR1A",
+      "name": "PRKAR1A",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PTGIR",
+      "name": "PTGIR",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PIK3CG",
+      "name": "PIK3CG",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TK1",
+      "name": "TK1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SLC16A8",
+      "name": "SLC16A8",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "FSTL1",
+      "name": "FSTL1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "HNRNPL",
+      "name": "HNRNPL",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "JUP",
+      "name": "JUP",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "GDF10",
+      "name": "GDF10",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "HGF",
+      "name": "HGF",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TLN1",
+      "name": "TLN1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ACO1",
+      "name": "ACO1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "STOML2",
+      "name": "STOML2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MDFIC",
+      "name": "MDFIC",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "HMGB1",
+      "name": "HMGB1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "HNRNPA2B1",
+      "name": "HNRNPA2B1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "POLA2",
+      "name": "POLA2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "USP1",
+      "name": "USP1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RBBP4",
+      "name": "RBBP4",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CDC7",
+      "name": "CDC7",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "E2F8",
+      "name": "E2F8",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MYBL2",
+      "name": "MYBL2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "IRS1",
+      "name": "IRS1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SENP6",
+      "name": "SENP6",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RPUSD4",
+      "name": "RPUSD4",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TM2D2",
+      "name": "TM2D2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SRPRA",
+      "name": "SRPRA",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PHF3",
+      "name": "PHF3",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PIK3CA",
+      "name": "PIK3CA",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TIRAP",
+      "name": "TIRAP",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ACAD8",
+      "name": "ACAD8",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "NSD3",
+      "name": "NSD3",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PLCG2",
+      "name": "PLCG2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ASH2L",
+      "name": "ASH2L",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MAP3K7",
+      "name": "MAP3K7",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ITIH5",
+      "name": "ITIH5",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "EIF4A1",
+      "name": "EIF4A1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "NAMPT",
+      "name": "NAMPT",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PARP1",
+      "name": "PARP1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TXN",
+      "name": "TXN",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PARP2",
+      "name": "PARP2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PTPRJ",
+      "name": "PTPRJ",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RPS6KA2",
+      "name": "RPS6KA2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ORM1",
+      "name": "ORM1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ORM2",
+      "name": "ORM2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PTPN1",
+      "name": "PTPN1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SFRP5",
+      "name": "SFRP5",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SIRT1",
+      "name": "SIRT1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "BRCA2",
+      "name": "BRCA2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SLC2A4",
+      "name": "SLC2A4",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PHLPP2",
+      "name": "PHLPP2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ZCCHC14",
+      "name": "ZCCHC14",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "AP1G1",
+      "name": "AP1G1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "KARS",
+      "name": "KARS",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "GAN",
+      "name": "GAN",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "USP10",
+      "name": "USP10",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SOCS3",
+      "name": "SOCS3",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CXCR4",
+      "name": "CXCR4",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TNF",
+      "name": "TNF",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "OPTN",
+      "name": "OPTN",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TNFRSF1B",
+      "name": "TNFRSF1B",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TNIP1",
+      "name": "TNIP1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RNF31",
+      "name": "RNF31",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RBCK1",
+      "name": "RBCK1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "VCAM1",
+      "name": "VCAM1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PCNA",
+      "name": "PCNA",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "VEGFA",
+      "name": "VEGFA",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "VHL",
+      "name": "VHL",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ANGPTL4",
+      "name": "ANGPTL4",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CTNNB1",
+      "name": "CTNNB1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "C1QTNF6",
+      "name": "C1QTNF6",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ANLN",
+      "name": "ANLN",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CRYAB",
+      "name": "CRYAB",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CD22",
+      "name": "CD22",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CHD1",
+      "name": "CHD1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CDC25A",
+      "name": "CDC25A",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CSNK1G2",
+      "name": "CSNK1G2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ERBB2",
+      "name": "ERBB2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "EPHA2",
+      "name": "EPHA2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "BCAT2",
+      "name": "BCAT2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "BIRC5",
+      "name": "BIRC5",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CYP4F12",
+      "name": "CYP4F12",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CARM1",
+      "name": "CARM1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CNTFR",
+      "name": "CNTFR",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CYP11B2",
+      "name": "CYP11B2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PIK3C3",
+      "name": "PIK3C3",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "FBN1",
+      "name": "FBN1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "KMT2E",
+      "name": "KMT2E",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "GATA3",
+      "name": "GATA3",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MAP3K1",
+      "name": "MAP3K1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MEN1",
+      "name": "MEN1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MCPH1",
+      "name": "MCPH1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CREBBP",
+      "name": "CREBBP",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "DDX10",
+      "name": "DDX10",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "BIRC3",
+      "name": "BIRC3",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "FUBP1",
+      "name": "FUBP1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "NEXN",
+      "name": "NEXN",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "JAK2",
+      "name": "JAK2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CCT2",
+      "name": "CCT2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MAP2K4",
+      "name": "MAP2K4",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ABCC4",
+      "name": "ABCC4",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PPARA",
+      "name": "PPARA",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "NARS2",
+      "name": "NARS2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "FLI1",
+      "name": "FLI1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "COL12A1",
+      "name": "COL12A1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "GM2A",
+      "name": "GM2A",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TNKS",
+      "name": "TNKS",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TSC2",
+      "name": "TSC2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RAD54L",
+      "name": "RAD54L",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "NCOR1",
+      "name": "NCOR1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "STMN1",
+      "name": "STMN1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CTCF",
+      "name": "CTCF",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "HIVEP1",
+      "name": "HIVEP1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "HELZ",
+      "name": "HELZ",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "DRD2",
+      "name": "DRD2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "GTF3A",
+      "name": "GTF3A",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "DAB2",
+      "name": "DAB2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ZNF862",
+      "name": "ZNF862",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "LRP6",
+      "name": "LRP6",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "F2RL1",
+      "name": "F2RL1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "IL18",
+      "name": "IL18",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "FLNA",
+      "name": "FLNA",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "IL6",
+      "name": "IL6",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "BRD8",
+      "name": "BRD8",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PTTG1",
+      "name": "PTTG1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "LRG1",
+      "name": "LRG1",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MAP3K8",
+      "name": "MAP3K8",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "LIG1",
+      "name": "LIG1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "JAK3",
+      "name": "JAK3",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "ATR",
+      "name": "ATR",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "BCL2L2",
+      "name": "BCL2L2",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "GMPS",
+      "name": "GMPS",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "KSR1",
+      "name": "KSR1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SACM1L",
+      "name": "SACM1L",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "PTGDS",
+      "name": "PTGDS",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "MUS81",
+      "name": "MUS81",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CIC",
+      "name": "CIC",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "IDH1",
+      "name": "IDH1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "INSR",
+      "name": "INSR",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "TRADD",
+      "name": "TRADD",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "RIPK1",
+      "name": "RIPK1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "SHARPIN",
+      "name": "SHARPIN",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "CHEK1",
+      "name": "CHEK1",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "WISP2",
+      "name": "WISP2",
+      "symbolSize": 10,
+      "category": 1,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    },
+    {
+      "id": "BLM",
+      "name": "BLM",
+      "symbolSize": 10,
+      "category": 0,
+      "itemStyle": {
+        "color": "#9cbb83"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "ADIPOQ",
+      "target": "PLXNB2",
+      "info": "Source:ADIPOQ,Target:PLXNB2"
+    },
+    {
+      "source": "ADIPOQ",
+      "target": "TRIB3",
+      "info": "Source:ADIPOQ,Target:TRIB3"
+    },
+    {
+      "source": "ADIPOQ",
+      "target": "BRCA1",
+      "info": "Source:ADIPOQ,Target:BRCA1"
+    },
+    {
+      "source": "ADIPOQ",
+      "target": "TP53",
+      "info": "Source:ADIPOQ,Target:TP53"
+    },
+    {
+      "source": "BMP7",
+      "target": "ZNF106",
+      "info": "Source:BMP7,Target:ZNF106"
+    },
+    {
+      "source": "BMP7",
+      "target": "WDR5",
+      "info": "Source:BMP7,Target:WDR5"
+    },
+    {
+      "source": "BMP7",
+      "target": "ABL1",
+      "info": "Source:BMP7,Target:ABL1"
+    },
+    {
+      "source": "BMP7",
+      "target": "PSMB7",
+      "info": "Source:BMP7,Target:PSMB7"
+    },
+    {
+      "source": "BMP7",
+      "target": "RAPGEF1",
+      "info": "Source:BMP7,Target:RAPGEF1"
+    },
+    {
+      "source": "BMP7",
+      "target": "RAB14",
+      "info": "Source:BMP7,Target:RAB14"
+    },
+    {
+      "source": "BMP7",
+      "target": "INO80",
+      "info": "Source:BMP7,Target:INO80"
+    },
+    {
+      "source": "BMP7",
+      "target": "LEO1",
+      "info": "Source:BMP7,Target:LEO1"
+    },
+    {
+      "source": "BMP7",
+      "target": "PAK6",
+      "info": "Source:BMP7,Target:PAK6"
+    },
+    {
+      "source": "C20orf27",
+      "target": "FETUB",
+      "info": "Source:C20orf27,Target:FETUB"
+    },
+    {
+      "source": "CAV1",
+      "target": "FAS",
+      "info": "Source:CAV1,Target:FAS"
+    },
+    {
+      "source": "CAV1",
+      "target": "TP53",
+      "info": "Source:CAV1,Target:TP53"
+    },
+    {
+      "source": "CAV1",
+      "target": "MYB",
+      "info": "Source:CAV1,Target:MYB"
+    },
+    {
+      "source": "CAV1",
+      "target": "CD44",
+      "info": "Source:CAV1,Target:CD44"
+    },
+    {
+      "source": "CCL2",
+      "target": "PTEN",
+      "info": "Source:CCL2,Target:PTEN"
+    },
+    {
+      "source": "CFH",
+      "target": "RUVBL2",
+      "info": "Source:CFH,Target:RUVBL2"
+    },
+    {
+      "source": "CILP",
+      "target": "WWP2",
+      "info": "Source:CILP,Target:WWP2"
+    },
+    {
+      "source": "CLU",
+      "target": "KRAS",
+      "info": "Source:CLU,Target:KRAS"
+    },
+    {
+      "source": "DPP4",
+      "target": "TJP2",
+      "info": "Source:DPP4,Target:TJP2"
+    },
+    {
+      "source": "DPP4",
+      "target": "RAD23B",
+      "info": "Source:DPP4,Target:RAD23B"
+    },
+    {
+      "source": "DPP4",
+      "target": "PSMD7",
+      "info": "Source:DPP4,Target:PSMD7"
+    },
+    {
+      "source": "DPP4",
+      "target": "TCF3",
+      "info": "Source:DPP4,Target:TCF3"
+    },
+    {
+      "source": "DPP4",
+      "target": "NCBP1",
+      "info": "Source:DPP4,Target:NCBP1"
+    },
+    {
+      "source": "DPP4",
+      "target": "RAB5C",
+      "info": "Source:DPP4,Target:RAB5C"
+    },
+    {
+      "source": "DPP4",
+      "target": "FGD3",
+      "info": "Source:DPP4,Target:FGD3"
+    },
+    {
+      "source": "DPP4",
+      "target": "ABL1",
+      "info": "Source:DPP4,Target:ABL1"
+    },
+    {
+      "source": "DPP4",
+      "target": "DNAJA2",
+      "info": "Source:DPP4,Target:DNAJA2"
+    },
+    {
+      "source": "DPP4",
+      "target": "AARS",
+      "info": "Source:DPP4,Target:AARS"
+    },
+    {
+      "source": "DPP4",
+      "target": "SGTA",
+      "info": "Source:DPP4,Target:SGTA"
+    },
+    {
+      "source": "DPP4",
+      "target": "PIAS4",
+      "info": "Source:DPP4,Target:PIAS4"
+    },
+    {
+      "source": "DPP4",
+      "target": "CTSL",
+      "info": "Source:DPP4,Target:CTSL"
+    },
+    {
+      "source": "DPP4",
+      "target": "FZR1",
+      "info": "Source:DPP4,Target:FZR1"
+    },
+    {
+      "source": "DPP4",
+      "target": "ITGAE",
+      "info": "Source:DPP4,Target:ITGAE"
+    },
+    {
+      "source": "DPP4",
+      "target": "EEF2",
+      "info": "Source:DPP4,Target:EEF2"
+    },
+    {
+      "source": "FABP4",
+      "target": "XPO1",
+      "info": "Source:FABP4,Target:XPO1"
+    },
+    {
+      "source": "FABP4",
+      "target": "MAP3K5",
+      "info": "Source:FABP4,Target:MAP3K5"
+    },
+    {
+      "source": "FABP4",
+      "target": "MCL1",
+      "info": "Source:FABP4,Target:MCL1"
+    },
+    {
+      "source": "FABP4",
+      "target": "MST1R",
+      "info": "Source:FABP4,Target:MST1R"
+    },
+    {
+      "source": "FABP4",
+      "target": "PIK3C2B",
+      "info": "Source:FABP4,Target:PIK3C2B"
+    },
+    {
+      "source": "FABP4",
+      "target": "NTRK1",
+      "info": "Source:FABP4,Target:NTRK1"
+    },
+    {
+      "source": "FABP4",
+      "target": "OXT",
+      "info": "Source:FABP4,Target:OXT"
+    },
+    {
+      "source": "FABP4",
+      "target": "SLC16A5",
+      "info": "Source:FABP4,Target:SLC16A5"
+    },
+    {
+      "source": "FABP4",
+      "target": "NDUFA4",
+      "info": "Source:FABP4,Target:NDUFA4"
+    },
+    {
+      "source": "FABP4",
+      "target": "XIAP",
+      "info": "Source:FABP4,Target:XIAP"
+    },
+    {
+      "source": "FABP4",
+      "target": "MAP2K7",
+      "info": "Source:FABP4,Target:MAP2K7"
+    },
+    {
+      "source": "FABP4",
+      "target": "GALK1",
+      "info": "Source:FABP4,Target:GALK1"
+    },
+    {
+      "source": "FABP4",
+      "target": "HMGCR",
+      "info": "Source:FABP4,Target:HMGCR"
+    },
+    {
+      "source": "FABP4",
+      "target": "KCNA3",
+      "info": "Source:FABP4,Target:KCNA3"
+    },
+    {
+      "source": "FABP4",
+      "target": "PRKAR1A",
+      "info": "Source:FABP4,Target:PRKAR1A"
+    },
+    {
+      "source": "FABP4",
+      "target": "PTGIR",
+      "info": "Source:FABP4,Target:PTGIR"
+    },
+    {
+      "source": "FABP4",
+      "target": "PIK3CG",
+      "info": "Source:FABP4,Target:PIK3CG"
+    },
+    {
+      "source": "FABP4",
+      "target": "TK1",
+      "info": "Source:FABP4,Target:TK1"
+    },
+    {
+      "source": "FABP4",
+      "target": "SLC16A8",
+      "info": "Source:FABP4,Target:SLC16A8"
+    },
+    {
+      "source": "FSTL1",
+      "target": "HNRNPL",
+      "info": "Source:FSTL1,Target:HNRNPL"
+    },
+    {
+      "source": "FSTL1",
+      "target": "JUP",
+      "info": "Source:FSTL1,Target:JUP"
+    },
+    {
+      "source": "GDF10",
+      "target": "KRAS",
+      "info": "Source:GDF10,Target:KRAS"
+    },
+    {
+      "source": "HGF",
+      "target": "TLN1",
+      "info": "Source:HGF,Target:TLN1"
+    },
+    {
+      "source": "HGF",
+      "target": "ACO1",
+      "info": "Source:HGF,Target:ACO1"
+    },
+    {
+      "source": "HGF",
+      "target": "STOML2",
+      "info": "Source:HGF,Target:STOML2"
+    },
+    {
+      "source": "HGF",
+      "target": "MDFIC",
+      "info": "Source:HGF,Target:MDFIC"
+    },
+    {
+      "source": "HMGB1",
+      "target": "HNRNPA2B1",
+      "info": "Source:HMGB1,Target:HNRNPA2B1"
+    },
+    {
+      "source": "HMGB1",
+      "target": "POLA2",
+      "info": "Source:HMGB1,Target:POLA2"
+    },
+    {
+      "source": "HMGB1",
+      "target": "USP1",
+      "info": "Source:HMGB1,Target:USP1"
+    },
+    {
+      "source": "HMGB1",
+      "target": "RBBP4",
+      "info": "Source:HMGB1,Target:RBBP4"
+    },
+    {
+      "source": "HMGB1",
+      "target": "CDC7",
+      "info": "Source:HMGB1,Target:CDC7"
+    },
+    {
+      "source": "HMGB1",
+      "target": "TP53",
+      "info": "Source:HMGB1,Target:TP53"
+    },
+    {
+      "source": "HMGB1",
+      "target": "E2F8",
+      "info": "Source:HMGB1,Target:E2F8"
+    },
+    {
+      "source": "HMGB1",
+      "target": "MYBL2",
+      "info": "Source:HMGB1,Target:MYBL2"
+    },
+    {
+      "source": "IRS1",
+      "target": "SENP6",
+      "info": "Source:IRS1,Target:SENP6"
+    },
+    {
+      "source": "IRS1",
+      "target": "RPUSD4",
+      "info": "Source:IRS1,Target:RPUSD4"
+    },
+    {
+      "source": "IRS1",
+      "target": "TM2D2",
+      "info": "Source:IRS1,Target:TM2D2"
+    },
+    {
+      "source": "IRS1",
+      "target": "SRPRA",
+      "info": "Source:IRS1,Target:SRPRA"
+    },
+    {
+      "source": "IRS1",
+      "target": "PHF3",
+      "info": "Source:IRS1,Target:PHF3"
+    },
+    {
+      "source": "IRS1",
+      "target": "PIK3CA",
+      "info": "Source:IRS1,Target:PIK3CA"
+    },
+    {
+      "source": "IRS1",
+      "target": "TIRAP",
+      "info": "Source:IRS1,Target:TIRAP"
+    },
+    {
+      "source": "IRS1",
+      "target": "ACAD8",
+      "info": "Source:IRS1,Target:ACAD8"
+    },
+    {
+      "source": "IRS1",
+      "target": "NSD3",
+      "info": "Source:IRS1,Target:NSD3"
+    },
+    {
+      "source": "IRS1",
+      "target": "PLCG2",
+      "info": "Source:IRS1,Target:PLCG2"
+    },
+    {
+      "source": "IRS1",
+      "target": "ASH2L",
+      "info": "Source:IRS1,Target:ASH2L"
+    },
+    {
+      "source": "IRS1",
+      "target": "MAP3K7",
+      "info": "Source:IRS1,Target:MAP3K7"
+    },
+    {
+      "source": "ITIH5",
+      "target": "EIF4A1",
+      "info": "Source:ITIH5,Target:EIF4A1"
+    },
+    {
+      "source": "NAMPT",
+      "target": "XPO1",
+      "info": "Source:NAMPT,Target:XPO1"
+    },
+    {
+      "source": "NAMPT",
+      "target": "PARP1",
+      "info": "Source:NAMPT,Target:PARP1"
+    },
+    {
+      "source": "NAMPT",
+      "target": "TXN",
+      "info": "Source:NAMPT,Target:TXN"
+    },
+    {
+      "source": "NAMPT",
+      "target": "PARP2",
+      "info": "Source:NAMPT,Target:PARP2"
+    },
+    {
+      "source": "NAMPT",
+      "target": "PTPRJ",
+      "info": "Source:NAMPT,Target:PTPRJ"
+    },
+    {
+      "source": "NAMPT",
+      "target": "RPS6KA2",
+      "info": "Source:NAMPT,Target:RPS6KA2"
+    },
+    {
+      "source": "ORM1",
+      "target": "ORM2",
+      "info": "Source:ORM1,Target:ORM2"
+    },
+    {
+      "source": "PTPN1",
+      "target": "KRAS",
+      "info": "Source:PTPN1,Target:KRAS"
+    },
+    {
+      "source": "SFRP5",
+      "target": "PTEN",
+      "info": "Source:SFRP5,Target:PTEN"
+    },
+    {
+      "source": "SIRT1",
+      "target": "BRCA1",
+      "info": "Source:SIRT1,Target:BRCA1"
+    },
+    {
+      "source": "SIRT1",
+      "target": "BRCA2",
+      "info": "Source:SIRT1,Target:BRCA2"
+    },
+    {
+      "source": "SLC2A4",
+      "target": "PHLPP2",
+      "info": "Source:SLC2A4,Target:PHLPP2"
+    },
+    {
+      "source": "SLC2A4",
+      "target": "ZCCHC14",
+      "info": "Source:SLC2A4,Target:ZCCHC14"
+    },
+    {
+      "source": "SLC2A4",
+      "target": "PSMD7",
+      "info": "Source:SLC2A4,Target:PSMD7"
+    },
+    {
+      "source": "SLC2A4",
+      "target": "AP1G1",
+      "info": "Source:SLC2A4,Target:AP1G1"
+    },
+    {
+      "source": "SLC2A4",
+      "target": "KARS",
+      "info": "Source:SLC2A4,Target:KARS"
+    },
+    {
+      "source": "SLC2A4",
+      "target": "WWP2",
+      "info": "Source:SLC2A4,Target:WWP2"
+    },
+    {
+      "source": "SLC2A4",
+      "target": "GAN",
+      "info": "Source:SLC2A4,Target:GAN"
+    },
+    {
+      "source": "SLC2A4",
+      "target": "USP10",
+      "info": "Source:SLC2A4,Target:USP10"
+    },
+    {
+      "source": "SOCS3",
+      "target": "CXCR4",
+      "info": "Source:SOCS3,Target:CXCR4"
+    },
+    {
+      "source": "TNF",
+      "target": "OPTN",
+      "info": "Source:TNF,Target:OPTN"
+    },
+    {
+      "source": "TNF",
+      "target": "TNFRSF1B",
+      "info": "Source:TNF,Target:TNFRSF1B"
+    },
+    {
+      "source": "TNF",
+      "target": "TNIP1",
+      "info": "Source:TNF,Target:TNIP1"
+    },
+    {
+      "source": "TNF",
+      "target": "RNF31",
+      "info": "Source:TNF,Target:RNF31"
+    },
+    {
+      "source": "TNF",
+      "target": "RBCK1",
+      "info": "Source:TNF,Target:RBCK1"
+    },
+    {
+      "source": "TNF",
+      "target": "FAS",
+      "info": "Source:TNF,Target:FAS"
+    },
+    {
+      "source": "VCAM1",
+      "target": "PCNA",
+      "info": "Source:VCAM1,Target:PCNA"
+    },
+    {
+      "source": "VEGFA",
+      "target": "VHL",
+      "info": "Source:VEGFA,Target:VHL"
+    },
+    {
+      "source": "KRAS",
+      "target": "ANGPTL4",
+      "info": "Source:KRAS,Target:ANGPTL4"
+    },
+    {
+      "source": "PTEN",
+      "target": "BMP7",
+      "info": "Source:PTEN,Target:BMP7"
+    },
+    {
+      "source": "CTNNB1",
+      "target": "C1QTNF6",
+      "info": "Source:CTNNB1,Target:C1QTNF6"
+    },
+    {
+      "source": "KRAS",
+      "target": "C1QTNF6",
+      "info": "Source:KRAS,Target:C1QTNF6"
+    },
+    {
+      "source": "ANLN",
+      "target": "CAV1",
+      "info": "Source:ANLN,Target:CAV1"
+    },
+    {
+      "source": "PTEN",
+      "target": "CLU",
+      "info": "Source:PTEN,Target:CLU"
+    },
+    {
+      "source": "TP53",
+      "target": "CRYAB",
+      "info": "Source:TP53,Target:CRYAB"
+    },
+    {
+      "source": "CD22",
+      "target": "FABP4",
+      "info": "Source:CD22,Target:FABP4"
+    },
+    {
+      "source": "CHD1",
+      "target": "FABP4",
+      "info": "Source:CHD1,Target:FABP4"
+    },
+    {
+      "source": "CDC25A",
+      "target": "FABP4",
+      "info": "Source:CDC25A,Target:FABP4"
+    },
+    {
+      "source": "CSNK1G2",
+      "target": "FABP4",
+      "info": "Source:CSNK1G2,Target:FABP4"
+    },
+    {
+      "source": "ERBB2",
+      "target": "FABP4",
+      "info": "Source:ERBB2,Target:FABP4"
+    },
+    {
+      "source": "EPHA2",
+      "target": "FABP4",
+      "info": "Source:EPHA2,Target:FABP4"
+    },
+    {
+      "source": "BCAT2",
+      "target": "FABP4",
+      "info": "Source:BCAT2,Target:FABP4"
+    },
+    {
+      "source": "BIRC5",
+      "target": "FABP4",
+      "info": "Source:BIRC5,Target:FABP4"
+    },
+    {
+      "source": "CYP4F12",
+      "target": "FABP4",
+      "info": "Source:CYP4F12,Target:FABP4"
+    },
+    {
+      "source": "CARM1",
+      "target": "FABP4",
+      "info": "Source:CARM1,Target:FABP4"
+    },
+    {
+      "source": "CNTFR",
+      "target": "FABP4",
+      "info": "Source:CNTFR,Target:FABP4"
+    },
+    {
+      "source": "CYP11B2",
+      "target": "FABP4",
+      "info": "Source:CYP11B2,Target:FABP4"
+    },
+    {
+      "source": "PIK3C3",
+      "target": "FBN1",
+      "info": "Source:PIK3C3,Target:FBN1"
+    },
+    {
+      "source": "KMT2E",
+      "target": "FBN1",
+      "info": "Source:KMT2E,Target:FBN1"
+    },
+    {
+      "source": "GATA3",
+      "target": "FBN1",
+      "info": "Source:GATA3,Target:FBN1"
+    },
+    {
+      "source": "MAP3K1",
+      "target": "FBN1",
+      "info": "Source:MAP3K1,Target:FBN1"
+    },
+    {
+      "source": "MEN1",
+      "target": "FBN1",
+      "info": "Source:MEN1,Target:FBN1"
+    },
+    {
+      "source": "MCPH1",
+      "target": "FBN1",
+      "info": "Source:MCPH1,Target:FBN1"
+    },
+    {
+      "source": "CREBBP",
+      "target": "FBN1",
+      "info": "Source:CREBBP,Target:FBN1"
+    },
+    {
+      "source": "DDX10",
+      "target": "FBN1",
+      "info": "Source:DDX10,Target:FBN1"
+    },
+    {
+      "source": "BIRC3",
+      "target": "FBN1",
+      "info": "Source:BIRC3,Target:FBN1"
+    },
+    {
+      "source": "FUBP1",
+      "target": "FBN1",
+      "info": "Source:FUBP1,Target:FBN1"
+    },
+    {
+      "source": "NEXN",
+      "target": "FBN1",
+      "info": "Source:NEXN,Target:FBN1"
+    },
+    {
+      "source": "JAK2",
+      "target": "FBN1",
+      "info": "Source:JAK2,Target:FBN1"
+    },
+    {
+      "source": "BRCA2",
+      "target": "FBN1",
+      "info": "Source:BRCA2,Target:FBN1"
+    },
+    {
+      "source": "KRAS",
+      "target": "FBN1",
+      "info": "Source:KRAS,Target:FBN1"
+    },
+    {
+      "source": "CCT2",
+      "target": "FBN1",
+      "info": "Source:CCT2,Target:FBN1"
+    },
+    {
+      "source": "MAP2K4",
+      "target": "FBN1",
+      "info": "Source:MAP2K4,Target:FBN1"
+    },
+    {
+      "source": "ABCC4",
+      "target": "FBN1",
+      "info": "Source:ABCC4,Target:FBN1"
+    },
+    {
+      "source": "PPARA",
+      "target": "FBN1",
+      "info": "Source:PPARA,Target:FBN1"
+    },
+    {
+      "source": "NARS2",
+      "target": "FBN1",
+      "info": "Source:NARS2,Target:FBN1"
+    },
+    {
+      "source": "FLI1",
+      "target": "FBN1",
+      "info": "Source:FLI1,Target:FBN1"
+    },
+    {
+      "source": "COL12A1",
+      "target": "FSTL1",
+      "info": "Source:COL12A1,Target:FSTL1"
+    },
+    {
+      "source": "PIK3CA",
+      "target": "GM2A",
+      "info": "Source:PIK3CA,Target:GM2A"
+    },
+    {
+      "source": "TNKS",
+      "target": "HMGB1",
+      "info": "Source:TNKS,Target:HMGB1"
+    },
+    {
+      "source": "TSC2",
+      "target": "HMGB1",
+      "info": "Source:TSC2,Target:HMGB1"
+    },
+    {
+      "source": "RAD54L",
+      "target": "HMGB1",
+      "info": "Source:RAD54L,Target:HMGB1"
+    },
+    {
+      "source": "NCOR1",
+      "target": "HMGB1",
+      "info": "Source:NCOR1,Target:HMGB1"
+    },
+    {
+      "source": "STMN1",
+      "target": "HMGB1",
+      "info": "Source:STMN1,Target:HMGB1"
+    },
+    {
+      "source": "CTCF",
+      "target": "HMGB1",
+      "info": "Source:CTCF,Target:HMGB1"
+    },
+    {
+      "source": "HIVEP1",
+      "target": "HMGB1",
+      "info": "Source:HIVEP1,Target:HMGB1"
+    },
+    {
+      "source": "HELZ",
+      "target": "HMGB1",
+      "info": "Source:HELZ,Target:HMGB1"
+    },
+    {
+      "source": "DRD2",
+      "target": "HMGB1",
+      "info": "Source:DRD2,Target:HMGB1"
+    },
+    {
+      "source": "GTF3A",
+      "target": "HMGB1",
+      "info": "Source:GTF3A,Target:HMGB1"
+    },
+    {
+      "source": "DAB2",
+      "target": "HMGB1",
+      "info": "Source:DAB2,Target:HMGB1"
+    },
+    {
+      "source": "ZNF862",
+      "target": "HMGB1",
+      "info": "Source:ZNF862,Target:HMGB1"
+    },
+    {
+      "source": "LRP6",
+      "target": "HMGB1",
+      "info": "Source:LRP6,Target:HMGB1"
+    },
+    {
+      "source": "PTEN",
+      "target": "HMGB1",
+      "info": "Source:PTEN,Target:HMGB1"
+    },
+    {
+      "source": "F2RL1",
+      "target": "IL18",
+      "info": "Source:F2RL1,Target:IL18"
+    },
+    {
+      "source": "FLNA",
+      "target": "IL6",
+      "info": "Source:FLNA,Target:IL6"
+    },
+    {
+      "source": "BRD8",
+      "target": "IL6",
+      "info": "Source:BRD8,Target:IL6"
+    },
+    {
+      "source": "PTTG1",
+      "target": "IRS1",
+      "info": "Source:PTTG1,Target:IRS1"
+    },
+    {
+      "source": "PTEN",
+      "target": "IRS1",
+      "info": "Source:PTEN,Target:IRS1"
+    },
+    {
+      "source": "KRAS",
+      "target": "LRG1",
+      "info": "Source:KRAS,Target:LRG1"
+    },
+    {
+      "source": "MAP3K8",
+      "target": "NAMPT",
+      "info": "Source:MAP3K8,Target:NAMPT"
+    },
+    {
+      "source": "LIG1",
+      "target": "NAMPT",
+      "info": "Source:LIG1,Target:NAMPT"
+    },
+    {
+      "source": "JAK3",
+      "target": "NAMPT",
+      "info": "Source:JAK3,Target:NAMPT"
+    },
+    {
+      "source": "ATR",
+      "target": "NAMPT",
+      "info": "Source:ATR,Target:NAMPT"
+    },
+    {
+      "source": "BCL2L2",
+      "target": "NAMPT",
+      "info": "Source:BCL2L2,Target:NAMPT"
+    },
+    {
+      "source": "GMPS",
+      "target": "NAMPT",
+      "info": "Source:GMPS,Target:NAMPT"
+    },
+    {
+      "source": "KSR1",
+      "target": "NAMPT",
+      "info": "Source:KSR1,Target:NAMPT"
+    },
+    {
+      "source": "SACM1L",
+      "target": "ORM1",
+      "info": "Source:SACM1L,Target:ORM1"
+    },
+    {
+      "source": "TP53",
+      "target": "PTGDS",
+      "info": "Source:TP53,Target:PTGDS"
+    },
+    {
+      "source": "MUS81",
+      "target": "PTPN1",
+      "info": "Source:MUS81,Target:PTPN1"
+    },
+    {
+      "source": "CIC",
+      "target": "SIRT1",
+      "info": "Source:CIC,Target:SIRT1"
+    },
+    {
+      "source": "IDH1",
+      "target": "SIRT1",
+      "info": "Source:IDH1,Target:SIRT1"
+    },
+    {
+      "source": "INSR",
+      "target": "SOCS3",
+      "info": "Source:INSR,Target:SOCS3"
+    },
+    {
+      "source": "TRADD",
+      "target": "TNF",
+      "info": "Source:TRADD,Target:TNF"
+    },
+    {
+      "source": "RIPK1",
+      "target": "TNF",
+      "info": "Source:RIPK1,Target:TNF"
+    },
+    {
+      "source": "SHARPIN",
+      "target": "TNF",
+      "info": "Source:SHARPIN,Target:TNF"
+    },
+    {
+      "source": "CHEK1",
+      "target": "VEGFA",
+      "info": "Source:CHEK1,Target:VEGFA"
+    },
+    {
+      "source": "BRCA1",
+      "target": "VEGFA",
+      "info": "Source:BRCA1,Target:VEGFA"
+    },
+    {
+      "source": "PTEN",
+      "target": "WISP2",
+      "info": "Source:PTEN,Target:WISP2"
+    },
+    {
+      "source": "BLM",
+      "target": "WISP2",
+      "info": "Source:BLM,Target:WISP2"
+    }
+  ],
+  "categories": [
+    {
+      "name": "geneA"
+    },
+    {
+      "name": "geneB"
+    }
+  ]
+}

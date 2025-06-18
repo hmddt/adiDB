@@ -1,0 +1,36 @@
+name     value
+Obstructive Sleep Apnea-Hypopnea Syndrome     375
+Narcolepsy     17
+Atherosclerosis     2598
+Nonalcoholic Fatty Liver Disease     1337
+Infertility     508
+Polycystic Ovary Syndrome     759
+Hypertension      3186
+Coronary Heart Disease     1585
+Cerebral Hemorrhage    37
+Cholelithiasis     45 
+Anaemia     120
+Hypogonadism     191
+Rheumatoid Arthritis     521
+Systemic Lupus Erythematosus     143
+Type 1 Diabetes     496
+Chronic Renal Failure     464
+Hyperuricemia     52
+Gout     34
+Osteoarthritis     595
+Disease of the Liver     3039
+Asthma     423
+Deep Vein Thrombosis     31
+Pancreatitis      1601
+Cerebral Infarction     65
+Heart Failure     737
+Arrhythmias     164
+Pulmonary Embolism     5
+Myocardial Infarction     512
+Angina Pectoris     90
+Diabetes    14117
+Breast Cancer    1904
+Colorectal Cancer    504
+Endometrial Cancer    196
+Liver Cancer    492
+Prostate Cancer    342

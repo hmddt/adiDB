@@ -1,0 +1,695 @@
+[
+  {
+    "Gene": "VCAM1",
+    "Chr": "1",
+    "Start": "100719742",
+    "End": "100739045",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CRP",
+    "Chr": "1",
+    "Start": "159712289",
+    "End": "159714589",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ITLN1",
+    "Chr": "1",
+    "Start": "160876540",
+    "End": "160885180",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "DPT",
+    "Chr": "1",
+    "Start": "168695468",
+    "End": "168729206",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CFH",
+    "Chr": "1",
+    "Start": "196652043",
+    "End": "196747504",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "IL10",
+    "Chr": "1",
+    "Start": "206767602",
+    "End": "206772494",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "TGFB2",
+    "Chr": "1",
+    "Start": "218345336",
+    "End": "218444619",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C1QL3",
+    "Chr": "2",
+    "Start": "13006591",
+    "End": "13016491",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "FNDC4",
+    "Chr": "2",
+    "Start": "27491883",
+    "End": "27495200",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "IL1B",
+    "Chr": "2",
+    "Start": "112829751",
+    "End": "112836779",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "DPP4",
+    "Chr": "2",
+    "Start": "161992245",
+    "End": "162074215",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "IRS1",
+    "Chr": "2",
+    "Start": "226731312",
+    "End": "226799820",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "GHRL",
+    "Chr": "3",
+    "Start": "10285666",
+    "End": "10292947",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "FSTL1",
+    "Chr": "3",
+    "Start": "120392293",
+    "End": "120450992",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "AHSG",
+    "Chr": "3",
+    "Start": "186613060",
+    "End": "186621318",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ADIPOQ",
+    "Chr": "3",
+    "Start": "186842710",
+    "End": "186858463",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CXCL1",
+    "Chr": "4",
+    "Start": "73869393",
+    "End": "73871308",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CXCL5",
+    "Chr": "4",
+    "Start": "73995642",
+    "End": "73998677",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "SPP1",
+    "Chr": "4",
+    "Start": "87975714",
+    "End": "87983411",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C1QTNF12",
+    "Chr": "4",
+    "Start": "156046769",
+    "End": "156051086",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C1QTNF3",
+    "Chr": "5",
+    "Start": "34017858",
+    "End": "34244724",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C1QTNF7",
+    "Chr": "5",
+    "Start": "43672792",
+    "End": "43776805",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CXCL14",
+    "Chr": "5",
+    "Start": "135570679",
+    "End": "135578991",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "GPX3",
+    "Chr": "5",
+    "Start": "151020591",
+    "End": "151028988",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "GM2A",
+    "Chr": "5",
+    "Start": "151253185",
+    "End": "151270440",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "TNF",
+    "Chr": "6",
+    "Start": "31575565",
+    "End": "31578336",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "APOM",
+    "Chr": "6",
+    "Start": "31652404",
+    "End": "31658210",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "VEGFA",
+    "Chr": "6",
+    "Start": "43770211",
+    "End": "43786487",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "IL6",
+    "Chr": "7",
+    "Start": "22727200",
+    "End": "22731998",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "SFRP4",
+    "Chr": "7",
+    "Start": "37905932",
+    "End": "37916817",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "HGF",
+    "Chr": "7",
+    "Start": "81699010",
+    "End": "81770047",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "AZGP1",
+    "Chr": "7",
+    "Start": "99966730",
+    "End": "99976031",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "PCOLCE",
+    "Chr": "7",
+    "Start": "100602363",
+    "End": "100608175",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "NAMPT",
+    "Chr": "7",
+    "Start": "106248298",
+    "End": "106285888",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CAV1",
+    "Chr": "7",
+    "Start": "116525009",
+    "End": "116561185",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "LEP",
+    "Chr": "7",
+    "Start": "128241278",
+    "End": "128257629",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "RARRES2",
+    "Chr": "7",
+    "Start": "150338329",
+    "End": "150341629",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CLU",
+    "Chr": "8",
+    "Start": "27596917",
+    "End": "27614700",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "FABP4",
+    "Chr": "8",
+    "Start": "81478419",
+    "End": "81483233",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CCN4",
+    "Chr": "8",
+    "Start": "133191039",
+    "End": "133231690",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ORM1",
+    "Chr": "9",
+    "Start": "114323098",
+    "End": "114326479",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ANGPTL2",
+    "Chr": "9",
+    "Start": "127087348",
+    "End": "127122635",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "LCN2",
+    "Chr": "9",
+    "Start": "128149453",
+    "End": "128153453",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "PTGDS",
+    "Chr": "9",
+    "Start": "136977504",
+    "End": "136981742",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ITIH5",
+    "Chr": "10",
+    "Start": "7559270",
+    "End": "7666966",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "SIRT1",
+    "Chr": "10",
+    "Start": "67884656",
+    "End": "67918390",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "RBP4",
+    "Chr": "10",
+    "Start": "93591694",
+    "End": "93601744",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "SFRP5",
+    "Chr": "10",
+    "Start": "97766751",
+    "End": "97771999",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "NUCB2",
+    "Chr": "11",
+    "Start": "17276739",
+    "End": "17349980",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "SAA1",
+    "Chr": "11",
+    "Start": "18266264",
+    "End": "18269967",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C1QTNF2",
+    "Chr": "11",
+    "Start": "43364984",
+    "End": "43382485",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C1QTNF4",
+    "Chr": "11",
+    "Start": "47589667",
+    "End": "47595304",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "SLC2A4",
+    "Chr": "11",
+    "Start": "69833112",
+    "End": "69839040",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CRYAB",
+    "Chr": "11",
+    "Start": "111908564",
+    "End": "111923740",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "IL18",
+    "Chr": "11",
+    "Start": "112143260",
+    "End": "112164094",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C1QTNF5",
+    "Chr": "11",
+    "Start": "119338942",
+    "End": "119346705",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "METRNL",
+    "Chr": "11",
+    "Start": "121593253",
+    "End": "121608215",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C1QTNF9",
+    "Chr": "13",
+    "Start": "24307166",
+    "End": "24322531",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "HMGB1",
+    "Chr": "13",
+    "Start": "30456704",
+    "End": "30617597",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "GDF10",
+    "Chr": "14",
+    "Start": "33645544",
+    "End": "33658471",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "BMP4",
+    "Chr": "14",
+    "Start": "46620982",
+    "End": "46628126",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "LGALS3",
+    "Chr": "14",
+    "Start": "55129252",
+    "End": "55145430",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "SERPINA12",
+    "Chr": "14",
+    "Start": "94487279",
+    "End": "94517844",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "DLK1",
+    "Chr": "14",
+    "Start": "100726892",
+    "End": "100738224",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "GREM1",
+    "Chr": "15",
+    "Start": "32718004",
+    "End": "32745106",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "FBN1",
+    "Chr": "15",
+    "Start": "48408313",
+    "End": "48645709",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CILP",
+    "Chr": "15",
+    "Start": "65194760",
+    "End": "65211473",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "NRG4",
+    "Chr": "15",
+    "Start": "75935393",
+    "End": "76060240",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "DGAT1",
+    "Chr": "15",
+    "Start": "76386215",
+    "End": "76396167",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "NMB",
+    "Chr": "15",
+    "Start": "84655132",
+    "End": "84658199",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "SERPINF1",
+    "Chr": "17",
+    "Start": "1762060",
+    "End": "1777565",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "DLL1",
+    "Chr": "17",
+    "Start": "15587616",
+    "End": "15597275",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CCL2",
+    "Chr": "17",
+    "Start": "34255285",
+    "End": "34257203",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "GRN",
+    "Chr": "17",
+    "Start": "44345302",
+    "End": "44353106",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ACE",
+    "Chr": "17",
+    "Start": "63477061",
+    "End": "63498373",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "SSTR2",
+    "Chr": "17",
+    "Start": "73165010",
+    "End": "73176633",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "SOCS3",
+    "Chr": "17",
+    "Start": "78356778",
+    "End": "78360925",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C1QTNF1",
+    "Chr": "17",
+    "Start": "79022934",
+    "End": "79049788",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "CFD",
+    "Chr": "19",
+    "Start": "859664",
+    "End": "863641",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "LRG1",
+    "Chr": "19",
+    "Start": "4536402",
+    "End": "4540036",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C3",
+    "Chr": "19",
+    "Start": "6677704",
+    "End": "6720650",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "RETN",
+    "Chr": "19",
+    "Start": "7669049",
+    "End": "7670455",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ANGPTL4",
+    "Chr": "19",
+    "Start": "8364155",
+    "End": "8374370",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ANGPTL6",
+    "Chr": "19",
+    "Start": "10092338",
+    "End": "10106190",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ANGPTL8",
+    "Chr": "19",
+    "Start": "11239619",
+    "End": "11241943",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "TGFB1",
+    "Chr": "19",
+    "Start": "41330323",
+    "End": "41353922",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "FGF21",
+    "Chr": "19",
+    "Start": "48755524",
+    "End": "48758330",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ADISSP",
+    "Chr": "20",
+    "Start": "3753508",
+    "End": "3768388",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "WISP2",
+    "Chr": "20",
+    "Start": "5683786",
+    "End": "5691836",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "ISM1",
+    "Chr": "20",
+    "Start": "13221274",
+    "End": "13326723",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "PTPN1",
+    "Chr": "20",
+    "Start": "50510383",
+    "End": "50585241",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "BMP7",
+    "Chr": "20",
+    "Start": "57168753",
+    "End": "57266641",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "HMOX1",
+    "Chr": "22",
+    "Start": "35381096",
+    "End": "35394207",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "C1QTNF6",
+    "Chr": "22",
+    "Start": "37180166",
+    "End": "37199423",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "TAFA5",
+    "Chr": "22",
+    "Start": "48489553",
+    "End": "48751932",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "VEGFD",
+    "Chr": "X",
+    "Start": "15345596",
+    "End": "15384413",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "TIMP1",
+    "Chr": "X",
+    "Start": "47582436",
+    "End": "47586789",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "APLN",
+    "Chr": "X",
+    "Start": "129645259",
+    "End": "129654956",
+    "Type": "protein_coding"
+  },
+  {
+    "Gene": "GPC4",
+    "Chr": "X",
+    "Start": "133300103",
+    "End": "133415489",
+    "Type": "protein_coding"
+  }
+]

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ysy.data.dao.NcRNAdataDao">
+
+  <!-- ResultMap 映射 -->
+  <resultMap id="ncRNADataMap" type="com.ysy.data.entity.ncRNAdata">
+    <result property="gene" column="Gene" jdbcType="VARCHAR"/>
+    <result property="ncRNAtype" column="ncRNA type" jdbcType="VARCHAR"/>
+    <result property="pmid" column="PMID" jdbcType="VARCHAR"/>
+    <result property="articleTitle" column="ArticleTitle" jdbcType="VARCHAR"/>
+    <result property="abstractText" column="Abstract" jdbcType="LONGVARCHAR"/>
+    <result property="yearOfPublication" column="Year of Publication" jdbcType="VARCHAR"/>
+    <result property="species" column="Species" jdbcType="VARCHAR"/>
+    <result property="f8" column="f8" jdbcType="VARCHAR"/>
+  </resultMap>
+
+  <!-- 查询全部数据 -->
+  <select id="queryAllNcRNAdata" resultMap="ncRNADataMap">
+    SELECT
+      `Gene`,
+      `ncRNA type`,
+      `PMID`,
+      `ArticleTitle`,
+      `Abstract`,
+      `Year of Publication`,
+      `Species`,
+      `f8`
+    FROM `ncRNAdata`
+  </select>
+
+  <!-- 查询精简数据（不含 Abstract） -->
+  <select id="queryBriefNcRNAdata" resultMap="ncRNADataMap">
+    SELECT
+      `Gene`,
+      `ncRNA type`,
+      `PMID`,
+      `Species`
+    FROM `ncRNAdata`
+  </select>
+
+  <!-- 根据基因名称查询一条记录 -->
+  <select id="queryByncRNA" resultMap="ncRNADataMap" parameterType="String">
+    SELECT
+      `Gene`,
+      `ncRNA type`,
+      `PMID`,
+      `ArticleTitle`,
+      `Abstract`,
+      `Year of Publication`,
+      `Species`,
+      `f8`
+    FROM `ncRNAdata`
+    WHERE `Gene` = #{gene}
+  </select>
+
+
+</mapper>

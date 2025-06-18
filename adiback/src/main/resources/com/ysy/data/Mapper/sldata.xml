@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ysy.data.dao.synlethalityDao">
+  <!--对应dao层位置修改-->
+
+
+
+  <resultMap id="SLMap" type="com.ysy.data.entity.synlethalitydata">
+    <result property="GeneA" column="GeneA" jdbcType="VARCHAR"/>
+    <result property="GeneB" column="GeneB" jdbcType="VARCHAR"/>
+    <result property="PMID" column="PMID" jdbcType="VARCHAR"/>
+
+  </resultMap>
+  <select id="queryallsldata" resultMap="SLMap">
+    SELECT *
+    FROM synlethalitydata
+  </select>
+
+  <select id="queryByGene" resultMap="SLMap">
+    SELECT *
+    FROM synlethalitydata
+    WHERE GeneA = #{sample} OR  GeneB = #{sample}
+  </select>
+
+</mapper>
+

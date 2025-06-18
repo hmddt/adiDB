@@ -1,0 +1,74 @@
+[
+  {
+    "undefined": "GSE103766",
+    "Title": "Expression data from adipose tissue of 19 healthy obese individuals at three time-points during one-year weightloss intervention",
+    "Organism": "Homo sapiens",
+    "Status": "2017.11.08",
+    "Overall design": "Adipose tissue biopsies were collected from 19 obese healthy participants(Baseline (T0), fifth month (T1) and twelfth month (T2)) to understand the gene expression changes occurring in adipose tissue during weight loss.",
+    "obese group": 19,
+    "lean group": 0
+  },
+  {
+    "undefined": "GSE203371",
+    "Title": "Native ECM in obesity visceral adipose tissue initiates human adipose stem cell senescence via TGF-beta and mitochondrial signaling",
+    "Organism": "Homo sapiens",
+    "Status": "2023.09.24",
+    "Overall design": "Comparative gene expression profiling analysis of RNA-seq data for 8 different donors obese group, and 3 different donors lean group",
+    "obese group": 8,
+    "lean group": 3
+  },
+  {
+    "undefined": "GSE274137",
+    "Title": "Adipose tissue biology and effect of weight loss in women with lipedema",
+    "Organism": "Homo sapiens",
+    "Status": "2024.11.15",
+    "Overall design": "Subcutaneous abdominal and femoral adipose tissue (SAAT and SFAT) samples were isolated by biopsy of obese-lipedema patients before and after mild weight-loss (9%).",
+    "obese group": 1,
+    "lean group": 0
+  },
+  {
+    "undefined": "GSE274713",
+    "Title": "Adipose-Tumor Crosstalk contributes to CXCL5 Mediated Immune Evasion in PDAC",
+    "Organism": "Homo sapiens",
+    "Status": "2024.08.31",
+    "Overall design": "Human peri-pancreatic adipose was collected from pancreatic cancer patients during surgical resection. Conditioned media was made from the tissue, and used to stimulate human cell lines in tissue culture. Cells treated with serum free media or conditioned media were analyzed by RNA sequencing to assess factors from adipose tissue altering pancreatic cancer transcriptional profiles.\r\n  ",
+    "obese group": 0,
+    "lean group": 0
+  },
+  {
+    "undefined": "GSE267287",
+    "Title": "Transcriptome profiling identified dysregulated signaling related to adipogenesis, metabolism, and inflammation in polycystic ovary syndrome patients",
+    "Organism": "Homo sapiens",
+    "Status": "2024.08.16",
+    "Overall design": "To investigate the functional difference between iPSC-derived MPCs from PCOS and healthy control (HC), RNA-seq analysis was conducted on eight iPSC-derived MPCs, comprising four from individuals with PCOS and four from HC.",
+    "obese group": 0,
+    "lean group": 0
+  },
+  {
+    "undefined": "GSE271700",
+    "Title": "Transcriptome Changes and Metabolic Outcomes After Bariatric Surgery in Adults With Obesity and Type 2 Diabetes",
+    "Organism": "Homo sapiens",
+    "Status": "2024.07.09",
+    "Overall design": "We performed a whole-genome microarray in peripheral mononuclear cells at baseline (before surgery) and 2 and 12 months after bariatric surgery in a prospective cohort of 26 adults with obesity and type 2 diabetes. We applied machine learning to the baseline transcriptome to identify genes that predict metabolic outcomes.",
+    "obese group": 26,
+    "lean group": 0
+  },
+  {
+    "undefined": "GSE267084",
+    "Title": "Periprostatic adipose tissue inhibits tumor progression by secreting apoptotic factors: A natural barrier induced by the immune response during the early stages of prostate cancer",
+    "Organism": "Homo sapiens",
+    "Status": "2024.05.15",
+    "Overall design": " RNA-Seq was performed to enable a comparison of the RNA expression between cells cultured in control-CM, PPAT-CM, or PVAT-CM.",
+    "obese group": 0,
+    "lean group": 0
+  },
+  {
+    "undefined": "GSE249054",
+    "Title": "Comprehensive Analysis of Differentially Expressed LncRNAs associated with Lipid Metabolism in Patients with Colorectal Cance",
+    "Organism": "Homo sapiens",
+    "Status": "2023.12.17",
+    "Overall design": "In this study, high-throughput LncRNA sequencing assay was used to analyze human colorectal cancer tissue, para-cancer tissue and para-cancer mesenteric adipose tissue of 10 patients. we conducted the comprehensive screening and analysis of LncRNA associated with lipid metabolism in human colorectal cancer based on bioinformatics, in order to investigate the differentially expressed LncRNA related to adipose metabolism and analyze the mechanism of their involvement in colorectal cancer.",
+    "obese group": 10,
+    "lean group": 0
+  }
+]

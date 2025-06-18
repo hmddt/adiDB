@@ -1,0 +1,98 @@
+[
+  {
+    "gene": "TGFB2",
+    "value": "TGFB2",
+    "species": 40
+  },
+  {
+    "gene": "SIRT1",
+    "value": "SIRT1",
+    "species": 44
+  },
+  {
+    "gene": "SFRP5",
+    "value": "SFRP5",
+    "species": 42
+  },
+  {
+    "gene": "SERPINF1",
+    "value": "SERPINF1",
+    "species": 37
+  },
+  {
+    "gene": "RBP4",
+    "value": "RBP4",
+    "species": 43
+  },
+  {
+    "gene": "ISM1",
+    "value": "ISM1",
+    "species": 40
+  },
+  {
+    "gene": "IRS1",
+    "value": "IRS1",
+    "species": 37
+  },
+  {
+    "gene": "IL10",
+    "value": "IL10",
+    "species": 41
+  },
+  {
+    "gene": "HMGB1",
+    "value": "HMGB1",
+    "species": 31
+  },
+  {
+    "gene": "GPX3",
+    "value": "GPX3",
+    "species": 40
+  },
+  {
+    "gene": "GM2A",
+    "value": "GM2A",
+    "species": 31
+  },
+  {
+    "gene": "FBN1",
+    "value": "FBN1",
+    "species": 32
+  },
+  {
+    "gene": "DPT",
+    "value": "DPT",
+    "species": 43
+  },
+  {
+    "gene": "CXCL14",
+    "value": "CXCL14",
+    "species": 39
+  },
+  {
+    "gene": "CLU",
+    "value": "CLU",
+    "species": 33
+  },
+  {
+    "gene": "CAV1",
+    "value": "CAV1",
+    "species": 30
+  },
+  {
+    "gene": "C1QTNF12",
+    "value": "C1QTNF12",
+    "species": 40
+  },
+  {
+    "gene": "C1QTNF1",
+    "value": "C1QTNF1",
+    "species": 35
+  },
+  {
+    "gene": "ANGPTL4",
+    "value": "ANGPTL4",
+    "species": 38
+  }
+
+]
