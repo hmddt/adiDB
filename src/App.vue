@@ -371,6 +371,9 @@ color: #f6f6f6;
 .main-content-wrapper {
   min-height: calc(100vh - 60px - 200px); /* 假设导航栏高60px，页脚高200px，具体值需要您根据实际情况调整 */
   display: flex;
+  margin: 0 auto;
+  width: 1400px;
+  background: white;
   flex-direction: column;
   justify-content: center;
   align-items: center;
