@@ -128,7 +128,7 @@
           v-if="!imgLoaded"
           :src="previewSrc"
           alt="Preview"
-          style="width: 13500px; filter: blur(8px); transition: opacity 0.3s;" />
+          style="width: 1350px; filter: blur(8px); transition: opacity 0.3s;" />
 
         <!-- 高清图加载完成后替换 -->
         <img
