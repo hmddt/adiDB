@@ -4,692 +4,749 @@
     "Chr": "1",
     "Start": "100719742",
     "End": "100739045",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Vascular Cell Adhesion Molecule 1",
+    "Ensembl": "ENSG00000162692",
+    "Function": "Chemerin is a recently identified adipocytokine which plays a role on inflammation and adipocytes metabolism. "
   },
   {
     "Gene": "CRP",
     "Chr": "1",
     "Start": "159712289",
     "End": "159714589",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C-Reactive Protein",
+    "Ensembl": "ENSG00000132693",
+    "Function": "Can interact with DNA and histones and may scavenge nuclear material released from damaged circulating cells."
   },
   {
     "Gene": "ITLN1",
     "Chr": "1",
     "Start": "160876540",
     "End": "160885180",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Intelectin 1",
+    "Ensembl": "ENSG00000179914",
+    "Function": "Enables calcium ion binding activity; identical protein binding activity; and oligosaccharide binding activity. Involved in positive regulation of glucose import; positive regulation of protein phosphorylation; and protein homotrimerization."
   },
   {
     "Gene": "DPT",
     "Chr": "1",
     "Start": "168695468",
     "End": "168729206",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tDermatopontin",
+    "Ensembl": "ENSG00000143196",
+    "Function": "Dermatopontin is an extracellular matrix protein with possible functions in cell-matrix interactions and matrix assembly. "
   },
   {
     "Gene": "CFH",
     "Chr": "1",
     "Start": "196652043",
     "End": "196747504",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Complement Factor H",
+    "Ensembl": "ENSG00000000971",
+    "Function": "This gene is a member of the Regulator of Complement Activation (RCA) gene cluster and encodes a protein with twenty short consensus repeat (SCR) domains. This protein is secreted into the bloodstream and has an essential role in the regulation of complement activation, restricting this innate defense mechanism to microbial infections."
   },
   {
     "Gene": "IL10",
     "Chr": "1",
     "Start": "206767602",
     "End": "206772494",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "TGFB2",
-    "Chr": "1",
-    "Start": "218345336",
-    "End": "218444619",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Interleukin 10",
+    "Ensembl": "ENSG00000136634",
+    "Function": "The protein encoded by this gene is a cytokine produced primarily by monocytes and to a lesser extent by lymphocytes. This cytokine has pleiotropic effects in immunoregulation and inflammation. It down-regulates the expression of Th1 cytokines, MHC class II Ags, and costimulatory molecules on macrophages. It also enhances B cell survival, proliferation, and antibody production. This cytokine can block NF-kappa B activity, and is involved in the regulation of the JAK-STAT signaling pathway. Knockout studies in mice suggested the function of this cytokine as an essential immunoregulator in the intestinal tract. Mutations in this gene are associated with an increased susceptibility to HIV-1 infection and rheumatoid arthritis."
   },
   {
     "Gene": "C1QL3",
     "Chr": "2",
     "Start": "13006591",
     "End": "13016491",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C1q And TNF Related 13",
+    "Ensembl": "ENSG00000165985",
+    "Function": "Form a hypothalamic feedback loop to modulate food intake and that this neural circuit may be disrupted in anorexia."
   },
   {
     "Gene": "FNDC4",
     "Chr": "2",
     "Start": "27491883",
     "End": "27495200",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Fibronectin type III domain containing 4",
+    "Ensembl": "ENSG00000115226",
+    "Function": "Involved in response to transforming growth factor beta. Predicted to be located in endoplasmic reticulum and extracellular space. Predicted to be active in extracellular region and plasma membrane. "
   },
   {
     "Gene": "IL1B",
     "Chr": "2",
     "Start": "112829751",
     "End": "112836779",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Interleukin 1 beta\t",
+    "Ensembl": "ENSG00000125538",
+    "Function": "Cytokines are proteinaceous signaling compounds that are major mediators of the immune response. They control many different cellular functions including proliferation, differentiation and cell survival/apoptosis but are also involved in several pathophysiological processes."
   },
   {
     "Gene": "DPP4",
     "Chr": "2",
     "Start": "161992245",
     "End": "162074215",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Dipeptidyl Peptidase 4",
+    "Ensembl": "ENSG00000197635",
+    "Function": "Under normal physiological conditions, DPP-4 rapidly degrades GIP and GLP-1."
   },
   {
     "Gene": "IRS1",
     "Chr": "2",
     "Start": "226731312",
     "End": "226799820",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Insulin Receptor Substrate 1",
+    "Ensembl": "ENSG00000169047",
+    "Function": "This gene encodes a protein which is phosphorylated by insulin receptor tyrosine kinase. Mutations in this gene are associated with type II diabetes and susceptibility to insulin resistance. "
   },
   {
     "Gene": "GHRL",
     "Chr": "3",
     "Start": "10285666",
     "End": "10292947",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tGhrelin and obestatin prepropeptide",
+    "Ensembl": "ENSG00000157017",
+    "Function": "This gene encodes the ghrelin-obestatin preproprotein that is cleaved to yield two peptides, ghrelin and obestatin."
   },
   {
     "Gene": "FSTL1",
     "Chr": "3",
     "Start": "120392293",
     "End": "120450992",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tFollistatin like 1",
+    "Ensembl": "ENSG00000163430",
+    "Function": "This gene encodes a protein with similarity to follistatin, an activin-binding protein. It contains an FS module, a follistatin-like sequence containing 10 conserved cysteine residues. "
   },
   {
     "Gene": "AHSG",
     "Chr": "3",
     "Start": "186613060",
     "End": "186621318",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "ADIPOQ",
-    "Chr": "3",
-    "Start": "186842710",
-    "End": "186858463",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Alpha 2-HS glycoprotein",
+    "Ensembl": "ENSG00000145192",
+    "Function": "Promotes endocytosis, possesses opsonic properties and influences the mineral phase of bone. Shows affinity for calcium and barium ions."
   },
   {
     "Gene": "CXCL1",
     "Chr": "4",
     "Start": "73869393",
     "End": "73871308",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C-X-C Motif Chemokine Ligand 1",
+    "Ensembl": "ENSG00000163739",
+    "Function": "Has chemotactic activity for neutrophils. May play a role in inflammation and exerts its effects on endothelial cells in an autocrine fashion."
   },
   {
     "Gene": "CXCL5",
     "Chr": "4",
     "Start": "73995642",
     "End": "73998677",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "SPP1",
-    "Chr": "4",
-    "Start": "87975714",
-    "End": "87983411",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C-X-C Motif Chemokine Ligand 5",
+    "Ensembl": "ENSG00000163735",
+    "Function": "Involved in neutrophil activation. "
   },
   {
     "Gene": "C1QTNF12",
     "Chr": "4",
     "Start": "156046769",
     "End": "156051086",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C1q And TNF Related 12",
+    "Ensembl": "ENSG00000184163",
+    "Function": "Mediate changes in glucose homeostasis and inflammatory responses"
   },
   {
     "Gene": "C1QTNF3",
     "Chr": "5",
     "Start": "34017858",
     "End": "34244724",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "C1QTNF7",
-    "Chr": "5",
-    "Start": "43672792",
-    "End": "43776805",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C1q And TNF Related 3",
+    "Ensembl": "ENSG00000082196",
+    "Function": "Enables identical protein binding activity. Involved in several processes, including cellular triglyceride homeostasis; negative regulation of NIK/NF-kappaB signaling; and regulation of cytokine production. Acts upstream of or within negative regulation of gluconeogenesis. Located in extracellular exosome and membrane."
   },
   {
     "Gene": "CXCL14",
     "Chr": "5",
     "Start": "135570679",
     "End": "135578991",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C-X-C motif chemokine ligand 14",
+    "Ensembl": "ENSG00000145824",
+    "Function": "This cytokine displays chemotactic activity for monocytes but not for lymphocytes, dendritic cells, neutrophils or macrophages. It has been implicated that this cytokine is involved in the homeostasis of monocyte-derived macrophages rather than in inflammation. "
   },
   {
     "Gene": "GPX3",
     "Chr": "5",
     "Start": "151020591",
     "End": "151028988",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "GM2A",
-    "Chr": "5",
-    "Start": "151253185",
-    "End": "151270440",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Glutathione peroxidase 3",
+    "Ensembl": "ENSG00000211445",
+    "Function": "Protects cells and enzymes from oxidative damage, by catalyzing the reduction of hydrogen peroxide, lipid peroxides and organic hydroperoxide, by glutathione."
   },
   {
     "Gene": "TNF",
     "Chr": "6",
     "Start": "31575565",
     "End": "31578336",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Tumor Necrosis Factor",
+    "Ensembl": "ENSG00000232810",
+    "Function": "Cytokine that binds to TNFRSF1A/TNFR1 and TNFRSF1B/TNFBR. It is mainly secreted by macrophages and can induce cell death of certain tumor cell lines. "
   },
   {
     "Gene": "APOM",
     "Chr": "6",
     "Start": "31652404",
     "End": "31658210",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tApolipoprotein M",
+    "Ensembl": "ENSG00000204444",
+    "Function": "It is found associated with high density lipoproteins and to a lesser extent with low density lipoproteins and triglyceride-rich lipoproteins. The encoded protein is secreted through the plasma membrane but remains membrane-bound, where it is involved in lipid transport."
   },
   {
     "Gene": "VEGFA",
     "Chr": "6",
     "Start": "43770211",
     "End": "43786487",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Vascular Endothelial Growth Factor A",
+    "Ensembl": "ENSG00000112715",
+    "Function": "Vascular endothelial growth factor (VEGF) is the only true endothelial cell growth factor and is necessary to initiate the formation of immature vessels by either vasculogenesis or angiogenic sprouting in the adult and during development."
   },
   {
     "Gene": "IL6",
     "Chr": "7",
     "Start": "22727200",
     "End": "22731998",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "SFRP4",
-    "Chr": "7",
-    "Start": "37905932",
-    "End": "37916817",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Interleukin 6",
+    "Ensembl": "ENSG00000136244",
+    "Function": "This gene encodes a cytokine that functions in inflammation and the maturation of B cells."
   },
   {
     "Gene": "HGF",
     "Chr": "7",
     "Start": "81699010",
     "End": "81770047",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "AZGP1",
-    "Chr": "7",
-    "Start": "99966730",
-    "End": "99976031",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "PCOLCE",
-    "Chr": "7",
-    "Start": "100602363",
-    "End": "100608175",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Hepatocyte growth factor",
+    "Ensembl": "ENSG00000019991",
+    "Function": "This gene encodes a protein that binds to the hepatocyte growth factor receptor to regulate cell growth, cell motility and morphogenesis in numerous cell and tissue types. "
   },
   {
     "Gene": "NAMPT",
     "Chr": "7",
     "Start": "106248298",
     "End": "106285888",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Visfatin",
+    "Ensembl": "ENSG00000105835",
+    "Function": "This gene encodes a protein that catalyzes the condensation of nicotinamide with 5-phosphoribosyl-1-pyrophosphate to yield nicotinamide mononucleotide, one step in the biosynthesis of nicotinamide adenine dinucleotide. The protein belongs to the nicotinic acid phosphoribosyltransferase (NAPRTase) family and is thought to be involved in many important biological processes, including metabolism, stress response and aging. This gene has a pseudogene on chromosome 10."
   },
   {
     "Gene": "CAV1",
     "Chr": "7",
     "Start": "116525009",
     "End": "116561185",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Caveolin 1",
+    "Ensembl": "ENSG00000105974",
+    "Function": "The protein links integrin subunits to the tyrosine kinase FYN, an initiating step in coupling integrins to the Ras-ERK pathway and promoting cell cycle progression. The gene is a tumor suppressor gene candidate and a negative regulator of the Ras-p42/44 mitogen-activated kinase cascade. "
   },
   {
     "Gene": "LEP",
     "Chr": "7",
     "Start": "128241278",
     "End": "128257629",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Leptin",
+    "Ensembl": "ENSG00000174697",
+    "Function": "This gene encodes a protein that is secreted by white adipocytes into the circulation and plays a major role in the regulation of energy homeostasis. Circulating leptin binds to the leptin receptor in the brain, which activates downstream signaling pathways that inhibit feeding and promote energy expenditure. This protein also has several endocrine functions, and is involved in the regulation of immune and inflammatory responses, hematopoiesis, angiogenesis, reproduction, bone formation and wound healing. Mutations in this gene and its regulatory regions cause severe obesity and morbid obesity with hypogonadism in human patients. A mutation in this gene has also been linked to type 2 diabetes mellitus development."
   },
   {
     "Gene": "RARRES2",
     "Chr": "7",
     "Start": "150338329",
     "End": "150341629",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Chemerin",
+    "Ensembl": "ENSG00000106538",
+    "Function": "This gene encodes a secreted chemotactic protein that initiates chemotaxis via the ChemR23 G protein-coupled seven-transmembrane domain ligand. Expression of this gene is upregulated by the synthetic retinoid tazarotene and occurs in a wide variety of tissues. The active protein has several roles, including that as an adipokine and as an antimicrobial protein with activity against bacteria and fungi."
   },
   {
     "Gene": "CLU",
     "Chr": "8",
     "Start": "27596917",
     "End": "27614700",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Clusterin\t",
+    "Ensembl": "ENSG00000120885",
+    "Function": "The protein encoded by this gene is a secreted chaperone that can under some stress conditions also be found in the cell cytosol. It has been suggested to be involved in several basic biological events such as cell death, tumor progression, and neurodegenerative disorders."
   },
   {
     "Gene": "FABP4",
     "Chr": "8",
     "Start": "81478419",
     "End": "81483233",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "CCN4",
-    "Chr": "8",
-    "Start": "133191039",
-    "End": "133231690",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Fatty Acid Binding Protein 4",
+    "Ensembl": "ENSG00000170323",
+    "Function": "Fatty acid binding protein 4 (FABP4) is responsible for the formation of mature adipocytes. "
   },
   {
     "Gene": "ORM1",
     "Chr": "9",
     "Start": "114323098",
     "End": "114326479",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Orosomucoid 1",
+    "Ensembl": "ENSG00000229314",
+    "Function": "This gene encodes a key acute phase plasma protein. Because of its increase due to acute inflammation, this protein is classified as an acute-phase reactant. The specific function of this protein has not yet been determined; however, it may be involved in aspects of immunosuppression."
   },
   {
     "Gene": "ANGPTL2",
     "Chr": "9",
     "Start": "127087348",
     "End": "127122635",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Angiopoietin-Related Protein 2",
+    "Ensembl": "ENSG00000136859",
+    "Function": "ANGPTL2 protein is a secreted glycoprotein with homology to the angiopoietins and may exert a function on endothelial cells through autocrine or paracrine action."
   },
   {
     "Gene": "LCN2",
     "Chr": "9",
     "Start": "128149453",
     "End": "128153453",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Lipocalin 2",
+    "Ensembl": "ENSG00000148346",
+    "Function": "Transport small hydrophobic molecules such as lipids, steroid hormones and retinoids."
   },
   {
     "Gene": "PTGDS",
     "Chr": "9",
     "Start": "136977504",
     "End": "136981742",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Prostaglandin D2 Synthase",
+    "Ensembl": "ENSG00000107317",
+    "Function": "A glutathione-independent prostaglandin D synthase that catalyzes the conversion of prostaglandin H2 (PGH2) to postaglandin D2 (PGD2). PGD2 functions as a neuromodulator as well as a trophic factor in the central nervous system."
   },
   {
     "Gene": "ITIH5",
     "Chr": "10",
     "Start": "7559270",
     "End": "7666966",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Inter-Alpha-Trypsin Inhibitor Heavy Chain 5 ",
+    "Ensembl": "ENSG00000123243",
+    "Function": "ITI proteins are involved in extracellular matrix stabilization and in the prevention of tumor metastasis. They are also structurally related plasma serine protease inhibitors and are composed of a light chain and varying numbers of heavy chains. "
   },
   {
     "Gene": "SIRT1",
     "Chr": "10",
     "Start": "67884656",
     "End": "67918390",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Sirtuin 1",
+    "Ensembl": "ENSG00000096717",
+    "Function": "NAD-dependent protein deacetylase that links transcriptional regulation directly to intracellular energetics and participates in the coordination of several separated cellular functions such as cell cycle, response to DNA damage, metabolism, apoptosis and autophagy."
   },
   {
     "Gene": "RBP4",
     "Chr": "10",
     "Start": "93591694",
     "End": "93601744",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Retinol Binding Protein 4",
+    "Ensembl": "ENSG00000138207",
+    "Function": "This protein belongs to the lipocalin family and is the specific carrier for retinol (vitamin A alcohol) in the blood. It delivers retinol from the liver stores to the peripheral tissues. In plasma, the RBP-retinol complex interacts with transthyretin which prevents its loss by filtration through the kidney glomeruli. A deficiency of vitamin A blocks secretion of the binding protein posttranslationally and results in defective delivery and supply to the epidermal cells."
   },
   {
     "Gene": "SFRP5",
     "Chr": "10",
     "Start": "97766751",
     "End": "97771999",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "NUCB2",
-    "Chr": "11",
-    "Start": "17276739",
-    "End": "17349980",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Secreted Frizzled Related Protein 5",
+    "Ensembl": "ENSG00000120057",
+    "Function": "Soluble frizzled-related proteins (sFRPS) function as modulators of Wnt signaling through direct interaction with Wnts. They have a role in regulating cell growth and differentiation in specific cell types. SFRP5 may be involved in determining the polarity of photoreceptor, and perhaps, other cells in the retina."
   },
   {
     "Gene": "SAA1",
     "Chr": "11",
     "Start": "18266264",
     "End": "18269967",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "C1QTNF2",
-    "Chr": "11",
-    "Start": "43364984",
-    "End": "43382485",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Serum amyloid A1",
+    "Ensembl": "ENSG00000173432",
+    "Function": "This gene encodes a member of the serum amyloid A family of apolipoproteins. The encoded preproprotein is proteolytically processed to generate the mature protein. This protein is a major acute phase protein that is highly expressed in response to inflammation and tissue injury. This protein also plays an important role in HDL metabolism and cholesterol homeostasis."
   },
   {
     "Gene": "C1QTNF4",
     "Chr": "11",
     "Start": "47589667",
     "End": "47595304",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C1q and TNF related 4",
+    "Ensembl": "ENSG00000172247",
+    "Function": "Predicted to enable cytokine activity. Involved in positive regulation of cytokine production and positive regulation of signal transduction. Located in extracellular space."
   },
   {
     "Gene": "SLC2A4",
     "Chr": "11",
     "Start": "69833112",
     "End": "69839040",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Solute Carrier Family 2 Member 4",
+    "Ensembl": "ENSG00000181856",
+    "Function": "Insulin-regulated facilitative glucose transporter, which plays a key role in removal of glucose from circulation. Response to insulin is regulated by its intracellular localization: in the absence of insulin, it is efficiently retained intracellularly within storage compartments in muscle and fat cells. Upon insulin stimulation, translocates from these compartments to the cell surface where it transports glucose from the extracellular milieu into the cell."
   },
   {
     "Gene": "CRYAB",
     "Chr": "11",
     "Start": "111908564",
     "End": "111923740",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Crystallin Alpha B",
+    "Ensembl": "ENSG00000109846",
+    "Function": "May contribute to the transparency and refractive index of the lens. Has chaperone-like activity, preventing aggregation of various proteins under a wide range of stress conditions. In lens epithelial cells, stabilizes the ATP6V1A protein, preventing its degradation by the proteasome (By similarity)."
   },
   {
     "Gene": "IL18",
     "Chr": "11",
     "Start": "112143260",
     "End": "112164094",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "C1QTNF5",
-    "Chr": "11",
-    "Start": "119338942",
-    "End": "119346705",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Interleukin 18",
+    "Ensembl": "ENSG00000150782",
+    "Function": "The protein encoded by this gene is a proinflammatory cytokine of the IL-1 family that is constitutively found as a precursor within the cytoplasm of a variety of cells including macrophages and keratinocytes. The inactive IL-18 precursor is processed to its active form by caspase-1, and is capable of stimulating interferon gamma production, and of regulating both T helper (Th) 1 and Th2 responses. This cytokine has been implicated in the injury of different organs, and in potentially fatal conditions characterized by a cytokine storm. "
   },
   {
     "Gene": "METRNL",
     "Chr": "11",
     "Start": "121593253",
     "End": "121608215",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tMeteorin like, glial cell differentiation regulator",
+    "Ensembl": "ENSG00000176845",
+    "Function": "Predicted to be involved in several processes, including brown fat cell differentiation; energy homeostasis; and positive regulation of brown fat cell differentiation. Located in extracellular exosome."
   },
   {
     "Gene": "C1QTNF9",
     "Chr": "13",
     "Start": "24307166",
     "End": "24322531",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C1q And TNF Related 9",
+    "Ensembl": "ENSG00000240654",
+    "Function": "C1QTNF9 (C1q And TNF Related 9) is a Protein Coding gene. Diseases associated with C1QTNF9 include Late-Onset Retinal Degeneration."
   },
   {
     "Gene": "HMGB1",
     "Chr": "13",
     "Start": "30456704",
     "End": "30617597",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tHigh mobility group box 1",
+    "Ensembl": "ENSG00000189403",
+    "Function": "This protein plays a role in several cellular processes, including inflammation, cell differentiation and tumor cell migration. "
   },
   {
     "Gene": "GDF10",
     "Chr": "14",
     "Start": "33645544",
     "End": "33658471",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Growth differentiation factor 10",
+    "Ensembl": "ENSG00000266524",
+    "Function": "This protein may act as a tumor suppressor and reduced expression of this gene is associated with oral cancer. "
   },
   {
     "Gene": "BMP4",
     "Chr": "14",
     "Start": "46620982",
     "End": "46628126",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Bone Morphogenetic Protein 4",
+    "Ensembl": "ENSG00000125378",
+    "Function": "BMP4 have been demonstrated to have antagonistic effects on insulin signaling and thereby on glucose homeostasis."
   },
   {
     "Gene": "LGALS3",
     "Chr": "14",
     "Start": "55129252",
     "End": "55145430",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tGalectin 3",
+    "Ensembl": "ENSG00000131981",
+    "Function": "This protein plays a role in numerous cellular functions including apoptosis, innate immunity, cell adhesion and T-cell regulation. The protein exhibits antimicrobial activity against bacteria and fungi. Alternate splicing results in multiple transcript variants."
   },
   {
     "Gene": "SERPINA12",
     "Chr": "14",
     "Start": "94487279",
     "End": "94517844",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Serpin Family A Member 12",
+    "Ensembl": "ENSG00000165953",
+    "Function": "Vaspin is a novel anti-inflammatory adipokine associated with cardiovascular (CV) disease and inflammation in chronic inflammatory conditions different from axial spondyloarthritis (axSpA). "
   },
   {
     "Gene": "DLK1",
     "Chr": "14",
     "Start": "100726892",
     "End": "100738224",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Delta like non-canonical Notch ligand 1",
+    "Ensembl": "ENSG00000185559",
+    "Function": "May have a role in neuroendocrine differentiation."
   },
   {
     "Gene": "GREM1",
     "Chr": "15",
     "Start": "32718004",
     "End": "32745106",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tGremlin 1, DAN family BMP antagonist",
+    "Ensembl": "ENSG00000166923",
+    "Function": "As an antagonist of BMP, this gene may play a role in regulating organogenesis, body patterning, and tissue differentiation."
   },
   {
     "Gene": "FBN1",
     "Chr": "15",
     "Start": "48408313",
     "End": "48645709",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tFibrillin 1",
+    "Ensembl": "ENSG00000166147",
+    "Function": "The encoded preproprotein is proteolytically processed to generate two proteins including the extracellular matrix component fibrillin-1 and the protein hormone asprosin."
   },
   {
     "Gene": "CILP",
     "Chr": "15",
     "Start": "65194760",
     "End": "65211473",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Cartilage Intermediate Layer Protein",
+    "Ensembl": "ENSG00000138615",
+    "Function": "Major alterations in the composition of the cartilage extracellular matrix occur in joint disease, such as osteoarthrosis. This gene encodes the cartilage intermediate layer protein (CILP), which increases in early osteoarthrosis cartilage. The encoded protein was thought to encode a protein precursor for two different proteins; an N-terminal CILP and a C-terminal homolog of NTPPHase, however, later studies identified no nucleotide pyrophosphatase phosphodiesterase (NPP) activity. The full-length and the N-terminal domain of this protein was shown to function as an IGF-1 antagonist. An allelic variant of this gene has been associated with lumbar disc disease. "
   },
   {
     "Gene": "NRG4",
     "Chr": "15",
     "Start": "75935393",
     "End": "76060240",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Neuregulin 4",
+    "Ensembl": "ENSG00000169752",
+    "Function": "The neuregulins, including NRG4, activate type-1 growth factor receptors to initiating cell-to-cell signaling through tyrosine phosphorylation."
   },
   {
     "Gene": "DGAT1",
     "Chr": "15",
     "Start": "76386215",
     "End": "76396167",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Diacylglycerol O-Acyltransferase 1",
+    "Ensembl": "ENSG00000185000",
+    "Function": "This gene encodes an multipass transmembrane protein that functions as a key metabolic enzyme. The encoded protein catalyzes the conversion of diacylglycerol and fatty acyl CoA to triacylglycerol. This enzyme can also transfer acyl CoA to retinol. Activity of this protein may be associated with obesity and other metabolic diseases."
   },
   {
     "Gene": "NMB",
     "Chr": "15",
     "Start": "84655132",
     "End": "84658199",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "SERPINF1",
-    "Chr": "17",
-    "Start": "1762060",
-    "End": "1777565",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Neuromedin B",
+    "Ensembl": "ENSG00000197696",
+    "Function": "NMB is important for osteoblast differentiation."
   },
   {
     "Gene": "DLL1",
     "Chr": "17",
     "Start": "15587616",
     "End": "15597275",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tDelta like canonical Notch ligand 1",
+    "Ensembl": "ENSG00000198719",
+    "Function": "It plays a role in mediating cell fate decisions during hematopoiesis. "
   },
   {
     "Gene": "CCL2",
     "Chr": "17",
     "Start": "34255285",
     "End": "34257203",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C-C Motif Chemokine Ligand 2",
+    "Ensembl": "ENSG00000108691",
+    "Function": "Acts as a ligand for C-C chemokine receptor CCR2."
   },
   {
     "Gene": "GRN",
     "Chr": "17",
     "Start": "44345302",
     "End": "44353106",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tGranulin precursor",
+    "Ensembl": "ENSG00000030582",
+    "Function": "Important in normal development, wound healing, and tumorigenesis."
   },
   {
     "Gene": "ACE",
     "Chr": "17",
     "Start": "63477061",
     "End": "63498373",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "SSTR2",
-    "Chr": "17",
-    "Start": "73165010",
-    "End": "73176633",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Angiotensin I converting enzyme",
+    "Ensembl": "ENSG00000159640",
+    "Function": "Encodes an enzyme involved in blood pressure regulation and electrolyte balance."
   },
   {
     "Gene": "SOCS3",
     "Chr": "17",
     "Start": "78356778",
     "End": "78360925",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Suppressor Of Cytokine Signaling 3",
+    "Ensembl": "ENSG00000184557",
+    "Function": "SOCS3 is involved in negative regulation of cytokines that signal through the JAK/STAT pathway. Inhibits cytokine signal transduction by binding to tyrosine kinase receptors including IL6ST/gp130, LIF, erythropoietin, insulin, IL12, GCSF and leptin receptors. Binding to JAK2 inhibits its kinase activity and regulates IL6 signaling. Suppresses fetal liver erythropoiesis. Regulates onset and maintenance of allergic responses mediated by T-helper type 2 cells (By similarity). Probable substrate recognition component of a SCF-like ECS (Elongin BC-CUL2/5-SOCS-box protein) E3 ubiquitin-protein ligase complex which mediates the ubiquitination and subsequent proteasomal degradation of target proteins."
   },
   {
     "Gene": "C1QTNF1",
     "Chr": "17",
     "Start": "79022934",
     "End": "79049788",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "C1q And TNF Related 1",
+    "Ensembl": "ENSG00000173918",
+    "Function": "Including negative regulation of platelet aggregation，positive regulation of aldosterone secretion and positive regulation of cytosolic calcium ion concentration."
   },
   {
     "Gene": "CFD",
     "Chr": "19",
     "Start": "859664",
     "End": "863641",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "LRG1",
-    "Chr": "19",
-    "Start": "4536402",
-    "End": "4540036",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "C3",
-    "Chr": "19",
-    "Start": "6677704",
-    "End": "6720650",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Complement factor D/Adipsin",
+    "Ensembl": "ENSG00000197766",
+    "Function": "This gene encodes a member of the S1, or chymotrypsin, family of serine peptidases. This protease catalyzes the cleavage of factor B, the rate-limiting step of the alternative pathway of complement activation. This protein also functions as an adipokine, a cell signaling protein secreted by adipocytes, which regulates insulin secretion in mice. "
   },
   {
     "Gene": "RETN",
     "Chr": "19",
     "Start": "7669049",
     "End": "7670455",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "ANGPTL4",
-    "Chr": "19",
-    "Start": "8364155",
-    "End": "8374370",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Resistin",
+    "Ensembl": "ENSG00000104918",
+    "Function": "Hormone that seems to suppress insulin ability to stimulate glucose uptake into adipose cells."
   },
   {
     "Gene": "ANGPTL6",
     "Chr": "19",
     "Start": "10092338",
     "End": "10106190",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "ANGPTL8",
-    "Chr": "19",
-    "Start": "11239619",
-    "End": "11241943",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tAngiopoietin like 6",
+    "Ensembl": "ENSG00000130812 ",
+    "Function": "May play a role in the wound healing process. May promote epidermal proliferation, remodeling and regeneration. May promote the chemotactic activity of endothelial cells and induce neovascularization."
   },
   {
     "Gene": "TGFB1",
     "Chr": "19",
     "Start": "41330323",
     "End": "41353922",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tTransforming growth factor beta 1",
+    "Ensembl": "ENSG00000105329 ",
+    "Function": "This encoded protein regulates cell proliferation, differentiation and growth, and can modulate expression and activation of other growth factors including interferon gamma and tumor necrosis factor alpha. This gene is frequently upregulated in tumor cells, and mutations in this gene result in Camurati-Engelmann disease. "
   },
   {
     "Gene": "FGF21",
     "Chr": "19",
     "Start": "48755524",
     "End": "48758330",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "ADISSP",
-    "Chr": "20",
-    "Start": "3753508",
-    "End": "3768388",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Fibroblast Growth Factor 21",
+    "Ensembl": "ENSG00000105550",
+    "Function": "Fibroblast growth factor 21 FGF-21 is a newly discovered adipocytokine which may play a vital role in improvement of insulin sensitivity and pathogenesis of type 2 diabetes. "
   },
   {
     "Gene": "WISP2",
     "Chr": "20",
     "Start": "5683786",
     "End": "5691836",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "ISM1",
-    "Chr": "20",
-    "Start": "13221274",
-    "End": "13326723",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Cellular Communication Network Factor 5",
+    "Ensembl": "ENSG00000064205",
+    "Function": "WISP2 is a direct target gene of the WNT signaling pathway and it likely plays a role in inflammatory arthritis and cell differentiation. "
   },
   {
     "Gene": "PTPN1",
     "Chr": "20",
     "Start": "50510383",
     "End": "50585241",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Protein Tyrosine Phosphatase Non-Receptor Type 1",
+    "Ensembl": "ENSG00000196396",
+    "Function": "PTP1B may attenuate leptin and insulin signaling."
   },
   {
     "Gene": "BMP7",
     "Chr": "20",
     "Start": "57168753",
     "End": "57266641",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Bone morphogenetic protein 7",
+    "Ensembl": "ENSG00000101144",
+    "Function": "Growth factor of the TGF-beta superfamily that plays important role in various biological processes, including embryogenesis, hematopoiesis, neurogenesis and skeletal morphogenesis."
   },
   {
     "Gene": "HMOX1",
     "Chr": "22",
     "Start": "35381096",
     "End": "35394207",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "C1QTNF6",
-    "Chr": "22",
-    "Start": "37180166",
-    "End": "37199423",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "TAFA5",
-    "Chr": "22",
-    "Start": "48489553",
-    "End": "48751932",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "VEGFD",
-    "Chr": "X",
-    "Start": "15345596",
-    "End": "15384413",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "Heme Oxygenase 1",
+    "Ensembl": "ENSG00000100292",
+    "Function": "Heme oxygenase, an essential enzyme in heme catabolism, cleaves heme to form biliverdin, which is subsequently converted to bilirubin by biliverdin reductase, and carbon monoxide, a putative neurotransmitter. Heme oxygenase activity is induced by its substrate heme and by various nonheme substances. Heme oxygenase occurs as 2 isozymes, an inducible heme oxygenase-1 and a constitutive heme oxygenase-2. HMOX1 and HMOX2 belong to the heme oxygenase family. "
   },
   {
     "Gene": "TIMP1",
     "Chr": "X",
     "Start": "47582436",
     "End": "47586789",
-    "Type": "protein_coding"
-  },
-  {
-    "Gene": "APLN",
-    "Chr": "X",
-    "Start": "129645259",
-    "End": "129654956",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "TIMP metallopeptidase inhibitor 1",
+    "Ensembl": "ENSG00000102265",
+    "Function": "The proteins encoded by this gene family are natural inhibitors of the matrix metalloproteinases (MMPs), a group of peptidases involved in degradation of the extracellular matrix. "
   },
   {
     "Gene": "GPC4",
     "Chr": "X",
     "Start": "133300103",
     "End": "133415489",
-    "Type": "protein_coding"
+    "Type": "protein_coding",
+    "Protein": "\tGlypican 4",
+    "Ensembl": "ENSG00000076716",
+    "Function": "May play a role in the control of cell division and growth regulation."
   }
 ]

@@ -300,7 +300,6 @@ export default {
       options:[],
       adiDisease:[],//初始化获取词云json文件  ，数据格式：name   vlaue
       gene:'',
-      allGeneData:[],
       centerDialogVisible :false,
       selectedGene : null,
       examplesstyle1 : false, //示例1鼠标移入效果
@@ -308,6 +307,8 @@ export default {
       chromeGene:[],
       chromeadigene:[],
       foundChromeGene:[],
+      dataLoaded: false, // 添加数据加载状态标记
+      isLoading: true, // 添加加载指示器状态
       imgLoaded: false,
       previewSrc: "http://tmliang.cn/pic/adi/homeimg/机制图-min.png", // 模糊预览图
       fullSrc: "http://tmliang.cn/pic/adi/homeimg/机制图-1.png",         // 高清图
@@ -387,16 +388,13 @@ export default {
       this.$router.push({path:'/'+cardName});
     },
     handleGeneClick(geneName){
-      const foundGene = this.allGeneData.find(
-        (gene) => gene.gene === geneName
-      );
       const foundChromeGene =this.chromeadigene.find(item => item.Gene === geneName);
-      if (foundGene && foundChromeGene) {
+      if (foundChromeGene) {
         this.chromeGene = {
-          name: foundGene.gene,
-          Protein: foundGene.protein,
-          Ensembl: foundGene.Ensembl,
-          Function: foundGene.Function,
+          name: foundChromeGene.Gene,
+          Protein: foundChromeGene.Protein || 'N/A', // 从合并后的本地数据获取
+          Ensembl: foundChromeGene.Ensembl || 'N/A', // 从合并后的本地数据获取
+          Function: foundChromeGene.Function || 'N/A', // 从合并后的本地数据获取
           Chr :foundChromeGene.Chr,
           Start :foundChromeGene.Start,
           End:foundChromeGene.End,
@@ -404,9 +402,7 @@ export default {
 
         };
       } else {
-        this.$message.error(`Gene "${geneName}" not found in database.`);
-        // this.chromeGene = foundGene;
-
+        this.$message.error(`Gene "${geneName}" not found in the local database.`);
       }
     },
     openImageDialog(img) {
@@ -435,6 +431,10 @@ export default {
   mounted() {
     this.adiDisease = adiDiseaseJson;
     this.chromeadigene = chromeadigene;
+    
+    // 核心本地数据立即就绪
+    this.dataLoaded = true;
+    this.isLoading = false;
     this.chromeGene={"name": "LEP",
       "Protein": "Leptin",
       "Ensembl": "ENSG00000174697",
@@ -445,17 +445,15 @@ export default {
       "Type": "protein_coding"};
     this.$http.get('http://121.37.88.191:8090/adi/gene').then(res => {
       this.allgene = res.data;
-    });
-    this.$http.get('http://121.37.88.191:8090/adi/allToAbstract/full').then(res => {
-      this.allGeneData = res.data
+    }).catch(error => {
+      console.error('API data loading failed:', error);
+      this.$message.warning('Some API data failed to load, but gene query function is still available.');
     });
 
 
   },
   beforeDestroy() {
-    if (this.vantaEffect) {
-      this.vantaEffect.destroy()
-    }
+    // Vanta.js已移除，无需清理
   }
 }
 </script>
