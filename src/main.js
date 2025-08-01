@@ -24,7 +24,7 @@ axios.defaults.baseURL = api_.baseURL
 Vue.prototype.$echarts =echarts
 // 懒加载配置
 Vue.use(VueLazyload,{
-  preLoad: 1.3,
+  preLoad: 0.3,
   error: 'http://tmliang.cn/pic/adi/homeimg/loading_error.webp',
   loading:'http://tmliang.cn/pic/adi/homeimg/loading_placeholder.webp',
   attempt:1 //每张图片最多加载一次
