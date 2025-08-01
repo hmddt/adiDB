@@ -310,50 +310,50 @@ export default {
       dataLoaded: false, // 添加数据加载状态标记
       isLoading: true, // 添加加载指示器状态
       imgLoaded: false,
-      previewSrc: "http://tmliang.cn/pic/adi/homeimg/机制图-min.png", // 模糊预览图
-      fullSrc: "http://tmliang.cn/pic/adi/homeimg/机制图-1.png",         // 高清图
+      previewSrc: "http://tmliang.cn/pic/adi/homeimg/机制图-min.webp", // 模糊预览图
+      fullSrc: "http://tmliang.cn/pic/adi/homeimg/机制图-1.webp",         // 高清图
 
 
       imageDialogVisible: false,
       currentImage: {},
       previewImages: [
         {
-          src: "http://tmliang.cn/pic/adi/homeimg/Fasn-evolution.png",
+          src: "http://tmliang.cn/pic/adi/homeimg/Fasn-evolution.webp",
           alt: "FASN",
           title: "FASN Evolution"
         },
         {
-          src: "http://tmliang.cn/pic/adi/homeimg/首页-人体+表达1.png",
+          src: "http://tmliang.cn/pic/adi/homeimg/首页-人体+表达1.webp",
           alt: "Expression",
           title: "Human Body Expression"
         },
         {
-          src: "http://tmliang.cn/pic/adi/homeimg/糖尿病-细胞.png",
+          src: "http://tmliang.cn/pic/adi/homeimg/糖尿病-细胞.webp",
           alt: "Diabetes Cell",
           title: "Diabetes Cell Expression"
         },
         {
-          src: "http://tmliang.cn/pic/adi/homeimg/肝癌-细胞.png",
+          src: "http://tmliang.cn/pic/adi/homeimg/肝癌-细胞.webp",
           alt: "Liver Cancer Cell",
           title: "Liver Cancer Cell Expression"
         },
         {
-          src: "http://tmliang.cn/pic/adi/homeimg/mmu-chromosome.png",
+          src: "http://tmliang.cn/pic/adi/homeimg/mmu-chromosome.webp",
           alt: "mmu Chromosome",
           title: "mmu Chromosome"
         },
         {
-          src: "http://tmliang.cn/pic/adi/homeimg/ncRNA-network.png",
+          src: "http://tmliang.cn/pic/adi/homeimg/ncRNA-network.webp",
           alt: "ncRNA network",
           title: "ncRNA network"
         },
         {
-          src: "http://tmliang.cn/pic/adi/homeimg/node-TF.png",
+          src: "http://tmliang.cn/pic/adi/homeimg/node-TF.webp",
           alt: "TF network",
           title: "TF network"
         },
         {
-          src: "http://tmliang.cn/pic/adi/homeimg/sl-node.png",
+          src: "http://tmliang.cn/pic/adi/homeimg/sl-node.webp",
           alt: "Synthetic Lethality Network",
           title: "Synthetic Lethality Network"
         }
@@ -431,7 +431,7 @@ export default {
   mounted() {
     this.adiDisease = adiDiseaseJson;
     this.chromeadigene = chromeadigene;
-    
+
     // 核心本地数据立即就绪
     this.dataLoaded = true;
     this.isLoading = false;
