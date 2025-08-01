@@ -1,11 +1,7 @@
 <template>
   <div class="chart_container">
     <p style="font-size: 24px;font-weight: bold">current gene: {{tooltip.text}}</p>
-    <div v-if="isLoading" class="loading-spinner">
-      <i class="el-icon-loading"></i>
-      <span>Loading SVG...</span>
-    </div>
-    <div v-else ref="svgContainer" class="svg-container">
+    <div ref="svgContainer" class="svg-container">
       <div
         v-show="tooltip.visible"
         :style="{ top: `${tooltip.y}px`, left: `${tooltip.x}px` }"
@@ -31,7 +27,6 @@ export default {
         y: 0, // 鼠标位置 Y
       },
       defaultStyles: {}, // 存储初始样式
-      isLoading: true, // 新增：控制加载状态
     };
   },
   mounted() {
@@ -40,7 +35,6 @@ export default {
   methods:{
     async loadSvg() {
       try {
-        this.isLoading = true; // 开始加载时显示加载圈
         const response = await fetch(this.svgPath);
         const svgContent = await response.text();
 
@@ -52,9 +46,6 @@ export default {
         this.bindEvents();
       } catch (error) {
         console.error("加载 SVG 文件失败:", error);
-        // 可以选择显示错误信息
-      } finally {
-        this.isLoading = false; // 无论成功或失败，加载完成时隐藏加载圈
       }
     },
     bindEvents() {
@@ -150,13 +141,6 @@ export default {
   width: 200%;
   height: 200%;
 }
-.loading-spinner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%; /* 确保加载圈占满容器 */
-  min-height: 200px; /* 最小高度，避免加载圈挤在一起 */
-  font-size: 24px;
-  color: #409EFF; /* Element UI 主题色 */
-}
+
+
 </style>
