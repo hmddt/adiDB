@@ -91,7 +91,9 @@
       </div>
 
       <!-- 主内容区 -->
-      <router-view  />
+      <div class="main-content-wrapper">
+        <router-view  />
+      </div>
 
       <!-- 页脚 -->
 
@@ -364,6 +366,14 @@ color: #f6f6f6;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 
+}
+
+.main-content-wrapper {
+  min-height: calc(100vh - 60px - 200px); /* 假设导航栏高60px，页脚高200px，具体值需要您根据实际情况调整 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 </style>
