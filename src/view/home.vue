@@ -282,8 +282,6 @@
 
 <script>
 import WordCloud from "./WordCloud.vue";
-import * as THREE from 'three'
-import BIRDS from 'vanta/src/vanta.birds'
 import WordCloud2 from "./genedetail/wordCloud2.vue";
 import adiDiseaseJson from "./../../datajs/adi-disease.json"
 import chromeadigene from "./../../datajs/chromeadigene/chromeadigene.json"
@@ -450,21 +448,6 @@ export default {
     });
     this.$http.get('http://121.37.88.191:8090/adi/allToAbstract/full').then(res => {
       this.allGeneData = res.data
-    });
-    this.vantaEffect = BIRDS({
-      el: this.$refs.vantaRef,
-      THREE: THREE,
-      backgroundColor: 0xeeeeee , // 设置透明背景
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      birdSize: 1.40,
-      wingSpan: 16.00,
-      speedLimit: 3.00,
-      separation: 23.00,
-      alignment: 24.00,
-      cohesion: 16.00,
-      quantity: 2.00,
     });
 
 
