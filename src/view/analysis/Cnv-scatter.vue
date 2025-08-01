@@ -83,7 +83,7 @@ export default {
     },
     getCnvData() {
       this.loading = true;
-      this.$http.get("http://47.97.192.100:83/dzx/cnv/" + this.gene).then((res) => {
+      this.$http.get("http://121.37.88.191:83/dzx/cnv/" + this.gene).then((res) => {
         this.cnvList = res.data;
         this.cnvInit();
         this.loading = false;
@@ -156,7 +156,7 @@ export default {
     },
   },
   mounted() {
-    this.$http.get("http://47.97.192.100:8090/adi/gene").then((res) => {
+    this.$http.get("http://121.37.88.191:8090/adi/gene").then((res) => {
       this.allGenes = res.data;
     });
   },

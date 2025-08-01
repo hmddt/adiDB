@@ -77,7 +77,7 @@ export default {
         this.$message.warning('Enter gene symbol as empty!');
       }
       else {
-        this.$http.get("http://47.97.192.100:8090/sl/gene/"+this.gene).then((res)=>{
+        this.$http.get("http://121.37.88.191:8090/sl/gene/"+this.gene).then((res)=>{
           const data = res.data.uniqueData;
 
           if (!data || data.length === 0) {

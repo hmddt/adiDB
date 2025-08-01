@@ -151,7 +151,7 @@ export default {
       this.loading = true;
       this.png64 = "";
       Promise.all([
-        this.$http.get("http://47.97.192.100:8989/r/immu/receptor/" + this.gene)
+        this.$http.get("http://121.37.88.191:8989/r/immu/receptor/" + this.gene)
       ]).then(([imgRes, dataRes]) => {
         this.png64 = imgRes.data;
         // 将 loading 设置为 false
@@ -235,7 +235,7 @@ export default {
   },
   mounted() {
     setTimeout(()=>{
-      this.$http.get("http://47.97.192.100:8090/adi/gene").then(res => {
+      this.$http.get("http://121.37.88.191:8090/adi/gene").then(res => {
         this.allGenes = res.data;
       });
     },200);
@@ -243,7 +243,7 @@ export default {
   },
   activated() {
     setTimeout(()=>{
-      this.$http.get("http://47.97.192.100:8090/adi/gene").then(res => {
+      this.$http.get("http://121.37.88.191:8090/adi/gene").then(res => {
         this.allGenes = res.data;
       });
     },200);

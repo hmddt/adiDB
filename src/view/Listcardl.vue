@@ -76,7 +76,7 @@ export default {
       window.open('https://pubmed.ncbi.nlm.nih.gov/'+this.rnadata.pmid+'/')
     },
     getrnadata(id){
-      this.$http.get("http://47.97.192.100:8090/adi/use/"+id).then((response)=>{
+      this.$http.get("http://121.37.88.191:8090/adi/use/"+id).then((response)=>{
         this.rnadata=response.data
       })
     },

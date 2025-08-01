@@ -149,7 +149,7 @@ import ImmuneCon1 from "./immune/immune-con1.vue";
       init(){
         this.loading = true;
         setTimeout(()=>{
-          this.$http.get("http://47.97.192.100:8090/adi/gene").then(res => {
+          this.$http.get("http://121.37.88.191:8090/adi/gene").then(res => {
             this.allGenes = res.data;
           });
           this.cancers = ["BLCA", "BRCA", "CHOL", "COAD", "ESCA",

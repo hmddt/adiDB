@@ -445,10 +445,10 @@ export default {
       "Start": "128241278",
       "End": "128257629",
       "Type": "protein_coding"};
-    this.$http.get('http://47.97.192.100:8090/adi/gene').then(res => {
+    this.$http.get('http://121.37.88.191:8090/adi/gene').then(res => {
       this.allgene = res.data;
     });
-    this.$http.get('http://47.97.192.100:8090/adi/allToAbstract/full').then(res => {
+    this.$http.get('http://121.37.88.191:8090/adi/allToAbstract/full').then(res => {
       this.allGeneData = res.data
     });
     this.vantaEffect = BIRDS({

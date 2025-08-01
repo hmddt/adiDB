@@ -214,14 +214,14 @@ export default {
   },
   mounted() {
     this.fetchInitialData();
-    // this.$http.get('http://47.97.192.100:8090/adi/all').then(res=>{
+    // this.$http.get('http://121.37.88.191:8090/adi/all').then(res=>{
     //   this.tableDate = res.data;
     //   this.tablePageTotal = this.tableDate.length; // Set total items count
     //   this.updatePaginatedData(); // Initialize pagination data
     // });
     //数据库内ip位置
     // http://localhost:8090/adi/all
-    // this.$http.get('http://47.97.192.100:8090/adi/allToAbstract').then(res=>{
+    // this.$http.get('http://121.37.88.191:8090/adi/allToAbstract').then(res=>{
     //   this.tableDate = res.data;
     //   this.tablePageTotal = this.tableDate.length; // Set total items count
     //   this.updatePaginatedData(); // Initialize pagination data
@@ -232,7 +232,7 @@ export default {
     //   this.updatePaginatedData(); // Initialize pagination data
     //   this.loading = false;
     // });//本地地址 （all和allToAbstract区别在于第二个没有查取abstract）
-    // this.$http.get('http://47.97.192.100:8090/adi/gene').then(res=>{
+    // this.$http.get('http://121.37.88.191:8090/adi/gene').then(res=>{
     //   this.allgene = res.data;
     // });
     // this.tableDate = adigene; // Load data
@@ -242,20 +242,20 @@ export default {
     async fetchInitialData() {
       try {
         // 请求10条数据接口（假设你有一个返回10条数据的接口）
-        const initialDataRes = await this.$http.get('http://47.97.192.100:8090/adi/allToAbstract');
+        const initialDataRes = await this.$http.get('http://121.37.88.191:8090/adi/allToAbstract');
         this.tableDate = initialDataRes.data;  // 设置初始数据
         this.tablePageTotal = initialDataRes.data.length;  // 设置总记录数（可用数据）
         this.updatePaginatedData();  // 初始化分页数据
         this.loading = false;
         // 请求全部数据
-        const fullDataRes = await this.$http.get('http://47.97.192.100:8090/adi/allToAbstract/full');
+        const fullDataRes = await this.$http.get('http://121.37.88.191:8090/adi/allToAbstract/full');
         // 使用全部数据更新表格内容
         this.tableDate = fullDataRes.data;
         this.tablePageTotal = fullDataRes.data.length; // 更新总记录数
         this.updatePaginatedData();  // 再次更新分页数据
 
         // 请求 gene 数据
-        const geneRes = await this.$http.get('http://47.97.192.100:8090/adi/gene');
+        const geneRes = await this.$http.get('http://121.37.88.191:8090/adi/gene');
         this.allgene = geneRes.data;  // 设置 gene 数据
 
       } catch (error) {

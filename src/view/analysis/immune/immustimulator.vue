@@ -164,7 +164,7 @@ export default {
       this.loading = true;
       this.png64 = "";
       Promise.all([
-        this.$http.get("http://47.97.192.100:8989/r/immu/immustimulator/" + this.gene)
+        this.$http.get("http://121.37.88.191:8989/r/immu/immustimulator/" + this.gene)
       ]).then(([imgRes]) => {
         this.png64 = imgRes.data;
         this.loading = false;

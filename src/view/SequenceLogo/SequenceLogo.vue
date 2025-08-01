@@ -182,7 +182,7 @@ UGAGGUAGUAGGUUGUAUAGUG`;
       const formData = new FormData();
       formData.append("file", file);
 
-      fetch("http://47.97.192.100:8090/msa/upload", {
+      fetch("http://121.37.88.191:8090/msa/upload", {
         method: "POST",
         body: formData
       })

@@ -87,7 +87,7 @@ import analysisCon1 from "./analysis-con1.vue";
       // 拷贝数变异
       getCnvData() {
         this.loading = true;
-        this.$http.get('http://47.97.192.100:83/dzx/cnv/' + this.gene)
+        this.$http.get('http://121.37.88.191:83/dzx/cnv/' + this.gene)
           .then(res=>{
             this.cnvList = res.data;
             this.cnvInit();
@@ -196,7 +196,7 @@ import analysisCon1 from "./analysis-con1.vue";
     },
     mounted() {
       // 获取长寿基因列表
-      this.$http.get('http://47.97.192.100:8090/adi/gene').then(res => {
+      this.$http.get('http://121.37.88.191:8090/adi/gene').then(res => {
         this.allGenes = res.data;
       });
     }

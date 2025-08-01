@@ -1,14 +1,14 @@
 // http://localhost:8800
-// 47.97.192.100:83
+// 121.37.88.191:83
 
 //const baseURL = 'http://localhost:8800'
-const baseURL = 'http://47.97.192.100:83'
+const baseURL = 'http://121.37.88.191:83'
 
 const xdlURL  = baseURL + '/xdl';
 const dzxURL  = baseURL + '/dzx';
 const rURL    = baseURL + '/r';
 
-// const ad = 'http://47.97.192.100:8090';
+// const ad = 'http://121.37.88.191:8090';
 const cancers = [
     'ACC',
     'BLCA',

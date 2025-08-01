@@ -151,7 +151,7 @@ export default {
       this.testGeneData = '';
       this.tableData = '';
       this.currentPage = 1;
-      this.$http.get("http://47.97.192.100:8090/DrugInteractions/Gene/"+searchGene).then(res=>{
+      this.$http.get("http://121.37.88.191:8090/DrugInteractions/Gene/"+searchGene).then(res=>{
         const sortedData = res.data.sort((a, b) => {
           return Number(b.interactionScore) - Number(a.interactionScore);
         });
@@ -319,7 +319,7 @@ export default {
   },
 
   mounted() {
-    this.$http.get('http://47.97.192.100:8090/adi/gene').then(res => {
+    this.$http.get('http://121.37.88.191:8090/adi/gene').then(res => {
       this.allGenes = res.data;
     });
     this.chart = echarts.init(this.$refs.chartContainer);

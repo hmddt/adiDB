@@ -165,11 +165,11 @@ export default {
     },
     getadidata: function (gene) {
       this.loading = true; // 开始加载数据时设置为true
-      this.$http.get("http://47.97.192.100:8090/r/tissueExpression/"+gene).then((res)=>{
+      this.$http.get("http://121.37.88.191:8090/r/tissueExpression/"+gene).then((res)=>{
         this.imgsrv = res.data;
         }
       )
-      this.$http.get("http://47.97.192.100:8090/adi/usegene/"+ gene).then((res) => {
+      this.$http.get("http://121.37.88.191:8090/adi/usegene/"+ gene).then((res) => {
         this.rnadata = res.data;
         this.loading = false; // 数据加载完毕，设置为false
       }).catch((error) => {

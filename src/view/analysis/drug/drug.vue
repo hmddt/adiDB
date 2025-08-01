@@ -139,9 +139,9 @@ export default {
       this.show = true;
       this.loading = true;
       this.png64 = "";
-      this.$http.get("http://47.97.192.100:8989/r/drug/" + this.gene).then(res => {
+      this.$http.get("http://121.37.88.191:8989/r/drug/" + this.gene).then(res => {
         this.png64 = res.data;
-        this.$http.get('http://47.97.192.100:8989/data/drug/' + this.gene).then(res =>{
+        this.$http.get('http://121.37.88.191:8989/data/drug/' + this.gene).then(res =>{
           this.diffList = res.data;
         });
         this.loading = false;
@@ -204,7 +204,7 @@ export default {
     },
   },
   mounted() {
-    this.$http.get("http://47.97.192.100:8090/adi/gene").then(res => {
+    this.$http.get("http://121.37.88.191:8090/adi/gene").then(res => {
       this.allGenes = res.data;
     });
     this.getcheckpointPic();
