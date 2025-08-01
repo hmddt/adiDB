@@ -241,22 +241,23 @@ export default {
   methods: {
     async fetchInitialData() {
       try {
+        // 优先请求 gene 数据，确保搜索功能可用
+        const geneRes = await this.$http.get('http://121.37.88.191:8090/adi/gene');
+        this.allgene = geneRes.data;  // 设置 gene 数据
+        
         // 请求10条数据接口（假设你有一个返回10条数据的接口）
         const initialDataRes = await this.$http.get('http://121.37.88.191:8090/adi/allToAbstract');
         this.tableDate = initialDataRes.data;  // 设置初始数据
         this.tablePageTotal = initialDataRes.data.length;  // 设置总记录数（可用数据）
         this.updatePaginatedData();  // 初始化分页数据
         this.loading = false;
+        
         // 请求全部数据
         const fullDataRes = await this.$http.get('http://121.37.88.191:8090/adi/allToAbstract/full');
         // 使用全部数据更新表格内容
         this.tableDate = fullDataRes.data;
         this.tablePageTotal = fullDataRes.data.length; // 更新总记录数
         this.updatePaginatedData();  // 再次更新分页数据
-
-        // 请求 gene 数据
-        const geneRes = await this.$http.get('http://121.37.88.191:8090/adi/gene');
-        this.allgene = geneRes.data;  // 设置 gene 数据
 
       } catch (error) {
         console.error("数据加载失败:", error);
@@ -287,6 +288,18 @@ export default {
       this.paginatedData = this.tableDate.slice(startIndex, endIndex);
     },
     SearchGene() {
+      // 检查输入是否为空
+      if (!this.gene || this.gene.trim() === '') {
+        this.$message.warning("Please enter a gene symbol.");
+        return;
+      }
+      
+      // 检查基因数据是否已加载
+      if (!this.allgene || this.allgene.length === 0) {
+        this.$message.warning("Gene data is still loading, please wait a moment...");
+        return;
+      }
+      
       const geneFound = this.allgene.some((item) => item.toLowerCase() === this.gene.toLowerCase());
 
       if (!geneFound) {
@@ -317,8 +330,7 @@ export default {
         return `https://www.genecards.org/cgi-bin/carddisp.pl?gene=`+gene;
       }
     }
-    },
-
+  }
 };
 </script>
 
@@ -392,15 +404,15 @@ img{border: none;}
   border-color: #1f4c90 !important;
 }
 
-/deep/ .el-table th:first-child {
+::v-deep .el-table th:first-child {
   border-top-left-radius: 8px;
 }
 
-/deep/ .el-table th:last-child {
+::v-deep .el-table th:last-child {
   border-top-right-radius: 8px;
 }
 
-/deep/ .el-table__row:hover td {
+::v-deep .el-table__row:hover td {
   background-color: #f0f6ff !important;
 }
 
