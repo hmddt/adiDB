@@ -3,7 +3,7 @@ import os
 import sys
 import time
 import argparse
-from typing import List, Optional, Tuple
+from typing import List, Optional, Tuple, Dict, Any
 from Bio import Entrez
 
 
@@ -38,20 +38,70 @@ def esummary_gene(gene_id: str):
     return data
 
 
-def validate_gene_organism(gene_id: str, organism: str) -> Tuple[bool, Optional[str]]:
+def _normalize_org_name(name: Optional[str]) -> Optional[str]:
+    if not name:
+        return None
+    # 去括号内内容，如 "Homo sapiens (human)" -> "Homo sapiens"
+    import re
+    name = re.sub(r"\s*\(.*?\)\s*", " ", name)
+    name = " ".join(name.split())
+    return name.strip().lower()
+
+
+def validate_gene_organism(gene_id: str, organism: Optional[str], taxid: Optional[int], debug: bool = False) -> Tuple[bool, Optional[str]]:
     try:
         data = esummary_gene(gene_id)
         doc = data[0] if data else {}
-        organism_name: Optional[str] = None
-        if isinstance(doc.get("Organism"), dict):
-            organism_name = doc["Organism"].get("ScientificName") or doc["Organism"].get("CommonName")
-        elif "NomenclatureOrganism" in doc:
-            organism_name = doc.get("NomenclatureOrganism")
-        if not organism_name:
-            return False, None
-        is_match = organism_name.lower() == organism.lower()
-        return is_match, organism_name
-    except Exception:
+        if debug:
+            try:
+                import json
+                print("[DEBUG] Gene esummary:", json.dumps(doc, ensure_ascii=False)[:2000], file=sys.stderr)
+            except Exception:
+                pass
+
+        org_field: Optional[Dict[str, Any]] = doc.get("Organism") if isinstance(doc.get("Organism"), dict) else None
+        sci_name: Optional[str] = None
+        common_name: Optional[str] = None
+        org_taxid: Optional[int] = None
+        if org_field:
+            sci_name = org_field.get("ScientificName")
+            common_name = org_field.get("CommonName")
+            try:
+                org_taxid = int(org_field.get("TaxID")) if org_field.get("TaxID") is not None else None
+            except Exception:
+                org_taxid = None
+        # 兼容字段
+        if not sci_name and doc.get("NomenclatureOrganism"):
+            sci_name = doc.get("NomenclatureOrganism")
+
+        # 优先用 taxid 验证
+        if taxid is not None and org_taxid is not None:
+            return (org_taxid == taxid), f"TaxID={org_taxid}"
+
+        # 否则用名字验证（宽松匹配）
+        if organism:
+            norm_expect = _normalize_org_name(organism)
+            cand = [_normalize_org_name(sci_name), _normalize_org_name(common_name)]
+            if norm_expect and norm_expect in [c for c in cand if c]:
+                return True, sci_name or common_name
+            # 人类/小鼠等常见俗名映射
+            alias = {
+                "human": "homo sapiens",
+                "mouse": "mus musculus",
+                "rat": "rattus norvegicus",
+                "zebrafish": "danio rerio",
+                "fruit fly": "drosophila melanogaster",
+                "yeast": "saccharomyces cerevisiae",
+            }
+            if norm_expect in alias and alias[norm_expect] in [c for c in cand if c]:
+                return True, sci_name or common_name
+            return False, sci_name or common_name or (f"TaxID={org_taxid}" if org_taxid else None)
+
+        # 若没有提供 organism/taxid，视为无法验证
+        return False, sci_name or common_name or (f"TaxID={org_taxid}" if org_taxid else None)
+    except Exception as e:
+        if debug:
+            print(f"[DEBUG] validate exception: {e}", file=sys.stderr)
         return False, None
 
 
@@ -78,7 +128,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch NCBI FASTA by GeneID + Organism.")
     parser.add_argument("--email", required=True, help="你的邮箱（NCBI 要求）")
     parser.add_argument("--api-key", default=os.getenv("NCBI_API_KEY"), help="可选：NCBI API Key，或用环境变量 NCBI_API_KEY")
-    parser.add_argument("--organism", required=True, help='物种科学名，例如 "Homo sapiens" 或 "Mus musculus"')
+    parser.add_argument("--organism", help='物种科学名，例如 "Homo sapiens" 或 "Mus musculus"（与 --taxid 二选一，推荐 --taxid）')
+    parser.add_argument("--taxid", type=int, help="NCBI 物种 TaxID，例如人类 9606、小鼠 10090（推荐）")
     parser.add_argument("--type", choices=["genomic", "mrna", "protein"], default="genomic", help="序列类型（默认 genomic）")
     parser.add_argument("--ids", help="逗号分隔的 GeneID 列表，例如 672,7157")
     parser.add_argument("--file", help="包含 GeneID 的文件，每行可为一个或多个以逗号/空白分隔的 GeneID")
@@ -86,6 +137,7 @@ def main() -> None:
     parser.add_argument("--first", action="store_true", help="仅取每个 GeneID 的第一条关联序列")
     parser.add_argument("--longest", action="store_true", help="每个 GeneID 仅输出最长的一条序列（基于 FASTA 长度）")
     parser.add_argument("--skip-verify", action="store_true", help="跳过 GeneID 与物种匹配验证（默认会验证）")
+    parser.add_argument("--debug-verify", action="store_true", help="输出验证调试信息（打印 esummary 关键字段）")
     args = parser.parse_args()
 
     Entrez.email = args.email
@@ -95,6 +147,10 @@ def main() -> None:
     if not args.ids and not args.file:
         print("必须提供 --ids 或 --file", file=sys.stderr)
         sys.exit(2)
+
+    if not args.organism and not args.taxid and not args.skip_verify:
+        print("未提供 --organism 或 --taxid。为避免误判，建议提供 --taxid（如人类 9606）。也可添加 --skip-verify 跳过验证。", file=sys.stderr)
+        # 不中断，继续执行，只是提醒
 
     gene_ids: List[str] = []
     if args.ids:
@@ -120,11 +176,14 @@ def main() -> None:
         for gid in gene_ids:
             try:
                 if not args.skip_verify:
-                    ok, real_org = validate_gene_organism(gid, args.organism)
+                    ok, real_org = validate_gene_organism(gid, args.organism, args.taxid, debug=args.debug_verify)
                     time.sleep(interval)
                     if not ok:
                         total_warn += 1
-                        print(f"[WARN] GeneID {gid} 物种不匹配或无法验证（实际: {real_org}）", file=sys.stderr)
+                        expected = f"organism={args.organism}" if args.organism else ""
+                        if args.taxid is not None:
+                            expected = (expected + ", " if expected else "") + f"taxid={args.taxid}"
+                        print(f"[WARN] GeneID {gid} 物种不匹配或无法验证（期望: {expected}；实际: {real_org}）", file=sys.stderr)
                         continue
 
                 target_ids = elink_gene_to_target_ids(gid, linkname)
