@@ -11,26 +11,13 @@ Entrez.api_key = "1e6b4f0b77de600ae84fda22a395e82a6d09"
 
 # 检查必要的依赖
 def check_dependencies():
-    """检查必要的Python包和工具是否可用"""
+    """检查必要的Python包是否可用"""
     try:
         import Bio
         print(f"✓ Biopython版本: {Bio.__version__}")
+        return True
     except ImportError:
         print("❌ 错误: 未安装Biopython，请运行: pip install biopython")
-        return False
-    
-    try:
-        result = subprocess.run(
-            [sys.executable, "-m", "ncbi_acc_download", "--version"],
-            check=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True
-        )
-        print("✓ ncbi-acc-download工具可用")
-        return True
-    except (subprocess.CalledProcessError, FileNotFoundError):
-        print("❌ 错误: 未安装ncbi-acc-download，请运行: pip install ncbi-acc-download")
         return False
 
 
@@ -107,7 +94,7 @@ def get_accession_ids(gene_name: str, species_list: List[str], seq_type: str = "
 
 def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
                        output_root: str = "genomic_sequences", max_retries: int = 3):
-    """下载基因组序列并按基因和物种分类保存"""
+    """使用Biopython直接下载序列并按基因和物种分类保存"""
     if not accession_dict:
         print("❌ 没有可下载的序列")
         return False
@@ -133,37 +120,37 @@ def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
             success = False
             for retry in range(max_retries):
                 try:
-                    result = subprocess.run(
-                        [sys.executable, "-m", "ncbi_acc_download", 
-                         "--format", "fasta", "--out", species_dir, acc],
-                        capture_output=True,
-                        text=True,
-                        timeout=60  # 添加超时限制
-                    )
+                    # 使用Biopython的Entrez.efetch直接下载FASTA序列
+                    handle = Entrez.efetch(db="nucleotide", id=acc, rettype="fasta", retmode="text")
+                    fasta_content = handle.read()
+                    handle.close()
                     
-                    if result.returncode == 0:
-                        print(f"    ✓ 下载成功")
+                    if fasta_content.strip():
+                        # 保存FASTA文件
+                        filename = f"{acc}.fasta"
+                        filepath = os.path.join(species_dir, filename)
+                        
+                        with open(filepath, 'w', encoding='utf-8') as f:
+                            f.write(fasta_content)
+                        
+                        print(f"    ✓ 下载成功: {filename}")
                         total_downloaded += 1
                         success = True
                         break
                     else:
-                        print(f"    ❌ 下载失败 (重试 {retry+1}/{max_retries})")
-                        print(f"    错误: {result.stderr.strip()}")
+                        print(f"    ❌ 下载失败: 空内容 (重试 {retry+1}/{max_retries})")
                         if retry < max_retries - 1:
                             time.sleep(2 ** retry)  # 指数退避
                             
-                except subprocess.TimeoutExpired:
-                    print(f"    ⏰ 下载超时 (重试 {retry+1}/{max_retries})")
-                    if retry < max_retries - 1:
-                        time.sleep(2 ** retry)
                 except Exception as e:
                     print(f"    ❌ 下载异常 (重试 {retry+1}/{max_retries}): {e}")
                     if retry < max_retries - 1:
                         time.sleep(2 ** retry)
+                    else:
+                        print(f"    ❌ {acc} 下载失败，已达到最大重试次数")
             
             if not success:
                 total_failed += 1
-                print(f"    ❌ {acc} 下载失败，已达到最大重试次数")
 
     print(f"\n📊 下载统计: 成功 {total_downloaded} 个，失败 {total_failed} 个")
     return total_downloaded > 0

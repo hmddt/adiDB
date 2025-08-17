@@ -22,11 +22,11 @@
 ## 安装依赖
 
 ```bash
-# 安装Python包
-pip install biopython ncbi-acc-download
+# 只需要安装Biopython
+pip install biopython
 
 # 或使用conda
-conda install -c bioconda biopython ncbi-acc-download
+conda install -c bioconda biopython
 ```
 
 ## 环境配置
@@ -160,8 +160,8 @@ genomic_sequences/
 
 3. **依赖问题**
    ```bash
-   # 重新安装依赖
-   pip install --upgrade biopython ncbi-acc-download
+   # 重新安装Biopython
+   pip install --upgrade biopython
    ```
 
 ### 错误代码含义
