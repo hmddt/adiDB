@@ -9,6 +9,10 @@ from typing import List, Dict
 Entrez.email = "gsuiep02@gmail.com"
 Entrez.api_key = "1e6b4f0b77de600ae84fda22a395e82a6d09"
 
+def get_request_interval() -> float:
+    """根据API密钥状态返回推荐的请求间隔"""
+    return 0.12 if Entrez.api_key else 0.4  # 有API密钥时每秒最多10次，无密钥时每秒最多3次
+
 # 检查必要的依赖
 def check_dependencies():
     """检查必要的Python包是否可用"""
@@ -66,6 +70,9 @@ def get_accession_ids(gene_name: str, species_list: List[str], seq_type: str = "
             
             for retry in range(max_retries):
                 try:
+                    # 添加请求间隔以遵守NCBI频率限制
+                    time.sleep(get_request_interval())
+                    
                     handle = Entrez.esearch(db=db, term=term, retmax=10)  # 增加返回数量
                     record = Entrez.read(handle)
                     handle.close()
@@ -114,43 +121,62 @@ def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
         
         print(f"\n📥 开始下载 {species} 的序列...")
 
-        for i, acc in enumerate(acc_ids, 1):
-            print(f"  [{i}/{len(acc_ids)}] 下载序列: {acc}")
+        # 批量下载，每批最多5个序列
+        batch_size = 5
+        for batch_start in range(0, len(acc_ids), batch_size):
+            batch_end = min(batch_start + batch_size, len(acc_ids))
+            batch_ids = acc_ids[batch_start:batch_end]
             
-            success = False
-            for retry in range(max_retries):
-                try:
-                    # 使用Biopython的Entrez.efetch直接下载FASTA序列
-                    handle = Entrez.efetch(db="nucleotide", id=acc, rettype="fasta", retmode="text")
-                    fasta_content = handle.read()
-                    handle.close()
-                    
-                    if fasta_content.strip():
-                        # 保存FASTA文件
-                        filename = f"{acc}.fasta"
-                        filepath = os.path.join(species_dir, filename)
+            print(f"  📦 批次 {batch_start//batch_size + 1}: 下载 {len(batch_ids)} 个序列")
+            
+            for i, acc in enumerate(batch_ids, batch_start + 1):
+                print(f"    [{i}/{len(acc_ids)}] 下载序列: {acc}")
+                
+                success = False
+                for retry in range(max_retries):
+                    try:
+                        # 添加请求间隔以遵守NCBI频率限制
+                        time.sleep(get_request_interval())
                         
-                        with open(filepath, 'w', encoding='utf-8') as f:
-                            f.write(fasta_content)
+                        # 使用Biopython的Entrez.efetch直接下载FASTA序列
+                        handle = Entrez.efetch(db="nucleotide", id=acc, rettype="fasta", retmode="text")
+                        fasta_content = handle.read()
+                        handle.close()
                         
-                        print(f"    ✓ 下载成功: {filename}")
-                        total_downloaded += 1
-                        success = True
-                        break
-                    else:
-                        print(f"    ❌ 下载失败: 空内容 (重试 {retry+1}/{max_retries})")
-                        if retry < max_retries - 1:
-                            time.sleep(2 ** retry)  # 指数退避
+                        if fasta_content.strip():
+                            # 保存FASTA文件
+                            filename = f"{acc}.fasta"
+                            filepath = os.path.join(species_dir, filename)
                             
-                except Exception as e:
-                    print(f"    ❌ 下载异常 (重试 {retry+1}/{max_retries}): {e}")
-                    if retry < max_retries - 1:
-                        time.sleep(2 ** retry)
-                    else:
-                        print(f"    ❌ {acc} 下载失败，已达到最大重试次数")
+                            with open(filepath, 'w', encoding='utf-8') as f:
+                                f.write(fasta_content)
+                            
+                            print(f"      ✓ 下载成功: {filename}")
+                            total_downloaded += 1
+                            success = True
+                            break
+                        else:
+                            print(f"      ❌ 下载失败: 空内容 (重试 {retry+1}/{max_retries})")
+                            if retry < max_retries - 1:
+                                time.sleep(2 ** retry)  # 指数退避
+                                
+                    except Exception as e:
+                        print(f"      ❌ 下载异常 (重试 {retry+1}/{max_retries}): {e}")
+                        if "429" in str(e) or "rate" in str(e).lower():
+                            print(f"      ⚠️  检测到频率限制，延长等待时间...")
+                            time.sleep(5)  # 遇到频率限制时等待更长时间
+                        if retry < max_retries - 1:
+                            time.sleep(2 ** retry)
+                        else:
+                            print(f"      ❌ {acc} 下载失败，已达到最大重试次数")
+                
+                if not success:
+                    total_failed += 1
             
-            if not success:
-                total_failed += 1
+            # 批次间暂停
+            if batch_end < len(acc_ids):
+                print(f"  ⏸️  批次完成，暂停 {get_request_interval() * 2:.1f} 秒...")
+                time.sleep(get_request_interval() * 2)
 
     print(f"\n📊 下载统计: 成功 {total_downloaded} 个，失败 {total_failed} 个")
     return total_downloaded > 0
@@ -166,6 +192,7 @@ if __name__ == "__main__":
     # 显示NCBI配置信息
     print(f"📧 使用邮箱: {Entrez.email}")
     print(f"🔑 API Key: {'已设置' if Entrez.api_key else '未设置'}")
+    print(f"⏱️  请求间隔: {get_request_interval():.2f}秒 ({'有API密钥' if Entrez.api_key else '无API密钥'})")
     print("✅ NCBI配置完成")
 
     GENES = ["ABL1", "ABL2"]
