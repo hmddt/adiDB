@@ -34,16 +34,16 @@ def timeout_handler(seconds):
 
 def estimate_download_time(acc_id: str) -> int:
     """根据序列ID估算下载超时时间"""
-    # 基础超时时间
-    base_timeout = 30
+    # 基础超时时间（增加到更长）
+    base_timeout = 120  # 2分钟基础时间
     
     # 基因组序列通常更大，需要更长时间
     if any(prefix in acc_id for prefix in ['NC_', 'NT_', 'NW_']):
-        return base_timeout * 3  # 90秒
+        return base_timeout * 5  # 10分钟
     elif any(prefix in acc_id for prefix in ['NM_', 'NR_']):
-        return base_timeout * 2  # 60秒
+        return base_timeout * 2  # 4分钟
     else:
-        return base_timeout  # 30秒
+        return base_timeout  # 2分钟
 
 # 检查必要的依赖
 def check_dependencies():
@@ -217,7 +217,8 @@ def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
                         print(f"      ⏰ 下载超时: {e} (重试 {retry+1}/{max_retries})")
                         if retry < max_retries - 1:
                             # 超时后增加等待时间
-                            timeout_seconds = min(timeout_seconds * 1.5, 180)  # 最大3分钟
+                            timeout_seconds = min(int(timeout_seconds * 1.5), 1800)  # 最大30分钟
+                            print(f"      📈 增加超时时间到 {timeout_seconds} 秒")
                             time.sleep(2 ** retry)
                         else:
                             print(f"      ❌ {acc} 下载超时，可能是超大序列")
