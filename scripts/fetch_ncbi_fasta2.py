@@ -2,9 +2,7 @@ import subprocess
 import sys
 import os
 import time
-import threading
 import socket
-from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeoutError
 from Bio import Entrez
 from typing import List, Dict
 
@@ -17,45 +15,39 @@ def get_request_interval() -> float:
     return 0.12 if Entrez.api_key else 0.4  # 有API密钥时每秒最多10次，无密钥时每秒最多3次
 
 def download_with_timeout(acc_id: str, timeout_seconds: int):
-    """使用简单可靠的超时下载"""
+    """使用socket超时的简单下载，不使用线程池"""
     
     # 保存原始socket超时设置
     original_timeout = socket.getdefaulttimeout()
     
-    def _download():
-        """实际的下载函数"""
-        try:
-            # 设置socket超时为总超时时间
-            socket.setdefaulttimeout(timeout_seconds)
-            
-            handle = Entrez.efetch(db="nucleotide", id=acc_id, rettype="fasta", retmode="text")
-            content = handle.read()
-            handle.close()
-            return content
-        finally:
-            # 恢复原始超时设置
-            socket.setdefaulttimeout(original_timeout)
-    
-    # 使用ThreadPoolExecutor实现超时
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        future = executor.submit(_download)
+    try:
+        # 直接设置socket超时
+        socket.setdefaulttimeout(timeout_seconds)
+        print(f"        🔄 开始下载，socket超时设置: {timeout_seconds}秒")
         
         start_time = time.time()
         
-        try:
-            # 直接使用指定的超时时间，不做复杂的循环检查
-            result = future.result(timeout=timeout_seconds)
-            elapsed = time.time() - start_time
-            print(f"        ✅ 下载完成，耗时: {elapsed:.1f}秒")
-            return result
-            
-        except FutureTimeoutError:
-            elapsed = time.time() - start_time
-            future.cancel()
-            socket.setdefaulttimeout(original_timeout)
-            raise TimeoutError(f"下载超时 (设置: {timeout_seconds}秒, 实际: {elapsed:.1f}秒)")
-        finally:
-            socket.setdefaulttimeout(original_timeout)
+        # 直接调用Entrez.efetch，依赖socket超时
+        handle = Entrez.efetch(db="nucleotide", id=acc_id, rettype="fasta", retmode="text")
+        content = handle.read()
+        handle.close()
+        
+        elapsed = time.time() - start_time
+        print(f"        ✅ 下载完成，耗时: {elapsed:.1f}秒")
+        return content
+        
+    except socket.timeout:
+        elapsed = time.time() - start_time
+        raise TimeoutError(f"Socket超时 (设置: {timeout_seconds}秒, 实际: {elapsed:.1f}秒)")
+    except Exception as e:
+        elapsed = time.time() - start_time
+        if "timeout" in str(e).lower():
+            raise TimeoutError(f"网络超时 (设置: {timeout_seconds}秒, 实际: {elapsed:.1f}秒)")
+        else:
+            raise e
+    finally:
+        # 恢复原始超时设置
+        socket.setdefaulttimeout(original_timeout)
 
 def estimate_download_time(acc_id: str) -> int:
     """根据序列ID估算下载超时时间"""
