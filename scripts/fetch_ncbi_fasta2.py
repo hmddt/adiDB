@@ -15,50 +15,100 @@ def get_request_interval() -> float:
     return 0.12 if Entrez.api_key else 0.4  # 有API密钥时每秒最多10次，无密钥时每秒最多3次
 
 def download_with_simple_timeout(acc_id: str, timeout_seconds: int):
-    """简单粗暴的超时下载：到时间就跳过"""
+    """带调试信息的超时下载，找出阻塞点"""
     
-    start_time = time.time()
-    print(f"        🔄 开始下载，{timeout_seconds}秒后强制跳过")
+    original_timeout = socket.getdefaulttimeout()
     
     try:
-        # 设置较短的socket超时，避免长时间卡死
-        original_timeout = socket.getdefaulttimeout()
-        socket.setdefaulttimeout(min(timeout_seconds, 30))
+        # 设置更短的socket超时，避免长时间阻塞
+        socket.setdefaulttimeout(min(timeout_seconds, 15))  # 最多15秒socket超时
+        print(f"        🔄 开始下载，socket超时: {min(timeout_seconds, 15)}秒")
         
+        start_time = time.time()
+        
+        # 步骤1: 建立连接
+        print(f"        📡 正在建立连接...")
         handle = Entrez.efetch(db="nucleotide", id=acc_id, rettype="fasta", retmode="text")
+        step1_time = time.time() - start_time
+        print(f"        ✅ 连接建立完成，耗时: {step1_time:.1f}秒")
         
-        # 分块读取，每次检查是否超时
+        # 步骤2: 读取数据
+        print(f"        📥 正在读取数据...")
+        read_start = time.time()
+        
+        # 分块读取，但有总时间限制
         content = ""
+        chunk_count = 0
         while True:
-            elapsed = time.time() - start_time
-            if elapsed > timeout_seconds:
-                handle.close()
-                socket.setdefaulttimeout(original_timeout)
-                raise TimeoutError(f"强制超时跳过 (耗时: {elapsed:.1f}秒)")
-            
+            total_elapsed = time.time() - start_time
+            if total_elapsed > timeout_seconds:
+                print(f"        ⏰ 总时间超时，强制停止 (耗时: {total_elapsed:.1f}秒)")
+                break
+                
             try:
-                chunk = handle.read(8192)  # 每次读8KB
+                chunk = handle.read(32768)  # 32KB块
                 if not chunk:
                     break
                 content += chunk
-            except:
-                # 读取出错也跳过
+                chunk_count += 1
+                
+                if chunk_count % 10 == 0:  # 每10块显示一次进度
+                    chunk_elapsed = time.time() - read_start
+                    print(f"        📊 已读取 {chunk_count} 块，耗时: {chunk_elapsed:.1f}秒，大小: {len(content)} 字节")
+                    
+            except socket.timeout:
+                print(f"        ⏰ 读取数据时socket超时")
+                break
+            except Exception as e:
+                print(f"        ❌ 读取数据时出错: {e}")
                 break
         
-        handle.close()
-        socket.setdefaulttimeout(original_timeout)
+        read_time = time.time() - read_start
+        print(f"        ✅ 数据读取完成，耗时: {read_time:.1f}秒，共 {chunk_count} 块")
         
+        # 步骤3: 关闭连接
+        print(f"        🔒 正在关闭连接...")
+        close_start = time.time()
+        try:
+            handle.close()
+            close_time = time.time() - close_start
+            print(f"        ✅ 连接关闭完成，耗时: {close_time:.1f}秒")
+        except Exception as e:
+            print(f"        ⚠️  关闭连接时出错: {e}")
+        
+        total_elapsed = time.time() - start_time
+        print(f"        🎉 下载完成，总耗时: {total_elapsed:.1f}秒，内容大小: {len(content)} 字节")
+        
+        if content.strip():
+            return content
+        else:
+            raise TimeoutError(f"下载内容为空 (耗时: {total_elapsed:.1f}秒)")
+        
+    except KeyboardInterrupt:
+        # 捕获Ctrl+C，说明用户手动中断了卡住的下载
         elapsed = time.time() - start_time
-        print(f"        ✅ 下载完成，耗时: {elapsed:.1f}秒")
-        return content
+        print(f"        ⚠️  用户中断下载，耗时: {elapsed:.1f}秒")
+        print(f"        💡 检测到手动中断，可能socket超时未生效")
+        # 将手动中断转换为超时异常，让程序继续运行
+        raise TimeoutError(f"手动中断转超时 (耗时: {elapsed:.1f}秒)")
+        
+    except socket.timeout:
+        elapsed = time.time() - start_time
+        print(f"        ⏰ Socket超时，耗时: {elapsed:.1f}秒")
+        raise TimeoutError(f"Socket超时 (耗时: {elapsed:.1f}秒)")
         
     except Exception as e:
         elapsed = time.time() - start_time
-        socket.setdefaulttimeout(original_timeout)
-        if elapsed > timeout_seconds or "timeout" in str(e).lower():
-            raise TimeoutError(f"超时跳过 (耗时: {elapsed:.1f}秒)")
+        if "timeout" in str(e).lower() or "timed out" in str(e).lower():
+            print(f"        ⏰ 网络超时，耗时: {elapsed:.1f}秒")
+            raise TimeoutError(f"网络超时 (耗时: {elapsed:.1f}秒)")
         else:
+            print(f"        ❌ 其他错误: {e}")
             raise e
+            
+    finally:
+        # 恢复原始超时设置
+        socket.setdefaulttimeout(original_timeout)
 
 def estimate_download_time(acc_id: str) -> int:
     """根据序列ID估算下载超时时间"""
