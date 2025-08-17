@@ -52,9 +52,11 @@ def download_with_simple_timeout(acc_id: str, timeout_seconds: int):
                 content += chunk
                 chunk_count += 1
                 
-                if chunk_count % 10 == 0:  # 每10块显示一次进度
+                if chunk_count % 20 == 0:  # 每20块显示一次进度
                     chunk_elapsed = time.time() - read_start
-                    print(f"        📊 已读取 {chunk_count} 块，耗时: {chunk_elapsed:.1f}秒，大小: {len(content)} 字节")
+                    size_mb = len(content) / 1024 / 1024
+                    speed_mbps = size_mb / chunk_elapsed if chunk_elapsed > 0 else 0
+                    print(f"        📊 已读取 {chunk_count} 块，{size_mb:.1f}MB，速度: {speed_mbps:.1f}MB/s")
                     
             except socket.timeout:
                 print(f"        ⏰ 读取数据时socket超时")
@@ -112,8 +114,13 @@ def download_with_simple_timeout(acc_id: str, timeout_seconds: int):
 
 def estimate_download_time(acc_id: str) -> int:
     """根据序列ID估算下载超时时间"""
-    # 统一设置为30秒超时
-    return 30
+    # 基因组序列需要更长时间
+    if any(prefix in acc_id for prefix in ['NC_', 'NT_', 'NW_']):
+        return 120  # 基因组序列2分钟
+    elif any(prefix in acc_id for prefix in ['NM_', 'NR_']):
+        return 60   # mRNA序列1分钟
+    else:
+        return 30   # 其他序列30秒
 
 # 检查必要的依赖
 def check_dependencies():
@@ -143,9 +150,10 @@ def get_accession_ids(gene_name: str, species_list: List[str], seq_type: str = "
             ""  # 最宽泛的搜索
         ],
         "genomic": [
+            "AND refseq[Filter] AND gene[Title]",  # 优先搜索基因序列
             "AND genomic[Title] AND refseq[Filter]",
             "AND (genomic[Title] OR complete genome[Title]) AND refseq[Filter]",
-            "AND (genomic[Title] OR complete genome[Title])",  # 备用搜索
+            "AND refseq[Filter]",  # RefSeq数据库中的所有相关序列
             ""  # 最宽泛的搜索
         ],
         "protein": [
