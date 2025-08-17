@@ -14,40 +14,51 @@ def get_request_interval() -> float:
     """根据API密钥状态返回推荐的请求间隔"""
     return 0.12 if Entrez.api_key else 0.4  # 有API密钥时每秒最多10次，无密钥时每秒最多3次
 
-def download_with_timeout(acc_id: str, timeout_seconds: int):
-    """使用socket超时的简单下载，不使用线程池"""
+def download_with_simple_timeout(acc_id: str, timeout_seconds: int):
+    """简单粗暴的超时下载：到时间就跳过"""
     
-    # 保存原始socket超时设置
-    original_timeout = socket.getdefaulttimeout()
+    start_time = time.time()
+    print(f"        🔄 开始下载，{timeout_seconds}秒后强制跳过")
     
     try:
-        # 直接设置socket超时
-        socket.setdefaulttimeout(timeout_seconds)
-        print(f"        🔄 开始下载，socket超时设置: {timeout_seconds}秒")
+        # 设置较短的socket超时，避免长时间卡死
+        original_timeout = socket.getdefaulttimeout()
+        socket.setdefaulttimeout(min(timeout_seconds, 30))
         
-        start_time = time.time()
-        
-        # 直接调用Entrez.efetch，依赖socket超时
         handle = Entrez.efetch(db="nucleotide", id=acc_id, rettype="fasta", retmode="text")
-        content = handle.read()
+        
+        # 分块读取，每次检查是否超时
+        content = ""
+        while True:
+            elapsed = time.time() - start_time
+            if elapsed > timeout_seconds:
+                handle.close()
+                socket.setdefaulttimeout(original_timeout)
+                raise TimeoutError(f"强制超时跳过 (耗时: {elapsed:.1f}秒)")
+            
+            try:
+                chunk = handle.read(8192)  # 每次读8KB
+                if not chunk:
+                    break
+                content += chunk
+            except:
+                # 读取出错也跳过
+                break
+        
         handle.close()
+        socket.setdefaulttimeout(original_timeout)
         
         elapsed = time.time() - start_time
         print(f"        ✅ 下载完成，耗时: {elapsed:.1f}秒")
         return content
         
-    except socket.timeout:
-        elapsed = time.time() - start_time
-        raise TimeoutError(f"Socket超时 (设置: {timeout_seconds}秒, 实际: {elapsed:.1f}秒)")
     except Exception as e:
         elapsed = time.time() - start_time
-        if "timeout" in str(e).lower():
-            raise TimeoutError(f"网络超时 (设置: {timeout_seconds}秒, 实际: {elapsed:.1f}秒)")
+        socket.setdefaulttimeout(original_timeout)
+        if elapsed > timeout_seconds or "timeout" in str(e).lower():
+            raise TimeoutError(f"超时跳过 (耗时: {elapsed:.1f}秒)")
         else:
             raise e
-    finally:
-        # 恢复原始超时设置
-        socket.setdefaulttimeout(original_timeout)
 
 def estimate_download_time(acc_id: str) -> int:
     """根据序列ID估算下载超时时间"""
@@ -183,10 +194,8 @@ def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
                         # 添加请求间隔以遵守NCBI频率限制
                         time.sleep(get_request_interval())
                         
-                        # 使用简单可靠的超时下载
-                        print(f"      🔄 正在下载... (超时: {timeout_seconds}秒)")
-                        
-                        fasta_content = download_with_timeout(acc, timeout_seconds)
+                        # 使用简单粗暴的超时下载
+                        fasta_content = download_with_simple_timeout(acc, timeout_seconds)
                         
                         if fasta_content.strip():
                             # 计算序列长度（去除FASTA头部和换行符）
