@@ -2,6 +2,8 @@ import subprocess
 import sys
 import os
 import time
+import signal
+from contextlib import contextmanager
 from Bio import Entrez
 from typing import List, Dict
 
@@ -12,6 +14,36 @@ Entrez.api_key = "1e6b4f0b77de600ae84fda22a395e82a6d09"
 def get_request_interval() -> float:
     """根据API密钥状态返回推荐的请求间隔"""
     return 0.12 if Entrez.api_key else 0.4  # 有API密钥时每秒最多10次，无密钥时每秒最多3次
+
+@contextmanager
+def timeout_handler(seconds):
+    """超时上下文管理器，用于处理长时间下载"""
+    def timeout_signal_handler(signum, frame):
+        raise TimeoutError(f"操作超时 ({seconds}秒)")
+    
+    # 设置信号处理器
+    old_handler = signal.signal(signal.SIGALRM, timeout_signal_handler)
+    signal.alarm(seconds)
+    
+    try:
+        yield
+    finally:
+        # 恢复原来的信号处理器
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old_handler)
+
+def estimate_download_time(acc_id: str) -> int:
+    """根据序列ID估算下载超时时间"""
+    # 基础超时时间
+    base_timeout = 30
+    
+    # 基因组序列通常更大，需要更长时间
+    if any(prefix in acc_id for prefix in ['NC_', 'NT_', 'NW_']):
+        return base_timeout * 3  # 90秒
+    elif any(prefix in acc_id for prefix in ['NM_', 'NR_']):
+        return base_timeout * 2  # 60秒
+    else:
+        return base_timeout  # 30秒
 
 # 检查必要的依赖
 def check_dependencies():
@@ -130,7 +162,11 @@ def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
             print(f"  📦 批次 {batch_start//batch_size + 1}: 下载 {len(batch_ids)} 个序列")
             
             for i, acc in enumerate(batch_ids, batch_start + 1):
-                print(f"    [{i}/{len(acc_ids)}] 下载序列: {acc}")
+                # 估算超时时间
+                timeout_seconds = estimate_download_time(acc)
+                seq_type = "基因组" if acc.startswith(('NC_', 'NT_', 'NW_')) else "mRNA" if acc.startswith(('NM_', 'NR_')) else "其他"
+                
+                print(f"    [{i}/{len(acc_ids)}] 下载{seq_type}序列: {acc} (超时: {timeout_seconds}s)")
                 
                 success = False
                 for retry in range(max_retries):
@@ -138,12 +174,21 @@ def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
                         # 添加请求间隔以遵守NCBI频率限制
                         time.sleep(get_request_interval())
                         
-                        # 使用Biopython的Entrez.efetch直接下载FASTA序列
-                        handle = Entrez.efetch(db="nucleotide", id=acc, rettype="fasta", retmode="text")
-                        fasta_content = handle.read()
-                        handle.close()
+                        # 使用超时处理下载长序列
+                        with timeout_handler(timeout_seconds):
+                            print(f"      🔄 正在下载... (最大等待 {timeout_seconds}秒)")
+                            
+                            # 使用Biopython的Entrez.efetch直接下载FASTA序列
+                            handle = Entrez.efetch(db="nucleotide", id=acc, rettype="fasta", retmode="text")
+                            fasta_content = handle.read()
+                            handle.close()
                         
                         if fasta_content.strip():
+                            # 计算序列长度（去除FASTA头部和换行符）
+                            lines = fasta_content.strip().split('\n')
+                            seq_lines = [line for line in lines if not line.startswith('>')]
+                            seq_length = sum(len(line.strip()) for line in seq_lines)
+                            
                             # 保存FASTA文件
                             filename = f"{acc}.fasta"
                             filepath = os.path.join(species_dir, filename)
@@ -151,7 +196,15 @@ def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
                             with open(filepath, 'w', encoding='utf-8') as f:
                                 f.write(fasta_content)
                             
-                            print(f"      ✓ 下载成功: {filename}")
+                            # 根据序列长度显示不同信息
+                            if seq_length > 1000000:  # 超过1MB
+                                size_info = f"长度: {seq_length:,} bp (大序列)"
+                            elif seq_length > 100000:  # 超过100KB
+                                size_info = f"长度: {seq_length:,} bp (中等)"
+                            else:
+                                size_info = f"长度: {seq_length:,} bp"
+                            
+                            print(f"      ✓ 下载成功: {filename} ({size_info})")
                             total_downloaded += 1
                             success = True
                             break
@@ -159,6 +212,15 @@ def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
                             print(f"      ❌ 下载失败: 空内容 (重试 {retry+1}/{max_retries})")
                             if retry < max_retries - 1:
                                 time.sleep(2 ** retry)  # 指数退避
+                    
+                    except TimeoutError as e:
+                        print(f"      ⏰ 下载超时: {e} (重试 {retry+1}/{max_retries})")
+                        if retry < max_retries - 1:
+                            # 超时后增加等待时间
+                            timeout_seconds = min(timeout_seconds * 1.5, 180)  # 最大3分钟
+                            time.sleep(2 ** retry)
+                        else:
+                            print(f"      ❌ {acc} 下载超时，可能是超大序列")
                                 
                     except Exception as e:
                         print(f"      ❌ 下载异常 (重试 {retry+1}/{max_retries}): {e}")
