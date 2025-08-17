@@ -2,8 +2,8 @@ import subprocess
 import sys
 import os
 import time
-import signal
-from contextlib import contextmanager
+import threading
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeoutError
 from Bio import Entrez
 from typing import List, Dict
 
@@ -15,22 +15,22 @@ def get_request_interval() -> float:
     """根据API密钥状态返回推荐的请求间隔"""
     return 0.12 if Entrez.api_key else 0.4  # 有API密钥时每秒最多10次，无密钥时每秒最多3次
 
-@contextmanager
-def timeout_handler(seconds):
-    """超时上下文管理器，用于处理长时间下载"""
-    def timeout_signal_handler(signum, frame):
-        raise TimeoutError(f"操作超时 ({seconds}秒)")
+def download_with_timeout(acc_id: str, timeout_seconds: int):
+    """使用线程池实现可靠的超时下载"""
+    def _download():
+        """实际的下载函数"""
+        handle = Entrez.efetch(db="nucleotide", id=acc_id, rettype="fasta", retmode="text")
+        content = handle.read()
+        handle.close()
+        return content
     
-    # 设置信号处理器
-    old_handler = signal.signal(signal.SIGALRM, timeout_signal_handler)
-    signal.alarm(seconds)
-    
-    try:
-        yield
-    finally:
-        # 恢复原来的信号处理器
-        signal.alarm(0)
-        signal.signal(signal.SIGALRM, old_handler)
+    # 使用ThreadPoolExecutor实现超时
+    with ThreadPoolExecutor(max_workers=1) as executor:
+        future = executor.submit(_download)
+        try:
+            return future.result(timeout=timeout_seconds)
+        except FutureTimeoutError:
+            raise TimeoutError(f"下载超时 ({timeout_seconds}秒)")
 
 def estimate_download_time(acc_id: str) -> int:
     """根据序列ID估算下载超时时间"""
@@ -174,14 +174,14 @@ def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
                         # 添加请求间隔以遵守NCBI频率限制
                         time.sleep(get_request_interval())
                         
-                        # 使用超时处理下载长序列
-                        with timeout_handler(timeout_seconds):
-                            print(f"      🔄 正在下载... (最大等待 {timeout_seconds}秒)")
-                            
-                            # 使用Biopython的Entrez.efetch直接下载FASTA序列
-                            handle = Entrez.efetch(db="nucleotide", id=acc, rettype="fasta", retmode="text")
-                            fasta_content = handle.read()
-                            handle.close()
+                        # 使用线程池实现可靠的超时下载
+                        print(f"      🔄 正在下载... (最大等待 {timeout_seconds}秒)")
+                        start_time = time.time()
+                        
+                        fasta_content = download_with_timeout(acc, timeout_seconds)
+                        
+                        download_time = time.time() - start_time
+                        print(f"      ⏱️  下载耗时: {download_time:.1f}秒")
                         
                         if fasta_content.strip():
                             # 计算序列长度（去除FASTA头部和换行符）
@@ -214,14 +214,16 @@ def download_sequences(accession_dict: Dict[str, List[str]], gene_name: str,
                                 time.sleep(2 ** retry)  # 指数退避
                     
                     except TimeoutError as e:
-                        print(f"      ⏰ 下载超时: {e} (重试 {retry+1}/{max_retries})")
+                        actual_time = time.time() - start_time if 'start_time' in locals() else 0
+                        print(f"      ⏰ 下载超时: {e} (实际等待: {actual_time:.1f}秒, 重试 {retry+1}/{max_retries})")
                         if retry < max_retries - 1:
                             # 超时后增加等待时间
+                            old_timeout = timeout_seconds
                             timeout_seconds = min(int(timeout_seconds * 1.5), 1800)  # 最大30分钟
-                            print(f"      📈 增加超时时间到 {timeout_seconds} 秒")
+                            print(f"      📈 增加超时时间: {old_timeout}秒 → {timeout_seconds}秒")
                             time.sleep(2 ** retry)
                         else:
-                            print(f"      ❌ {acc} 下载超时，可能是超大序列")
+                            print(f"      ❌ {acc} 下载超时，可能是超大序列（最终超时设置: {timeout_seconds}秒）")
                                 
                     except Exception as e:
                         print(f"      ❌ 下载异常 (重试 {retry+1}/{max_retries}): {e}")
