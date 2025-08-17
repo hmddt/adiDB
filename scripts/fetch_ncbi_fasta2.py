@@ -46,7 +46,13 @@ def download_with_timeout(acc_id: str, timeout_seconds: int):
         
         while True:
             try:
-                return future.result(timeout=check_interval)
+                elapsed = time.time() - start_time
+                remaining = timeout_seconds - elapsed
+                
+                # 动态调整检查间隔，避免最后几秒卡住
+                actual_check_interval = min(check_interval, max(1, remaining))
+                
+                return future.result(timeout=actual_check_interval)
             except FutureTimeoutError:
                 elapsed = time.time() - start_time
                 if elapsed >= timeout_seconds:
@@ -57,7 +63,8 @@ def download_with_timeout(acc_id: str, timeout_seconds: int):
                 else:
                     # 还在等待中，显示进度
                     remaining = timeout_seconds - elapsed
-                    print(f"        ⏳ 已等待 {elapsed:.0f}秒，剩余 {remaining:.0f}秒...")
+                    if remaining > 5:  # 只在剩余时间大于5秒时显示进度
+                        print(f"        ⏳ 已等待 {elapsed:.0f}秒，剩余 {remaining:.0f}秒...")
                     continue
 
 def estimate_download_time(acc_id: str) -> int:
