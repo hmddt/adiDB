@@ -2,7 +2,7 @@ const axios = require('axios')
 
 async function loadData() {
   try {
-    const response = await axios.get('http://tmliang.cn/pic/adi/json/miRTarBase_SE_WR.json');
+    const response = await axios.get('https://tmliang.cn/pic/adi/json/miRTarBase_SE_WR.json');
     const data = response.data;
     return data;
   } catch (error) {

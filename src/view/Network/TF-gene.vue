@@ -301,7 +301,7 @@ export default {
 
 <style scoped>
 #TF-gene {
-  max-width: 1400px;
+  width: 1400px;
   margin: 0 auto;
   font-family: 'Segoe UI', Roboto, sans-serif;
   color: #333;
