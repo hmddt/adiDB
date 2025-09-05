@@ -33,7 +33,7 @@ module.exports = {
         }
       },
       '/rnameapi': {
-        target: 'http://121.37.88.191:8089',
+        target: 'http://121.37.88.191:8989',
         changeOrigin: true,
         pathRewrite: {
           '^/rnameapi': ''
