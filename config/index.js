@@ -38,6 +38,13 @@ module.exports = {
         pathRewrite: {
           '^/rnameapi': ''
         }
+      },
+      '/omics-http':{
+        target: 'http://121.37.88.191:83',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/omics-http': ''
+        }
       }
       
     },
