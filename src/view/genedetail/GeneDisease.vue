@@ -262,13 +262,13 @@ export default {
       try{
         this.searchQuery = null;
         // 加载10条数据
-        const initialDataRes = await this.$http.get("http://121.37.88.191:8090/adidisease/queryall");
+        const initialDataRes = await this.$http.get("/adiapi/adidisease/queryall");
         this.GeneDis = initialDataRes.data;
         this.tablePageTotal = initialDataRes.data.length; // 设置总条目数
         this.updatePaginatedData(); // 初始化分页数据
         this.loading = false;
         console.log("开始加载完整疾病数据")
-        const fullDataRes = await this.$http.get("http://121.37.88.191:8090/adidisease/queryall/full");
+        const fullDataRes = await this.$http.get("/adiapi/adidisease/queryall/full");
         this.GeneDis = fullDataRes.data;
         this.originalGeneDis = fullDataRes.data;
         this.tablePageTotal = fullDataRes.data.length; // 设置总条目数

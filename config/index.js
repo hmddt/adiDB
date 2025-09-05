@@ -19,12 +19,27 @@ module.exports = {
         }
       },
       '/trendapi': {
-        target: 'http://47.97.192.100:9060',
+        target: 'http://121.37.88.191:9060',
         changeOrigin: true,
         pathRewrite: {
           '^/trendapi': ''
         }
+      },
+      '/adiapi': {
+        target: 'http://121.37.88.191:8090',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/adiapi': ''
+        }
+      },
+      '/rnameapi': {
+        target: 'http://121.37.88.191:8089',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/rnameapi': ''
+        }
       }
+      
     },
 
 

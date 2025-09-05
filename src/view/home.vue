@@ -443,7 +443,7 @@ export default {
       "Start": "128241278",
       "End": "128257629",
       "Type": "protein_coding"};
-    this.$http.get('http://121.37.88.191:8090/adi/gene').then(res => {
+    this.$http.get('/adiapi/adi/gene').then(res => {
       this.allgene = res.data;
     }).catch(error => {
       console.error('API data loading failed:', error);

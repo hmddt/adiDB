@@ -154,7 +154,7 @@ export default {
       this.loading = true;
       this.png64 = "";
       Promise.all([
-        this.$http.get("http://121.37.88.191:8989/r/immu/immuinhibitor/" + this.gene)
+        this.$http.get("/rnameapi/r/immu/immuinhibitor/" + this.gene)
       ]).then(([imgRes, dataRes]) => {
         this.png64 = imgRes.data;
         // 将 loading 设置为 false
@@ -218,7 +218,7 @@ export default {
     init(){
       setTimeout(()=>{
         this.loading = true;
-        this.$http.get("http://121.37.88.191:8090/adi/gene").then(res => {
+        this.$http.get("/adiapi/adi/gene").then(res => {
           this.allGenes = res.data;
         });
         this.png64 = "http://tmliang.cn/pic/adi/analysis/LEP_immuinhibitor_image.png";

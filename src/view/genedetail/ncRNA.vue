@@ -125,7 +125,7 @@ export default {
     async loadData() {
       this.loading = true;
       try {
-        const res = await this.$http.get("http://121.37.88.191:8090/ncrna/brief/full");
+        const res = await this.$http.get("/adiapi/ncrna/brief/full");
         this.allData = res.data;
         this.updatePaginatedData();
       } catch (err) {

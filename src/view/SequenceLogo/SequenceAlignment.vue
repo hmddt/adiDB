@@ -37,14 +37,14 @@
           <p style="font-weight: bold;font-size: 22px;color: #3a8ee6">Alignment Result Preview</p>
           <div class="download-section">
             <a
-              :href="`http://121.37.88.191:8090/msa/download/${resultFileName}`"
+              :href="`/adiapi/msa/download/${resultFileName}`"
               target="_blank"
               download
             >
               <span style="color: #3a8ee6;font-weight: bold">Download</span>
             </a>
             <a
-              :href="`http://121.37.88.191:8090/msa/download/${resultFileName}`"
+              :href="`/adiapi/msa/download/${resultFileName}`"
               target="_blank"
               download
               class="download-link"
@@ -206,14 +206,14 @@ name: "SequenceAlignment",
       const formData = new FormData();
       formData.append("file", file);
 
-      fetch("http://121.37.88.191:8090/msa/upload", {
+      fetch("/adiapi/msa/upload", {
         method: "POST",
         body: formData
       })
         .then(res => res.json())
         .then(json => {
           this.resultFileName = json.filename;
-          return fetch(`http://121.37.88.191:8090/msa/download/${json.filename}`);
+          return fetch(`/adiapi/msa/download/${json.filename}`);
         })
         .then(res => res.text())
         .then(text => {

@@ -120,7 +120,7 @@ export default {
       }
       //输出输入的多基因信息
       console.log(geneList)
-      this.$http.get("http://121.37.88.191:8989/r/drugpathway/" + geneList).then(res => {
+      this.$http.get("/rnameapi/r/drugpathway/" + geneList).then(res => {
         this.png64 = res.data;
         this.loading = false;
       });
