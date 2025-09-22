@@ -259,7 +259,8 @@ input, textarea, [contenteditable] {
 
 /* 顶部导航栏样式 */
 .header-nav {
-  position: relative;
+  position: sticky;
+  top:0;
   width: 1400px;
   height: 60px;
   align-items: center;
