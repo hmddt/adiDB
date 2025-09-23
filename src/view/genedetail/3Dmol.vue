@@ -43,7 +43,7 @@ export default {
     },
     // 加载PDB文件
     loadPDBFile(fileName) {
-      const filePath = `http://tmliang.cn/pic/adi/PDB/${fileName}`;
+      const filePath = `https://tmliang.cn/pic/adi/PDB/${fileName}`;
       fetch(filePath) // 确保 PDB 文件路径正确
         .then((response) => response.text())
         .then((data) => {

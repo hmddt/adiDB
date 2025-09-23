@@ -1,7 +1,12 @@
 <template>
   <div id="app">
 
-    <div>
+    <div class="loading-container" v-if="!isHomeLoaded">
+      <div class="loading-spinner"></div>
+      <p class="loading-text">Loading...</p>
+    </div>
+
+    <div v-if="isHomeLoaded">
       <!-- 顶部导航栏 -->
       <div v-if="$route.path ==='/home'" class="header-nav">
         <div class="nav-container">
@@ -112,6 +117,7 @@ export default {
   name: 'App',
   data() {
     return {
+      isHomeLoaded: false,
       isAppReady: false, // 标识资源是否加载完毕
       menuItems: [
         { name: 'Home', path: '/home' },
@@ -159,6 +165,10 @@ export default {
       this.geneDrugData = geneDrug.default;
       this.datasetData = dataset.default;
       console.log("所有资源加载完成 ");
+
+      setTimeout(() => {
+        this.isHomeLoaded = true;
+      }, 100);
     } catch (error){
       console.error("资源加载失败:", error);
     }
@@ -254,6 +264,49 @@ body, #app, div, span, p {
 /* 排除输入元素 */
 input, textarea, [contenteditable] {
   caret-color: auto !important;
+}
+
+.loading-container {
+  position: fixed; /* 固定在屏幕中央，不随滚动变化 */
+  top: 0;
+  left: 0;
+  width: 100vw; /* 占满屏幕宽度 */
+  height: 100vh; /* 占满屏幕高度 */
+  background-image: url("assets/backimg6.png"); /* 复用全局背景图 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column; /* 文字在动画下方 */
+  justify-content: center; /* 垂直居中 */
+  align-items: center; /* 水平居中 */
+  z-index: 9999; /* 确保在最顶层 */
+}
+
+/* 旋转的Loading动画（简单圆环） */
+.loading-spinner {
+  width: 60px;
+  height: 60px;
+  border: 5px solid rgba(255, 255, 255, 0.3); /* 浅色边框 */
+  border-top-color: #ffffff; /* 高亮顶部边框（旋转时形成动态效果） */
+  border-radius: 50%; /* 圆形 */
+  animation: spin 1.2s linear infinite; /* 旋转动画 */
+  margin-bottom: 20px; /* 与文字间距 */
+}
+
+/* 动画关键帧：360度旋转 */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Loading文字样式 */
+.loading-text {
+  font-size: 22px;
+  color: #ffffff; /* 白色文字，与背景对比清晰 */
+  font-weight: bold;
+  letter-spacing: 1px; /* 字间距稍大，更易读 */
 }
 
 
