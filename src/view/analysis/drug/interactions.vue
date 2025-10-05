@@ -151,7 +151,7 @@ export default {
       this.testGeneData = '';
       this.tableData = '';
       this.currentPage = 1;
-      this.$http.get("/adiapiGene/"+searchGene).then(res=>{
+      this.$http.get("/adiapi/DrugInteractions/Gene/"+searchGene).then(res=>{
         const sortedData = res.data.sort((a, b) => {
           return Number(b.interactionScore) - Number(a.interactionScore);
         });
